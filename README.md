@@ -9,7 +9,7 @@ Référent : @ponteineptique
 - Difficulté : 5/10
 - Répétitivité : 7/10
 - Schéma à utiliser : Lire plus bas
-- Minimum à convertir : les correspondances.
+- Minimum à convertir : les correspondances, une oeuvre complète supplémentaire serait la bienvenue. Le schéma RNG pour l'oeuvre supplémentaire n'est pas nécessaire.
 
 ## Notes du référent
 
