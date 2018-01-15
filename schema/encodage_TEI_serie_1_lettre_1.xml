@@ -29,17 +29,17 @@
          <sourceDesc>
             <msDesc>  <!-- Ces informations ne sont pas présentes dans wikisource, mais on peut éventuellement les trouver -->
                <msIdentifier>
-                  <settlement>Ville du lieu de Conservation</settlement>
-                  <repository>Lieu de conservation</repository>
-                  <idno>Identifiant</idno>
+                  <settlement>Archives de la ville de Montréal</settlement>
+                  <repository>Montréal</repository>
+                  <idno>CA M001 P104-1-1-D1</idno>
                </msIdentifier>
             </msDesc>
          </sourceDesc>
       </fileDesc>
    </teiHeader>
    <text>
-      <group xml:id="Série-1">
-         <text xml:id="Lettre-1" corresp="#Lettre-1">
+      <group xml:id="serie-1">
+         <text xml:id="s1_lettre-1">
             <front>
                <docTitle>
                   <titlePart>Lettre du 26 novembre 1916</titlePart>
@@ -52,29 +52,29 @@
                   <!-- Attribut <salute> si existe un "mon cher"-->
                   <space dim="vertical" quantity="1" unit="lines"/>
                   <p> J’écris ceci à mon petit Pierre – je devrais dire
-                     <lb/>maintenant <hi rend="underline">à mon grand Pierre</hi> – pour voir
-                     <lb/>s’il pourra me lire, et ensuite me répondre.
-                     <lb/>C’est dimanche, il est 4 heures, et je ne suis
-                     <lb/>pas sorti depuis le matin, mais il paraît que nous
-                     <lb/>avons rencontré durant la journée une baleine
-                     <lb/>et un bateau. Je n’ai pas confiance en cette
-                     <lb/>baleine, car on n’a vu, paraît-il, que l’eau
-                     <lb/>qu’elle lançait. Je me défie aussi du bateau.
-                     <lb/>Les Allemands, ils essaieront de nous faire du
-                     <lb/>mal, de nous couler. Je crois quand même que
-                     <lb/>nous leur échapperons, et que nous pourrons
-                     <lb/>nous rendre jusqu’en France pour tirer <del>des</del><add rend="sup">des</add> bons
-                     <lb/>coups de fusil dans la tête de ces maudits, qui
-                     <lb/>font mourir de faim les petits enfants et les ma
-                     <lb/>mans, et qui ont fusillé des grand’mamans. Je
-                     <lb/>t’écrirai quand nous serons rendus là. En <del>atten</del>
-                     <lb/>attendant, étudie bien, car si je me fais tuer, ou
-                     <lb/>si je reviens infirme, tu seras peut-être obli
-                     <lb/>gé d’aider à ta maman.
+                     maintenant <hi rend="underline">à mon grand Pierre</hi> – pour voir
+                     s’il pourra me lire, et ensuite me répondre.
+                     C’est dimanche, il est 4 heures, et je ne suis
+                     pas sorti depuis le matin, mais il paraît que nous
+                     avons rencontré durant la journée une baleine
+                     et un bateau. Je n’ai pas confiance en cette
+                     baleine, car on n’a vu, paraît-il, que l’eau
+                     qu’elle lançait. Je me défie aussi du bateau.
+                     Les Allemands, ils essaieront de nous faire du
+                     mal, de nous couler. Je crois quand même que
+                     nous leur échapperons, et que nous pourrons
+                     nous rendre jusqu’en France pour tirer <del>des</del><add rend="sup">des</add> bons
+                     coups de fusil dans la tête de ces maudits, qui
+                     font mourir de faim les petits enfants et les ma
+                     mans, et qui ont fusillé des grand’mamans. Je
+                     t’écrirai quand nous serons rendus là. En <del>atten</del>
+                     attendant, étudie bien, car si je me fais tuer, ou
+                     si je reviens infirme, tu seras peut-être obli
+                     gé d’aider à ta maman.
                   </p>
                   <p>Ton papa qui t’aime beaucoup, parce
                      <pb/>qu’il t’a vu pleurer sur le quai quand le bateau
-                     <lb/>le <del>be</del> bateau a démarré.
+                     le <del>be</del> bateau a démarré.
                   </p>
                   <!-- Prévoir les éléments <choice><abbr><expan><ex><sic><corr> pour l'ajout des corrections, le développement des abbréviations -->
                   <!-- Prévoir aussi les éléments pour les images : <figure><desc>-->
