@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edition numérique des discours d'Olivar Asselin</title>
+                <respStmt>
+                    <resp>Encodage du texte</resp>
+                    <name>Marie-Gaëlle Gourio</name>
+                    <name>Amandine Heathcote</name>
+                    <name>Fanny Mézard</name>
+                    <name>Alexandre Gaudin</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name><ref target="http://data.bnf.fr/11863474/ecole_nationale_des_chartes_paris/"></ref> Ecole nationale des chartes</name>
+                    <address>
+                        <street>65 rue de Richelieu</street>
+                        <postCode>75002</postCode>
+                        <settlement>Paris</settlement>
+                    </address>
+                </publisher>
+                <date>2018</date>
+            </publicationStmt>
+            <sourceDesc>
+
+                <scriptStmt>
+                    <bibl>
+                        <title>Pourquoi on aime la France</title>
+                        <author><ref target="http://catalogue.bnf.fr/ark:/12148/cb129176414"/>Olivar Asselin</author>
+                        <publisher>
+                            <orgName>Imprimerie de Vaugirard.<ref target="http://data.bnf.fr/14963880/imprimerie_de_vaugirard/"/></orgName>
+                            <persName>H. L. Motti</persName>, <roleName>dir.</roleName>, <address>
+                                <street><num>12-13</num>, impasse Ronsin</street>
+                                <country>Paris</country>
+                            </address>, </publisher>
+                        <date>1917</date>
+                        <!-- cote --><idno>CA M001 P104-1-3</idno><ref target="https://archivesdemontreal.ica-atom.org/publications-1909-1938"/>
+                        
+                        <respStmt>
+                            <!-- responsabilité et lieu de conservation du recueil de discours  -->
+                            <resp>Conservation</resp>
+                            <orgName>Archives de Montréal</orgName>
+                        </respStmt>
+                    </bibl>
+
+
+                </scriptStmt>
+            </sourceDesc>
+        </fileDesc>
+
+
+    </teiHeader>
+    <text>
+        <group xml:id="oeuvre_complete">
+            <text xml:id="discours_191601">
+                <front>
+                    <docTitle>
+                        <titlePart>Discours prononcé au Canada en janvier 1916</titlePart>
+                    </docTitle>
+                    <docDate/>
+                    <docAuthor/>
+                    <p>Les paroles qui suivent furent prononcées à <placeName>Montréal</placeName>
+                            (<country>Canada</country>) le <date when="1916-01-21">21 janvier 1916</date>, à
+                        l’occasion de l’engagement volontaire de l’auteur pour la guerre européenne.
+                        Supprimer ce qui dans ces paroles avait trait à l’Angleterre et à la
+                        Belgique, ce serait présenter les mobiles du commandant Asselin sous un jour
+                        sinon faux, du moins incomplet. Il sera cependant difficile de ne pas sentir
+                        que le seul amour de la France aurait suffi à déterminer une décision qui
+                        devait valoir à la cause des Alliés, à part le concours de cet ardent
+                        journaliste, tout un bataillon d’infanterie levé par ses soins.</p>
+                </front>
+                <body>
+                    <div type="speech">
+                        <p>… Après ce que vous venez d’entendre, il y en a peut-être parmi vous,
+                            Mesdames et Messieurs, qui souriront intérieurement de m’entendre
+                            plaider pour les institutions britanniques. De tous les nationalistes,
+                            nul n’a qualifié plus durement que moi cet égoïsme qui est, avec
+                            d’admirables qualités, le fond même du caractère anglais, et qui, aux
+                            colonies, se traduit le plus souvent par des tracasseries scolaires et
+                            administratives. J’en puisais le droit et la force dans la manière dont
+                            j’avais, en toute circonstance, reproché à mes propres compatriotes
+                            leurs défauts et leurs vices. Mais pas plus que M. Laurier, pas plus que
+                            M. Casgrain, pas plus que M. Bourassa, je n’ai jamais cherché à diminuer
+                            le respect des Canadiens-Français pour les principes de liberté
+                            collective et individuelle qui sont à la base de la <pb/> constitution
+                            anglaise. Les hommes publics de tous les partis, en notre pays, ont créé
+                            une tradition dans la manière d’envisager ces principes. Lorsque M.
+                            Laurier vient ici même évoquer le souvenir des Sheridan, des Fox, des
+                            Wilberforce, des Bright et des Gladstone, il rend à la nation anglaise
+                            le même hommage que le chef des conservateurs canadiens-francais, M.
+                            Casgrain, mais il ne parle pas autrement que ne l’a fait pendant
+                            longtemps, et que ne le fait encore, à l’occasion, M. Bourassa. Les murs
+                            de cette salle vibrent encore des discours passionnés où le grand
+                            orateur nationaliste nous adjurait, nous autres jeunes
+                            Canadiens-Français, de répondre aux provocations et aux persécutions par
+                            un attachement toujours plus fort au drapeau britannique. J’ai commencé
+                            ma carrière politique au Canada vers 1900. Je me trouvais sur la route
+                            de M. Bourassa ; je le suivis. Je voyais comme lui avec horreur le crime
+                            sud-africain. C’est lui qui m’enseigna à distinguer, dans le cas de
+                            l’Angleterre, entre les aventuriers qui là comme ailleurs se hissent au
+                            pouvoir par l’exploitation des aveugles passions populaires, et les
+                            hommes courageux qui de génération en génération se sont transmis le mot
+                            d’ordre de la résistance à toutes les tyrannies : celle de la plèbe
+                            comme celle des rois. Opposant à la démagogie d’un Chamberlain
+                            l’indomptable courage moral d’un Campbell-Bannerman et d’un Lloyd-George
+                            : « Voilà, disait-il, la véritable Angleterre. C’est de celle-là que
+                            nous tenons nos libertés, c’est vers elle que nous devrons toujours nous
+                            tourner pour réclamer justice. » Le directeur du Devoir n’a pas changé
+                            d’opinion sur ce point. Il croit encore qu’il ne faut pas confondre les
+                            institutions britanniques avec les demi-civilisés qui en pourraient
+                            avoir le dépôt sur un point quelconque du territoire britannique. Je le
+                            crois avec lui. Il sait que si nous conservons l’espoir de recouvrer nos
+                            droits scolaires en Ontario, c’est par le mécanisme des institutions
+                            britanniques. Et moi aussi, je le sais. Et parce que je crois cela, et
+                            parce que je sais cela, je trouve qu’à moins de leur préférer les
+                            institutions allemandes, et ce n’est pas plus mon cas que <pb/> celui de
+                            Mgr l’Archevêque de Montréal, il est glorieux dans la guerre actuelle de
+                            se battre pour les institutions britanniques.</p>
+                        <p>De la Belgique, que vous dirai-je, que vous n’avez déjà entendu ? Que
+                            vous dirai-je surtout, que vous n’ayez déjà dans le cœur et sur les
+                            lèvres ? Il circule bien des sophismes sur les origines et les causes du
+                            conflit actuel. Je ne sais pas si je n’ai pas lu dans certains journaux
+                            que dans cette guerre comme dans la fable c’est l’agneau qui a provoqué
+                            le loup. Mais par le besoin qu’il sent de se disculper, l’assassin
+                            s’accuse. Nouveau Macbeth, il fait trop souvent le geste de se laver les
+                            mains. La tache restera. Jusqu’à la fin des temps, la Belgique martyre,
+                            belle de toute la beauté du droit outragé, se lèvera contre son
+                            agresseur, et tout fils de chrétien s’écriera, comme Clovis au récit
+                            d’une autre Passion : « Si j’avais été là ! » Mesdames et Messieurs,
+                            nous ne voulons pas être de ceux qui diront dans vingt ans : « Si
+                            j’avais été là ! » Nous avons vu le crime, nous sommes là ! Tant que le
+                            sang de la Belgique n’aura pas été lavé et l’assassin puni, notre sang à
+                            nous, notre vie, jeunes hommes de toutes races et de tous pays qui avons
+                            sucé dans le lait de nos mères ou tiré de la lettre imprimée la juste
+                            notion du droit, — nous surtout du Canada français, que les conditions
+                            nouvelles de notre existence rendent frères de tous les persécutés, —
+                            notre sang, notre vie, ne nous appartiendront plus !</p>
+                        <p>Et maintenant, avec vous tourné vers d’autres sommets, — les plus hauts
+                            que l’âme humaine ait encore atteints dans l’empire sur soi, dans le
+                            renoncement, dans le sacrifice, — des mots plus forts, mais des mots
+                            forts et tendres à la fois, se pressent tumultueusement à mes lèvres.
+                            Dans sa claire robe d’héroïsme, faite de rayons et d’éclairs, et
+                            tellement mariée à sa chair que la chair en est diaphane, mère toujours
+                            jeune de cette Jeanne d’Arc qu’elle seule a pu porter dans ses flancs,
+                            ses beaux yeux tristes illuminés par la sereine conscience<pb/> de la
+                            vérité, saignante et souriante, et terrible et douce, la France
+                            immortelle nous regarde. Je pourrais, m’arrêtant sur ces paroles,
+                            attendre de votre cœur un jugement que votre raison a peut-être
+                            jusqu’ici repoussé. Les colères de la France ont parfois épouvanté votre
+                            vieux sang conservateur et catholique (moi, je suis un homme de 93, et
+                            avec Péguy je m’en fais gloire) ; son sourire a souvent scandalisé et
+                            irrité votre foi. Aujourd’hui qu’aux yeux émerveillés du monde, elle
+                            conserve dans sa lutte pour l’existence, sous une sueur de sang, son
+                            éternel sourire, votre sang, votre cœur, tout votre être enfin rendu à
+                            lui-même, vous crie que vous l’aimez. Mais je me reprocherais comme une
+                            tromperie de capter par ce moyen votre assentiment. Je veux jusqu’au
+                            bout, et pour la France comme j’ai fait pour l’Angleterre, m’en
+                            rapporter uniquement à votre raison.</p>
+                        <p>Mesdames et Messieurs, vous avez parfois ouï dire, et peut-être avez-vous
+                            parfois lu dans les journaux : « La France officiellement ne fera jamais
+                            rien pour les Canadiens-Francais, et donc nous ne devons rien à la
+                            France ». Ce raisonnement vaudrait contre nous si d’une part nous
+                            demandions à nos compatriotes autre chose qu’une contribution
+                            personnelle, n’engageant en rien leur jugement sur la politique du
+                            gouvernement canadien ; si d’autre part il était vrai que la France ne
+                            peut activement aider le Canada français que par les moyens officiels.
+                            Mais il se présente immédiatement à vos esprits deux réponses.</p>
+                        <p>C’est d’abord que le monde ne peut pas se passer de la France. D’autres
+                            nations, comme l’Angleterre, peuvent vanter aussi justement leur
+                            attachement à la liberté. D’autres, comme l’Italie, peuvent trouver dans
+                            un passé magnifique et dans une renaissance politique sans pareille le
+                            motif des plus hautes ambitions, des plus enthousiastes espérances.
+                            D’autres, par les réserves de vie neuve et fraîche que nous savons
+                            qu’elles nous cèlent, provoquent en nous une attention sympathique,
+                            mêlée il est vrai de quelque inquiétude ; et c’est la Russie. D’autres
+                            enfin ont donné jusque dans les œuvres de<pb/> mort des preuves, hélas !
+                            irrécusables, de leur esprit méthodique et organisateur ; et celles-là,
+                            inutile de prononcer leur nom, il s’est tout de suite vomi sur vos
+                            lèvres. Mais ce qui fait de la France — supérieure à la Grèce par le
+                            sérieux et à Rome par le sens de la justice, — une nation unique dans
+                            l’histoire, c’est son culte inlassable et profond des idées. Tant que
+                            par spiritualisme il faudra entendre la subordination de la matière à
+                            l’esprit, non la poursuite d’un but vaguement spirituel par les voies
+                            les plus misérables de la matière, la France sera la plus grande
+                            puissance spirituelle des temps présents. Nous allons nous battre pour
+                            la France comme nos pères, hommes de loi, allaient se battre pour le
+                            pape en 1869 ; parce que, dans un âge où l’accroissement subit de la
+                            richesse économique a partout fait crever comme autant d’abcès la
+                            cupidité, l’égoïsme, l’envie, la haine, la France victorieuse après
+                            l’épreuve qu’elle traverse en ce moment, la France non pas régénérée, la
+                            France recueillie, la France grave, sans peur et sans haine, abaissant
+                            son glaive et laissant déborder de son sein fécond sur le monde « le
+                            lait des humaines tendresses », sera plus que jamais nécessaire à
+                            l’humanité. </p>
+                        <p>C’est ensuite que nous, les Français d’Amérique, nous ne resterons
+                            Français que par la France. Voilà, Mesdames et Messieurs, une idée qui
+                            n’est pas nouvelle sur mes lèvres. Depuis seize ans que je tiens une
+                            plume dans la presse française au Canada, toujours j’ai eu les yeux
+                            fixés sur cette boussole. Pendant que d’autres, pour mieux couper de ses
+                            sources le Canada français, feignaient de croire tout l’esprit de la
+                            France enfermé dans de vaines formules lexicologiques, je n’ai cessé de
+                            crier qu’à moins d’un contact plus intime avec le foyer principal de la
+                            pensée française, il n’y aurait pour nous pas d’existence possible, pas
+                            de réaction, pas de lutte possible contre le matérialisme américain,
+                            poison de nos âmes, infection de nos vies. La guerre dure depuis
+                            dix-huit mois, et déjà nous sentons autour de nous et en nous, par suite
+                            de la disparition graduelle du livre français, une raréfaction de vie
+                            intellectuelle. Nous <pb/>éprouvons quelque chose comme ce
+                            refroidissement graduel que les Rosny ont imaginé qui marquerait sur la
+                            terre la fin de la vie. Les plus inintelligents de nos compatriotes —
+                            disont le mot : les plus anti-français — ne sont plus fermés à l’anxiété
+                            ; comme au bravache qui passe de nuit devant un cimetière, il leur faut
+                            chanter à tue-tête pour se faire accroire qu’ils n’ont pas peur.
+                            Autrement, comment expliquer leur acharnement à vouloir, par exemple,
+                            opposer les intérêts de l’Ontario français à ceux de la France ? Pour
+                            nous qui n’avons jamais douté de la destinée que la défaite de la France
+                            ferait à notre race, chaque phase de la lutte nous a tour à tour remplis
+                            de joie et d’angoisse. À chaque matin, en approchant des affiches des
+                            gazettes, nous nous demandions le cœur serré si Antée cette nuit-là
+                            n’avait pas perdu pied, si l’ange — l’ange exterminateur — n’avait pas,
+                            par un coup de traîtrise, terrassé Jacob. Un jour, notre amour
+                            magnifiant de simples contretemps en échecs, de simples échecs en
+                            désastres, l’angoisse brûlant nos artères et faisant éclater nos veines,
+                            nous avons dit nous aussi : Nous marchons ! Les insensés ! ils veulent
+                            savoir ce que la France ferait pour le Canada. Et à chaque aurore
+                            nouvelle, ils vont voir à la fenêtre si le soleil luira sur leur tâche
+                            quotidienne. Et toute leur vie ils demandent au soleil la chaleur, la
+                            joie de leur existence. Et si on voulait les priver de sa lumière et de
+                            sa chaleur, ils se battraient pour le soleil, ils verseraient leur sang
+                            pour leur part de soleil. Sans doute, Mesdames et Messieurs, la France a
+                            pu quelquefois nous blesser par son indifférence. Mais parce que sans
+                            elle la vie française s’arrêterait en nous comme une eau qui gèle,
+                            bénissons-la quand même, défendons-la quand même ! C’est la lumière,
+                            c’est la chaleur, c’est la vie !</p>
+                        <p>Et donc, nous marchons pour les institutions britanniques parce que par
+                            elles-mêmes, et indépendamment des demi-civilisés qui les appliquent
+                            aujourd’hui en Ontario, elles valent la peine qu’on se batte pour
+                            elles.</p>
+                        <p>Et nous marchons pour la Belgique parce que dans<pb/> cette guerre elle
+                            incarne le droit violé, la liberté des petits peuples foulée aux
+                            pieds.</p>
+                        <p>Et nous marchons pour la France parce que sa défaite, en même temps
+                            qu’elle marquerait une régression du monde vers la barbarie, nous
+                            condamnerait, nous ses enfants d’Amérique, à traîner désormais des vies
+                            diminuées…</p>
+                    </div>
+                </body>
+            </text>
+
+            <text xml:id="discours_191706">
+                <front>
+                    <docTitle>
+                        <titlePart>Discours prononcé au Canada en juin 1917</titlePart>
+                    </docTitle>
+                    <docDate/>
+                    <docAuthor/>
+                    <p>Le <date when="1917-06-25">25 juin 1917</date>, le <orgName>Comité France-Amérique</orgName> offrait au commandant Asselin,
+                        alors en permission à <placeName>Paris</placeName>, un dîner en reconnaissance des services qu’il
+                        avait rendus à la cause des Alliés. Les paroles qui suivent sont extraites
+                        d’un discours qu’il fit à cette occasion :</p>
+                </front>
+                <body>
+                    <p>…Je vous ai, depuis le commencement, parlé de moi, de mes concitoyens, de mes
+                        compatriotes. Je veux maintenant vous parler de vous. Ce sera pour me
+                        reposer. Ce me sera d’autant plus agréable qu’il se trouve que vous, c’est,
+                        au fond, encore nous.</p>
+                    <p>On lit quelquefois chez nous que cette guerre est surtout la guerre de
+                        l’Allemagne et de l’Angleterre. Cela serait vrai si l’Allemagne n’avait
+                        attaqué la France d’abord et cherché, au contraire, à tenir l’Angleterre
+                        hors du conflit. Mais, pour que cela fût vrai, il faudrait aussi que la
+                        guerre eût résulté uniquement d’un antagonisme d’intérêts commerciaux. Or,
+                        comment n’y pas voir aussi une guerre philosophique ? Je suis très peu
+                        philosophe. Sur la métaphysique, je ne suis pas loin de partager l’opinion
+                        de ce grand et séduisant coquin de Voltaire. Et je me garderai bien de faire
+                        de l’érudition métaphysique devant une assemblée où jusqu’ici tout le monde
+                        s’est si bien compris. Mais précisément parce que je vais distinguer entre
+                        un peuple qui se comprend lui-même et qui se fait comprendre, et un peuple
+                        qui se comprend peut-être lui-même, mais qu’on ne comprend pas, dès avant
+                        cette guerre où l’Allemand devait se révéler comme un barbare, je préférais
+                        passionnément la France à l’Allemagne. J’avais, en mon for intérieur,<pb/>
+                        résumé mes préférences et mes antipathies en ce laconique jugement :
+                        l’Allemand sait tout et il ne comprend rien ; le Français ne sait rien et il
+                        comprend tout. À vrai dire, je me rends parfaitement compte de l’excès qu’il
+                        y a à taxer d’ignorance le peuple qui, depuis toujours, a tenu la tête du
+                        mouvement scientifique en Europe, et qui, dans son culte pour la science,
+                        est allé jusqu’à en vouloir faire le fondement de sa morale. Ce que je
+                        voulais dire, c’est que le Français comprend tout, même quand, selon la
+                        prétention allemande, il ne sait rien, et que l’Allemand ne comprend rien,
+                        même quand, selon ses prétentions, il sait à peu près tout.</p>
+                    <p>Sur ce point, ma religion s’est éclairée d’une expérience personnelle. Tous,
+                        vous avez lu le livre de M. André Siegfried sur le Canada. Il est telles
+                        conclusions de cet ouvrage qui sont très discutables, mais, après deux mois
+                        passés chez nous, M. Siegfried a trouvé moyen de condenser en une lumineuse
+                        synthèse de 350 pages tout ce qu’il faut — ou du moins tout ce qu’il fallait
+                        il y a dix ans — pour se faire sur notre situation politique une opinion
+                        juste. À l’aide des faits qu’il a groupés, n’importe qui pourra, s’il le
+                        veut, rectifier ses conclusions. Cela, c’est la méthode française. Il y a
+                        quelques années, un professeur de langues romanes dans une école américaine,
+                        avec qui j’étais entré en relations par hasard, me soumit quelques
+                        fascicules d’un annuaire de littérature universelle publié chez vos voisins
+                        et censé contenir, entre autres choses, un résumé de la production
+                        intellectuelle canadienne-française. Vous connaissez le genre. De cet amas
+                        de fiches uniformes, colorées uniformément et sans égard au mérite des
+                        ouvrages, et d’où les œuvres les plus intéressantes — celles surtout qui
+                        auraient tout de suite frappé un esprit français — avaient été omises, je
+                        défierais bien qui que ce soit de dégager une impression quelconque de notre
+                        situation littéraire. Cela, c’est la méthode allemande.</p>
+                    <p>Dans quelque encyclopédie teutonne, moi qui vous parle, je suis « fiché ». Je
+                        suis donc, en quelque sorte,<pb/> tenu d’admettre que la fiche a du bon.
+                        (Vous comprenez tout de suite que nous restons dans le domaine
+                        scientifique.) L’erreur, c’est de croire qu’elle constitue, à elle seule,
+                        une culture. C’est aussi d’en faire une trouvaille allemande et d’y voir
+                        l’instrument de rénovation de l’esprit français parce que la pensée
+                        française, se distrayant dans la musique d’Offenbach, si l’on peut ainsi
+                        dire, avait, dans certains domaines, notamment l’histoire et la philosophie,
+                        dérogé un instant à ses traditions de labeur et de probité. Ce qui est en
+                        propre à l’Allemagne, c’est le subjectivisme de Kant et les géniales
+                        divagations d’un Nietzsche. Or, la France connaît Kant et Nietzsche, car la
+                        France, contrairement à la lourde calomnie allemande, connaît beaucoup de
+                        choses ; mais elle croit encore, Dieu merci, aux vérités objectives ; et
+                        c’est ce qui fait qu’en face de l’Allemagne, devenue par sa conception
+                        subjective, partant intéressée, des choses, champion de la force brutale,
+                        s’est dressée la France, champion éternel du droit.</p>
+                    <p>Vous avez, dans le cours de votre histoire, rendu au monde d’éclatants
+                        services. Hier encore, vous le sauviez de la barbarie en arrêtant sur
+                        l’Aisne et devant Verdun les forces de destruction et de rapine du nouvel
+                        Attila. Mais ce qui vous vaudra surtout la reconnaissance de l’humanité,
+                        c’est de lui avoir fait comprendre, en le révélant peut-être à un certain
+                        nombre de vos propres compatriotes, que si le subjectivisme, surhumaniste ou
+                        autre, peut engendrer de belle musique et produire des brutes incomparables,
+                        le chemin le plus sûr vers la vérité morale est encore le respect d’une
+                        certaine discipline intellectuelle.</p>
+                    <p>Grâce surtout à l’habileté et à l’impudence de sa réclame, l’Allemagne a
+                        exercé pendant cinquante ans sur la pensée du monde une influence excessive.
+                        La France, après la guerre, reprendra la suprématie intellectuelle, et cette
+                        fois son hégémonie — nous frissonnons d’orgueil à cette seule pensée —
+                        couvrira toute la terre ; n’en seront exclus que les peuples maudits qui
+                        dans la guerre actuelle auront avec l’Allemagne levé la main<pb/> contre la
+                        justice. Ceux-là, pour leur châtiment, ils s’abêtiront sous le joug d’une
+                        nation arrogante, morne et triste, sans grâce, sans bonté, ou confondant
+                        avec la bonté un niais et fade sentimentalisme. À la France incombera le
+                        rôle glorieux de présenter aux sociétés nouvelles les fortes disciplines
+                        sans lesquelles ne pourra se consolider la victoire du droit. Qu’elle ouvre
+                        sans crainte sur le monde ses mains émaciées par la souffrance ; le monde,
+                        conquis par son courage, attend d’elle, comme d’une puissance surhumaine,
+                        les paroles de vie.</p>
+                    <p>Oui, la France a conquis le monde. Mais elle a surtout conquis — ou plutôt
+                        reconquis — le cœur de ses enfants d’outre-mer. Je vous disais tout à
+                        l’heure que les Canadiens-Français, en 1914, étaient séparés de la France
+                        depuis déjà cent cinquante ans. À part, peut-être, M. Louis Arnould, qui
+                        avait passé deux années chez nous et qui, en outre, apportait à cette tâche
+                        la bonté de cœur indispensable, je ne connais pas un Français — tant la
+                        tâche était difficile — qui ait pleinement réussi à démêler les sentiments
+                        du Canadien-Français envers la France avant la guerre <ref type="note" n="1"
+                            target="#note01"/>. Il a existé entre nous bien des malentendus. Parmi
+                        les milliers de braves gens que vous avez envoyés au Canada et qui
+                        travaillent si admirablement à la prospérité de leur patrie d’adoption, il
+                        s’est glissé quelques marchands de pornographie, quelques messieurs de mœurs
+                        particulières, quelques demoiselles de mœurs peu particulières, et, chose
+                        encore plus grave, beaucoup d’individus qui ne vont pas à la messe. Et comme
+                        ces indésirables — ainsi qu’on dit maintenant en France — se groupent
+                        généralement dans les villes, que les gazettes se font<pb/> aussi dans les
+                        villes, et qu’au surplus nous n’échappons pas à la faiblesse très humaine
+                        qui consiste à toujours se croire meilleur qu’autrui, même quand en secret
+                        l’on s’accommode assez bien de ses vices, les Français eurent parfois — dans
+                        les journaux ou ailleurs, peu importe, — une mauvaise presse. Il y eut aussi
+                        vos lois républicaines de laïcisation. Pour de multiples raisons, je me
+                        garderai bien de les apprécier ici : et ces raisons ne sont peut-être pas
+                        toutes celles que vous croyez. Mais nous fûmes du coup reportés à l’époque
+                        où notre clergé chantait des Te Deum pour fêter la chute de Napoléon,
+                        héritier des principes de 89… Certes, quand je dis nous, il faut s’entendre.
+                        De tout temps il y eut chez nous, et dans le clergé comme ailleurs, des
+                        esprits assez éclairés pour savoir aimer la France indépendamment de ses
+                        formes de gouvernement et de ses préférences électorales. Le sentiment du
+                        peuple envers la France avant la guerre, c’était celui de paysans qui
+                        compteraient dans leur famille une grande actrice. Nous étions au fond très
+                        fiers de vous, mais vous nous scandalisiez. Et je ne suis pas sûr s’il
+                        n’entrait pas aussi dans nos âmes un peu d’envie, un peu de la jalousie du
+                        parent pauvre.</p>
+                    <p>Ah ! que vos souffrances, que votre vaillance ont parlé éloquemment à notre
+                        cœur ! Du jour où il éclata aux yeux étonnés du monde que celle que, sur la
+                        foi de racontars intéressés, nous avions prise pour une grande cascadeuse,
+                        était, à tous les sens du mot, la plus brave des femmes, nous avons rougi de
+                        nous-mêmes, nous n’avons plus songé qu’à nous faire pardonner nos ridicules
+                        bouderies. Nous avons éprouvé, à l’égard de notre pays d’origine, cette
+                        transformation de sentiments que subit le voyageur qui connut Paris avant la
+                        guerre et qui le revoit aujourd’hui. Alors, la Française authentique était
+                        invisible. À moins de pouvoir pénétrer dans la famille, on eût passé des
+                        mois entiers à Paris sans voir d’autres femmes que celles de Montmartre ou
+                        de chez Maxim. Mais rien qu’a voir aujourd’hui partout — dans les
+                        ascenseurs, dans les tramways, dans le Métro — la figure souriante,
+                        patiente, ferme, intelligente et <pb/>propre des vaillantes petites femmes
+                        qui ont remplacé dans l’organisme économique les hommes partis pour la
+                        tranchée, on se sent pris d’une admiration attendrie pour un peuple qui sait
+                        allier, jusque dans ses classes les moins favorisées, tant de grâce à tant
+                        de vertus. Vos malheurs vous auront au moins forcés à vous montrer sous
+                        votre jour véritable. Ne souriez pas : le Métro parisien est à l’heure
+                        actuelle un des foyers de rayonnement des plus belles qualités françaises… </p>
+                    <p>Nationalistes pour la plupart, les jeunes Canadiens-Français des classes
+                        plaisamment appelées supérieures se sont enrôlés en très petit nombre.
+                        Quelques-uns m’avaient précédé, plusieurs m’ont suivi. Mais depuis plusieurs
+                        années j’étais pour employer le vocabulaire à la mode — un nationaliste
+                        minoritaire, et j’eus beau répondre, à la jeunesse qui m’objectait nos
+                        propres misères, que les plus beaux sacrifices sont ceux que l’on se fait
+                        entre malheureux, je vis accourir peu de fils de famille sous mes étendards.
+                        Nos troupes se sont donc recrutées presque exclusivement dans le peuple. Or,
+                        nous avons assisté en France à un spectacle à la fois imprévu et
+                        réconfortant. Français d’Amérique et Français de France, qu’on croyait
+                        devenus étrangers l’un à l’autre, et que, la veille encore, séparaient
+                        profondément leurs dissentiments religieux, se sont mis tout de suite à
+                        fraterniser.</p>
+                    <p>Il est bien parfois arrivé que les tommies canadiens-français abusassent
+                        légèrement du crédit que leur faisaient leurs cousins d’outre-mer. Mais nos
+                        gars sont avenants, ils ont la langue bien pendue, le cœur chaud et bon, et
+                        sur la main : il n’en faut pas davantage pour gagner le cœur du Français.
+                        Partout où ils ont passé, ils ont laissé des amis. Mais en retour ils
+                        subissent le charme de votre douceur, de votre humanité. Ils admirent votre
+                        industrie, votre persévérance, vos solides vertus domestiques<ref
+                            type="note" n="2" target="#note02"/>. Ils disent souvent, en
+                        parlant<pb/> de vous : « Au fond, c’est du ben bon monde. » Et comme,
+                        d’autre part, ils n’ont qu’à vous écouter pour entendre toute sorte de
+                        propos bellement malicieux, ils ajoutent, très souvent aussi : « C’est du
+                        monde ben fin. » On savait déjà que vous étiez « du monde ben fin ». Nul
+                        maintenant n’ignore que vous êtes en même temps, avec le plus bel attribut
+                        de la bonté, le courage, « du ben bon monde ». Ce sera le jugement définitif
+                        des peuples sur la France.</p>
+                    <p>Et parce que vous êtes « du ben bon monde », c’est-à-dire des héros, « et du
+                        monde ben fin », c’est-à-dire des héros gais, spirituels, gardant jusque
+                        dans la mort une attitude de « galanterie », comme on disait au bon vieux
+                        temps, non seulement je déplore pour mon compte personnel de n’avoir pu
+                        réaliser qu’à moitié ce que j’avais ambitionné de faire pour la France, mais
+                        je suis sûr que, dans le terrible dilemme où les mettent, d’une part leur
+                        amour pour la France et leur fidélité véritable à cette Angleterre qui a
+                        partagé avec le monde la Grande Charte qu’elle avait arrachée à ses rois,
+                        et, de l’autre, leur souci presque maladif de l’intérêt canadien, les
+                        Canadiens-Français feront, à la cause sacrée pour laquelle vos fils
+                        moururent à la Marne et à Verdun, tous les sacrifices compatibles avec
+                        l’existence même de leur pays.</p>
+                    <p>Depuis la Marne, grâce à vous ils n’ont plus des âmes de vaincus, ils
+                        marchent la tête plus haute, allégés d’un poids qui pesait sur eux depuis
+                        1759 et qui s’était encore alourdi en 1870. Ce jour-là, vous les avez
+                        grandis et ennoblis dans leur propre estime ; je ne suis pas loin de dire :
+                        vous les avez sauvés. Ou je me trompe fort, ou ils sauront vous en être
+                        reconnaissants.</p>
+                    <p/>
+                    <p/>
+                </body>
+                <back>
+                    <div type="notes">
+                        <note xml:id="note01">Cette assertion ne s’applique évidemment
+                            qu’aux publicistes. Parmi les Français qui ont séjourné chez nous, il en
+                            est (notamment tel consul que nous avons tous connu et tel autre consul
+                            qui, pour avoir moins souvent figuré en public, ne nous observa ni moins
+                            attentivement ni avec moins de sympathie, et m’a chaudement félicité de
+                            ce discours), il en est, dis-je, qui n’ont rien écrit, mais qui nous ont
+                            vus d’une vue à la fois plus pénétrante et plus large que nous ne
+                            pourrons jamais faire nous-mêmes. — O. A.</note>
+                        <note xml:id="note02">Tant qu’il sera vrai que l’autorité paternelle
+                            est le fondement de la famille et que la famille est le fondement de la
+                            société, la France pourra accueillir d’une âme égale les critiques qui
+                            lui viennent, sur ce point, d’un monde où le respect des parents s’en va
+                            de plus en plus, si toutefois il a jamais existé. « Vos solides vertus
+                            domestiques » j’ai dit cela de propos délibéré, et je m’y tiens. — O.
+                            A.</note>
+
+                    </div>
+                </back>
+            </text>
+        </group>
+        <back>
+            <div type="indexNominum">
+                <head>
+                    <listPerson>
+                        <person>
+                            <persName>
+                                <surname/>
+                                <forename/>
+                            </persName>
+                            <birth><date/><placeName/></birth>
+                            <death><date/><placeName/></death>
+                        </person>
+                    </listPerson>
+                </head>
+            </div>
+        </back>
+    </text>
+</TEI>
