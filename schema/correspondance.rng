@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <start>
+        <ref name="TEI"/>
+    </start>
+
+    <define name="TEI">
+        <element name="TEI">
+            <oneOrMore>
+                <ref name="teiHeader"/>
+                <ref name="text"/>
+            </oneOrMore>
+        </element>
+    </define>
+    <define name="teiHeader">
+        <oneOrMore>
+            <ref name="fileDesc"/>
+        </oneOrMore>
+    </define>
+
+
+    <define name="text">
+        <element name="text">
+            <optional>
+                <attribute name="xml:id">
+                    <text/>
+                </attribute>
+            </optional>
+            <oneOrMore>
+                <ref name="group"/>
+                <!--<ref name="back"/>-->
+                <ref name="front"/>
+                <ref name="body"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="fileDesc">
+        <element name="fileDesc">
+            <oneOrMore>
+                <ref name="titleStmt"/>
+                <ref name="publicationStmt"/>
+                <ref name="sourceDesc"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="group">
+        <element name="group">
+            <optional>
+                <attribute name="xml:id">
+                    <text/>
+                </attribute>
+            </optional>
+            <oneOrMore>
+                <ref name="text"/>
+            </oneOrMore>
+        </element>
+
+    </define>
+    <!-- 
+    <define name="back">
+        <element name="back">
+            <oneOrMore>
+                <ref name="div"/>
+            </oneOrMore>
+        </element>
+    </define>
+     -->
+
+    <define name="titleStmt">
+        <element name="titleStmt">
+            <oneOrMore>
+                <ref name="title"/>
+                <ref name="respStmt"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="publicationStmt">
+        <element name="publicationStmt">
+            <oneOrMore>
+                <ref name="publisher"/>
+                <ref name="date"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="sourceDesc">
+        <element name="sourceDesc">
+            <oneOrMore>
+                <ref name="msDesc"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="title">
+        <element name="title">
+            <zeroOrMore>
+                <text/>
+            </zeroOrMore>
+        </element>
+    </define>
+
+    <define name="respStmt">
+        <element name="respStmt">
+            <oneOrMore>
+                <ref name="resp"/>
+                <ref name="name"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="resp">
+        <element name="resp">
+            <oneOrMore>
+                <text/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="name">
+        <element name="name">
+            <oneOrMore>
+                <text/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="publisher">
+        <element name="publisher">
+            <oneOrMore>
+                <text/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="date">
+        <element name="date">
+            <optional>
+                <attribute name="when">
+              <data type="date"></data>
+                </attribute>
+            </optional>
+            <oneOrMore>
+                <text/>
+                <!-- Si on peut, il faudrait typer -->
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="msDesc">
+        <element name="msDesc">
+            <oneOrMore>
+                <ref name="msIdentifier"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="msIdentifier">
+        <element name="msIdentifier">
+            <ref name="settlement"/>
+            <ref name="repository"/>
+            <ref name="idno"/>
+        </element>
+    </define>
+
+    <define name="settlement">
+        <element name="settlement">
+            <oneOrMore>
+                <text/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="repository">
+        <element name="repository">
+            <oneOrMore>
+                <text/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="idno">
+        <element name="idno">
+            <oneOrMore>
+                <text/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="front">
+        <element name="front">
+            <oneOrMore>
+                <ref name="docTitle"/>
+                <ref name="docDate"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="docTitle">
+        <element name="docTitle">
+            <oneOrMore>
+                <ref name="titlePart"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="docDate">
+        <element name="docDate">
+            <oneOrMore>
+                <text/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="titlePart">
+        <element name="titlePart">
+            <oneOrMore>
+                <text/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="body">
+        <element name="body">
+            <oneOrMore>
+                <ref name="div"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="div">   
+        
+        
+        
+        <element name="div">
+            <optional>
+                <attribute name="type">
+                    <choice>
+                        <value>letter</value>
+                        <value>note</value>
+                        <value>indexNominum</value>          
+                    </choice> 
+                </attribute>
+            </optional>
+            <oneOrMore>
+                <text/>
+                <ref name="p"/>
+                <ref name="opener"/>
+                <ref name="closer"/>
+                <ref name="head"/>
+                <ref name="space"/>
+                <!-- pas forcément utile -->
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="p">
+        <element name="p">
+            <zeroOrMore>
+                <text/>
+                <ref name="hi"/>
+                <ref name="del"/>
+                <ref name="add"/>
+                <ref name="pb"/>
+                <ref name="choice"/>
+                <ref name="figure"/>
+            </zeroOrMore>
+        </element>
+    </define>
+
+    <define name="opener">
+        <element name="opener">
+            <optional>
+                <attribute name="rend"> </attribute>
+            </optional>
+            <zeroOrMore>
+                <ref name="date"/>
+                <ref name="salute"/>
+            </zeroOrMore>
+        </element>
+    </define>
+
+    <define name="closer">
+        
+        <element name="closer">
+            <text/>
+            <zeroOrMore>
+                <ref name="date"/>
+                <ref name="salute"/>
+                <ref name="signed"/>
+            </zeroOrMore>
+            <optional>
+                <attribute name="rend">
+                    <text/>
+                </attribute>
+            </optional>
+        </element>
+    </define>
+
+    <define name="head">
+        <element name="head">
+            <oneOrMore>
+                <ref name="listPerson"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="space">
+        <element name="space">
+            <optional>
+                <attribute name="dim">
+                    <text/>
+                </attribute>
+                <attribute name="quantity">
+                    <data type="int"/>
+                </attribute>
+                <attribute name="unit">
+                    <text/>
+                </attribute>
+            </optional>
+            <zeroOrMore>
+                <text/>
+            </zeroOrMore>
+        </element>
+    </define>
+
+    <define name="hi">
+        
+        <element name="hi">
+            <optional>
+                <attribute name="rend">
+                    <choice>
+                        <value>supp</value>
+                        <value>underline</value>
+                        <value>write</value>
+                        <value>overwrite</value>
+                    </choice>
+                </attribute>
+            </optional>
+            <zeroOrMore>
+                <text/>
+            </zeroOrMore>
+        </element>
+    </define>
+
+    <define name="del">   
+        <element name="del">
+            <optional>
+                <attribute name="rend">
+                    <choice>
+                        <value>letter</value>
+                        <value>note</value>
+                        <value>indexNominum</value>          
+                    </choice>
+                </attribute>
+            </optional>
+            <text/>
+        </element>
+    </define>
+
+    <define name="add">
+        <element name="add">
+            <optional>
+                <attribute name="rend">
+                    <choice>
+                        <value>letter</value>
+                        <value>note</value>
+                        <value>indexNominum</value>          
+                    </choice>
+                </attribute>
+            </optional>
+            <text/>
+        </element>
+    </define>
+
+    <define name="pb">
+        <element name="pb">
+            <zeroOrMore>
+                <text/>
+            </zeroOrMore>
+        </element>
+    </define>
+
+    <define name="choice">
+        <element name="choice">
+            <ref name="sic"/>
+            <ref name="corr"/>
+        </element>
+    </define>
+
+    <define name="figure">
+        <!-- pour mettre les images -->
+        
+        <element name="figure">
+            <optional>
+                <attribute name="url">
+                    <data type="anyURI"/>
+                </attribute>
+            </optional>
+            <oneOrMore>
+                <ref name="desc"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="salute">
+        <element name="salute">
+            <text/>
+        </element>
+    </define>
+
+    <define name="signed">
+        <element name="signed">
+            <zeroOrMore>
+                <ref name="persName"/>
+            </zeroOrMore>
+        </element>
+    </define>
+
+    <define name="listPerson">
+        <element name="listPerson">
+            <zeroOrMore>
+                <ref name="person"/>
+            </zeroOrMore>
+        </element>
+    </define>
+
+    <define name="sic">
+        <element name="sic">
+            <text/>
+        </element>
+    </define>
+
+    <define name="corr">
+        <element name="corr">
+            <text/>
+        </element>
+    </define>
+
+    <define name="desc">
+        <element name="desc">
+            <text/>
+        </element>
+    </define>
+
+    <define name="persName">
+        <element name="persName">
+            <optional>
+                <attribute name="corresp">
+                    <text/><!-- bb -->
+                </attribute>
+            </optional>
+            <text/>
+            <zeroOrMore>
+                <ref name="hi"/>
+                <ref name="surname"/>
+                <ref name="firstname"/>
+            </zeroOrMore>
+        </element>
+    </define>
+
+    <define name="person">
+        <element name="person">
+            <oneOrMore>
+                <ref name="persName"/>
+            </oneOrMore>
+            <zeroOrMore>
+                <ref name="birth"/>
+                <ref name="death"/>
+            </zeroOrMore>
+        </element>
+    </define>
+
+    <define name="birth">
+        <element name="birth">
+            <text/>
+            <zeroOrMore>
+                <ref name="date"/>
+                <ref name="placeName"/>
+            </zeroOrMore>
+        </element>
+    </define>
+
+    <define name="death">
+        <element name="death">
+            <text/>
+            <zeroOrMore>
+                <ref name="date"/>
+                <ref name="placeName"/>
+            </zeroOrMore>
+        </element>
+    </define>
+
+    <define name="surname">
+        <element name="surname">
+            <text/>
+        </element>
+    </define>
+
+    <define name="firstname">
+        <element name="firstname">
+            <text/>
+        </element>
+    </define>
+
+    <define name="placeName">
+        <element name="placeName">
+            <text/>
+        </element>
+    </define>
+</grammar>
+<!-- revoir le typage -->
+<!-- ajouter le corresp desc -->
+<!-- enlever le msdesc -->
+<!-- définir les attributs avec des valeurs  -->
