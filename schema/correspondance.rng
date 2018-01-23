@@ -141,7 +141,7 @@
         <element name="date">
             <optional>
                 <attribute name="when">
-              <data type="date"></data>
+                    <data type="date"/>
                 </attribute>
             </optional>
             <oneOrMore>
@@ -210,6 +210,11 @@
 
     <define name="docDate">
         <element name="docDate">
+            <optional>
+                <attribute name="when">
+                    <data type="date"/>
+                </attribute>
+            </optional>
             <oneOrMore>
                 <text/>
             </oneOrMore>
@@ -232,27 +237,37 @@
         </element>
     </define>
 
-    <define name="div">   
-        
-        
-        
+    <define name="div">
+
+
+
         <element name="div">
             <optional>
                 <attribute name="type">
                     <choice>
                         <value>letter</value>
                         <value>note</value>
-                        <value>indexNominum</value>          
-                    </choice> 
+                        <value>indexNominum</value>
+                    </choice>
                 </attribute>
             </optional>
             <oneOrMore>
                 <text/>
-                <ref name="p"/>
-                <ref name="opener"/>
-                <ref name="closer"/>
-                <ref name="head"/>
-                <ref name="space"/>
+                <optional>
+                    <ref name="p"/>
+                </optional>
+                <optional>
+                    <ref name="opener"/>
+                </optional>
+                <optional>
+                    <ref name="closer"/>
+                </optional>
+                <optional>
+                    <ref name="head"/>
+                </optional>
+                <optional>
+                    <ref name="space"/>
+                </optional>
                 <!-- pas forcément utile -->
             </oneOrMore>
         </element>
@@ -260,15 +275,29 @@
 
     <define name="p">
         <element name="p">
-            <zeroOrMore>
+
+            <oneOrMore>
                 <text/>
-                <ref name="hi"/>
-                <ref name="del"/>
-                <ref name="add"/>
-                <ref name="pb"/>
-                <ref name="choice"/>
-                <ref name="figure"/>
+            </oneOrMore>
+            <zeroOrMore>
+                <optional>
+                    <ref name="add"/>
+                </optional>
+                <optional>
+                    <ref name="hi"/>
+                </optional>
+                <optional>
+                    <ref name="pb"/>
+                </optional>
+
+                <optional>
+                    <ref name="choice"/>
+                </optional>
+                <optional>
+                    <ref name="figure"/>
+                </optional>
             </zeroOrMore>
+
         </element>
     </define>
 
@@ -278,20 +307,33 @@
                 <attribute name="rend"> </attribute>
             </optional>
             <zeroOrMore>
-                <ref name="date"/>
-                <ref name="salute"/>
+                <optional>
+                    <ref name="date"/>
+                </optional>
+                <optional>
+                    <ref name="salute"/>
+                </optional>
+                <optional>
+                    <text/>
+                </optional>
             </zeroOrMore>
         </element>
     </define>
 
     <define name="closer">
-        
+
         <element name="closer">
             <text/>
             <zeroOrMore>
-                <ref name="date"/>
-                <ref name="salute"/>
-                <ref name="signed"/>
+                <optional>
+                    <ref name="date"/>
+                </optional>
+                <optional>
+                    <ref name="salute"/>
+                </optional>
+                <optional>
+                    <ref name="signed"/>
+                </optional>
             </zeroOrMore>
             <optional>
                 <attribute name="rend">
@@ -329,14 +371,14 @@
     </define>
 
     <define name="hi">
-        
+
         <element name="hi">
             <optional>
                 <attribute name="rend">
                     <choice>
                         <value>supp</value>
                         <value>underline</value>
-                        <value>write</value>
+                        <!-- j'ai supprimé la valeur 'right', sinon elles étaient cumulable et ça ne marchait plus pour le choice ! -->
                         <value>overwrite</value>
                     </choice>
                 </attribute>
@@ -347,14 +389,14 @@
         </element>
     </define>
 
-    <define name="del">   
+    <define name="del">
         <element name="del">
             <optional>
                 <attribute name="rend">
                     <choice>
                         <value>letter</value>
                         <value>note</value>
-                        <value>indexNominum</value>          
+                        <value>indexNominum</value>
                     </choice>
                 </attribute>
             </optional>
@@ -369,7 +411,7 @@
                     <choice>
                         <value>letter</value>
                         <value>note</value>
-                        <value>indexNominum</value>          
+                        <value>indexNominum</value>
                     </choice>
                 </attribute>
             </optional>
@@ -394,7 +436,7 @@
 
     <define name="figure">
         <!-- pour mettre les images -->
-        
+
         <element name="figure">
             <optional>
                 <attribute name="url">
@@ -451,14 +493,20 @@
         <element name="persName">
             <optional>
                 <attribute name="corresp">
-                    <text/><!-- bb -->
+                    <text/>
                 </attribute>
             </optional>
             <text/>
             <zeroOrMore>
-                <ref name="hi"/>
-                <ref name="surname"/>
-                <ref name="firstname"/>
+                <optional>
+                    <ref name="hi"/>
+                </optional>
+                <optional>
+                    <ref name="surname"/>
+                </optional>
+                <optional>
+                    <ref name="firstname"/>
+                </optional>
             </zeroOrMore>
         </element>
     </define>
