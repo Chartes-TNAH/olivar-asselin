@@ -17,7 +17,9 @@
             </titleStmt>
             <publicationStmt>
                 <publisher>
-                    <name><ref target="http://data.bnf.fr/11863474/ecole_nationale_des_chartes_paris/"></ref> Ecole nationale des chartes</name>
+                    <name><ref
+                            target="http://data.bnf.fr/11863474/ecole_nationale_des_chartes_paris/"
+                        /> Ecole nationale des chartes</name>
                     <address>
                         <street>65 rue de Richelieu</street>
                         <postCode>75002</postCode>
@@ -31,16 +33,19 @@
                 <scriptStmt>
                     <bibl>
                         <title>Pourquoi on aime la France</title>
-                        <author><ref target="http://catalogue.bnf.fr/ark:/12148/cb129176414"/>Olivar Asselin</author>
+                        <author><ref target="http://catalogue.bnf.fr/ark:/12148/cb129176414"/>Olivar
+                            Asselin</author>
                         <publisher>
-                            <orgName>Imprimerie de Vaugirard.<ref target="http://data.bnf.fr/14963880/imprimerie_de_vaugirard/"/></orgName>
+                            <orgName>Imprimerie de Vaugirard.<ref
+                                    target="http://data.bnf.fr/14963880/imprimerie_de_vaugirard/"
+                                /></orgName>
                             <persName>H. L. Motti</persName>, <roleName>dir.</roleName>, <address>
                                 <street><num>12-13</num>, impasse Ronsin</street>
                                 <country>Paris</country>
                             </address>, </publisher>
                         <date>1917</date>
-                        <!-- cote --><idno>CA M001 P104-1-3</idno><ref target="https://archivesdemontreal.ica-atom.org/publications-1909-1938"/>
-                        
+                        <!-- cote --><idno>CA M001 P104-1-3</idno><ref
+                            target="https://archivesdemontreal.ica-atom.org/publications-1909-1938"/>
                         <respStmt>
                             <!-- responsabilité et lieu de conservation du recueil de discours  -->
                             <resp>Conservation</resp>
@@ -65,14 +70,15 @@
                     <docDate/>
                     <docAuthor/>
                     <p>Les paroles qui suivent furent prononcées à <placeName>Montréal</placeName>
-                            (<country>Canada</country>) le <date when="1916-01-21">21 janvier 1916</date>, à
-                        l’occasion de l’engagement volontaire de l’auteur pour la guerre européenne.
-                        Supprimer ce qui dans ces paroles avait trait à l’Angleterre et à la
-                        Belgique, ce serait présenter les mobiles du commandant Asselin sous un jour
-                        sinon faux, du moins incomplet. Il sera cependant difficile de ne pas sentir
-                        que le seul amour de la France aurait suffi à déterminer une décision qui
-                        devait valoir à la cause des Alliés, à part le concours de cet ardent
-                        journaliste, tout un bataillon d’infanterie levé par ses soins.</p>
+                            (<country>Canada</country>) le <date when="1916-01-21">21 janvier
+                            1916</date>, à l’occasion de l’engagement volontaire de l’auteur pour la
+                        guerre européenne. Supprimer ce qui dans ces paroles avait trait à
+                        l’Angleterre et à la Belgique, ce serait présenter les mobiles du commandant
+                        Asselin sous un jour sinon faux, du moins incomplet. Il sera cependant
+                        difficile de ne pas sentir que le seul amour de la France aurait suffi à
+                        déterminer une décision qui devait valoir à la cause des Alliés, à part le
+                        concours de cet ardent journaliste, tout un bataillon d’infanterie levé par
+                        ses soins.</p>
                 </front>
                 <body>
                     <div type="speech">
@@ -259,10 +265,11 @@
                     </docTitle>
                     <docDate/>
                     <docAuthor/>
-                    <p>Le <date when="1917-06-25">25 juin 1917</date>, le <orgName>Comité France-Amérique</orgName> offrait au commandant Asselin,
-                        alors en permission à <placeName>Paris</placeName>, un dîner en reconnaissance des services qu’il
-                        avait rendus à la cause des Alliés. Les paroles qui suivent sont extraites
-                        d’un discours qu’il fit à cette occasion :</p>
+                    <p>Le <date when="1917-06-25">25 juin 1917</date>, le <orgName>Comité
+                            France-Amérique</orgName> offrait au commandant Asselin, alors en
+                        permission à <placeName>Paris</placeName>, un dîner en reconnaissance des
+                        services qu’il avait rendus à la cause des Alliés. Les paroles qui suivent
+                        sont extraites d’un discours qu’il fit à cette occasion :</p>
                 </front>
                 <body>
                     <p>…Je vous ai, depuis le commencement, parlé de moi, de mes concitoyens, de mes
@@ -452,41 +459,24 @@
                 </body>
                 <back>
                     <div type="notes">
-                        <note xml:id="note01">Cette assertion ne s’applique évidemment
-                            qu’aux publicistes. Parmi les Français qui ont séjourné chez nous, il en
-                            est (notamment tel consul que nous avons tous connu et tel autre consul
-                            qui, pour avoir moins souvent figuré en public, ne nous observa ni moins
+                        <note xml:id="note01">Cette assertion ne s’applique évidemment qu’aux
+                            publicistes. Parmi les Français qui ont séjourné chez nous, il en est
+                            (notamment tel consul que nous avons tous connu et tel autre consul qui,
+                            pour avoir moins souvent figuré en public, ne nous observa ni moins
                             attentivement ni avec moins de sympathie, et m’a chaudement félicité de
                             ce discours), il en est, dis-je, qui n’ont rien écrit, mais qui nous ont
                             vus d’une vue à la fois plus pénétrante et plus large que nous ne
                             pourrons jamais faire nous-mêmes. — O. A.</note>
-                        <note xml:id="note02">Tant qu’il sera vrai que l’autorité paternelle
-                            est le fondement de la famille et que la famille est le fondement de la
+                        <note xml:id="note02">Tant qu’il sera vrai que l’autorité paternelle est le
+                            fondement de la famille et que la famille est le fondement de la
                             société, la France pourra accueillir d’une âme égale les critiques qui
                             lui viennent, sur ce point, d’un monde où le respect des parents s’en va
                             de plus en plus, si toutefois il a jamais existé. « Vos solides vertus
                             domestiques » j’ai dit cela de propos délibéré, et je m’y tiens. — O.
                             A.</note>
-
                     </div>
                 </back>
             </text>
         </group>
-        <back>
-            <div type="indexNominum">
-                <head>
-                    <listPerson>
-                        <person>
-                            <persName>
-                                <surname/>
-                                <forename/>
-                            </persName>
-                            <birth><date/><placeName/></birth>
-                            <death><date/><placeName/></death>
-                        </person>
-                    </listPerson>
-                </head>
-            </div>
-        </back>
     </text>
 </TEI>
