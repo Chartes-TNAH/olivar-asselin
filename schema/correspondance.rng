@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0"
     xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
     datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
     <start>
         <ref name="TEI"/>
@@ -14,10 +15,13 @@
             </oneOrMore>
         </element>
     </define>
+    
     <define name="teiHeader">
-        <oneOrMore>
+        <element name="teiHeader">
+           <oneOrMore>
             <ref name="fileDesc"/>
-        </oneOrMore>
+           </oneOrMore>
+        </element>
     </define>
 
 
@@ -29,9 +33,9 @@
                 </attribute>
             </optional>
             <oneOrMore>
-                <ref name="group"/>
+               <!-- <ref name="group"/> -->
                 <!--<ref name="back"/>-->
-                <ref name="front"/>
+                <!-- <ref name="front"/> -->
                 <ref name="body"/>
             </oneOrMore>
         </element>
@@ -46,7 +50,7 @@
             </oneOrMore>
         </element>
     </define>
-
+<!-- 
     <define name="group">
         <element name="group">
             <optional>
@@ -60,6 +64,7 @@
         </element>
 
     </define>
+     -->
     <!-- 
     <define name="back">
         <element name="back">
@@ -191,14 +196,14 @@
         </element>
     </define>
 
-    <define name="front">
+   <!-- <define name="front">
         <element name="front">
             <oneOrMore>
                 <ref name="docTitle"/>
                 <ref name="docDate"/>
             </oneOrMore>
         </element>
-    </define>
+    </define> -->
 
     <define name="docTitle">
         <element name="docTitle">
@@ -277,24 +282,44 @@
         <element name="p">
 
             <oneOrMore>
-                <text/>
+                <optional>
+                    <text/>
+                </optional>
             </oneOrMore>
             <zeroOrMore>
                 <optional>
                     <ref name="add"/>
                 </optional>
                 <optional>
+                    <text/>
+                </optional>
+                <optional>
                     <ref name="hi"/>
+                </optional>
+                <optional>
+                    <text/>
                 </optional>
                 <optional>
                     <ref name="pb"/>
                 </optional>
-
+                <optional>
+                    <text/>
+                </optional>
                 <optional>
                     <ref name="choice"/>
                 </optional>
                 <optional>
+                    <text/>
+                </optional>
+                <optional>
                     <ref name="figure"/>
+                </optional>
+                <optional>
+                    <text/>
+                </optional>
+                
+                <optional>
+                    <ref name="del"/>
                 </optional>
             </zeroOrMore>
 

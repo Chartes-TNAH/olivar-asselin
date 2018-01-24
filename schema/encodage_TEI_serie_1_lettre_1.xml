@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="./correspondance.rng" type="application/xml"?>
-<TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -39,12 +39,14 @@
       </fileDesc>
    </teiHeader>
          <text xml:id="s1_lettre-1">
+         <!-- 
             <front>
                <docTitle>
                   <titlePart>Lettre du 26 novembre 1916</titlePart>
                </docTitle>
                <docDate when="1916-11-26">26 novembre 1916</docDate>
             </front>
+            -->
             <body>
                <div type="letter">
                   <opener rend="right">En route <date when="1916-11-26">26/11/1916</date></opener>
@@ -91,7 +93,7 @@
             </back>
          </text>
       
-      <back>
+     <!-- <back>
          <div type="indexNominum">
             <head>
                <listPerson>
@@ -106,6 +108,5 @@
                </listPerson>
             </head>
          </div>
-      </back>
-   </text>
+      </back> -->
 </TEI>
