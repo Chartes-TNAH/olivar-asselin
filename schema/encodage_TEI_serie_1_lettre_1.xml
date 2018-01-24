@@ -2,8 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="TEI_asselin.rng" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="./correspondance.rng" type="application/xml"?>
+<TEI>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -38,8 +38,6 @@
          </sourceDesc>
       </fileDesc>
    </teiHeader>
-   <text>
-      <group xml:id="serie-1">
          <text xml:id="s1_lettre-1">
             <front>
                <docTitle>
@@ -81,7 +79,8 @@
                   <!-- Prévoir aussi les éléments pour les images : <figure><desc>-->
                   <closer>
                      <!-- Prévoir l'élément salute-->
-                     <signed><persName corresp="#olasselin"><hi rend="underline, right">Olivar</hi></persName></signed>
+                     <signed><persName corresp="#olasselin"><hi rend="underline">Olivar</hi></persName></signed> 
+                     <!-- j'ai supprimé la valeur 'right', sinon elles étaient cumulable et ça ne marchait plus pour le choice ! -->
                   </closer>
                </div>
             </body>
@@ -91,7 +90,7 @@
                </div>
             </back>
          </text>
-      </group>
+      
       <back>
          <div type="indexNominum">
             <head>
