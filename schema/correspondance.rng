@@ -15,12 +15,12 @@
             </oneOrMore>
         </element>
     </define>
-    
+
     <define name="teiHeader">
         <element name="teiHeader">
-           <oneOrMore>
-            <ref name="fileDesc"/>
-           </oneOrMore>
+            <oneOrMore>
+                <ref name="fileDesc"/>
+            </oneOrMore>
         </element>
     </define>
 
@@ -33,9 +33,7 @@
                 </attribute>
             </optional>
             <oneOrMore>
-               <!-- <ref name="group"/> -->
-                <!--<ref name="back"/>-->
-                <!-- <ref name="front"/> -->
+
                 <ref name="body"/>
             </oneOrMore>
         </element>
@@ -47,33 +45,11 @@
                 <ref name="titleStmt"/>
                 <ref name="publicationStmt"/>
                 <ref name="sourceDesc"/>
+                <ref name="profileDesc"/>
             </oneOrMore>
         </element>
     </define>
-<!-- 
-    <define name="group">
-        <element name="group">
-            <optional>
-                <attribute name="xml:id">
-                    <text/>
-                </attribute>
-            </optional>
-            <oneOrMore>
-                <ref name="text"/>
-            </oneOrMore>
-        </element>
 
-    </define>
-     -->
-    <!-- 
-    <define name="back">
-        <element name="back">
-            <oneOrMore>
-                <ref name="div"/>
-            </oneOrMore>
-        </element>
-    </define>
-     -->
 
     <define name="titleStmt">
         <element name="titleStmt">
@@ -145,7 +121,7 @@
             </oneOrMore>
         </element>
     </define>
-    
+
     <define name="address">
         <element name="address">
             <oneOrMore>
@@ -165,7 +141,6 @@
             </optional>
             <oneOrMore>
                 <text/>
-                <!-- Si on peut, il faudrait typer -->
             </oneOrMore>
         </element>
     </define>
@@ -178,6 +153,27 @@
         </element>
     </define>
 
+    <define name="profileDesc">
+        <element name="profileDesc">
+            <oneOrMore>
+                <ref name="correspDesc"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+
+    <define name="correspDesc">
+        <element name="correspDesc">
+
+            <oneOrMore>
+                <ref name="correspAction"/>
+            </oneOrMore>
+            <optional>
+                <ref name="correspContext"/>
+            </optional>
+        </element>
+    </define>
+
     <define name="msIdentifier">
         <element name="msIdentifier">
             <ref name="settlement"/>
@@ -185,7 +181,7 @@
             <ref name="idno"/>
         </element>
     </define>
-    
+
     <define name="street">
         <element name="street">
             <oneOrMore>
@@ -193,7 +189,7 @@
             </oneOrMore>
         </element>
     </define>
-    
+
     <define name="postCode">
         <element name="postCode">
             <oneOrMore>
@@ -226,14 +222,7 @@
         </element>
     </define>
 
-   <!-- <define name="front">
-        <element name="front">
-            <oneOrMore>
-                <ref name="docTitle"/>
-                <ref name="docDate"/>
-            </oneOrMore>
-        </element>
-    </define> -->
+
 
     <define name="docTitle">
         <element name="docTitle">
@@ -261,6 +250,41 @@
             <oneOrMore>
                 <text/>
             </oneOrMore>
+        </element>
+    </define>
+
+    <define name="correspAction">
+        <element name="correspAction">
+            <optional>
+                <attribute name="type">
+                    <choice>
+                        <value>sent</value>
+                        <value>received</value>
+                    </choice>
+                </attribute>
+            </optional>
+            <oneOrMore>
+                <optional>
+                    <ref name="persName"/>
+                </optional>
+                <optional>
+                    <ref name="placeName"/>
+                </optional>
+                <optional>
+                    <ref name="date"/>
+                </optional>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="correspContext">
+        <element name="correspContext">
+            <optional>
+                <ref name="persName"/>
+            </optional>
+            <optional>
+                <ref name="date"/>
+            </optional>
         </element>
     </define>
 
@@ -344,7 +368,7 @@
                 <optional>
                     <text/>
                 </optional>
-                
+
                 <optional>
                     <ref name="del"/>
                 </optional>
@@ -612,7 +636,3 @@
         </element>
     </define>
 </grammar>
-<!-- revoir le typage -->
-<!-- ajouter le corresp desc -->
-<!-- enlever le msdesc -->
-<!-- définir les attributs avec des valeurs  -->
