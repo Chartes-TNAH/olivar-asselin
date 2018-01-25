@@ -43,7 +43,7 @@
                   <placeName>En route</placeName>
                   <date when="1916-11-26"/>
                </correspAction>
-               <correspAction type="recieved">
+               <correspAction type="received">
                   <persName>Pierre Asselin</persName>
                </correspAction>
                <!--Penser à ajouter l'élément correspContext-->
