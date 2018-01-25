@@ -28,7 +28,7 @@
             <date>2018</date>
          </publicationStmt>
          <sourceDesc>
-            <msDesc>  <!-- Ces informations ne sont pas présentes dans wikisource, mais on peut éventuellement les trouver -->
+            <msDesc>  
                <msIdentifier>
                   <settlement>Archives de la ville de Montréal</settlement>
                   <repository>Montréal</repository>
@@ -36,17 +36,23 @@
                </msIdentifier>
             </msDesc>
          </sourceDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName>Olivar Asselin</persName>
+                  <placeName>En route</placeName>
+                  <date when="1916-11-26"/>
+               </correspAction>
+               <correspAction type="recieved">
+                  <persName>Pierre Asselin</persName>
+               </correspAction>
+               <!--Penser à ajouter l'élément correspContext-->
+               <!-- Eléménts fils possibles : ref / persName / date -->
+            </correspDesc>
+         </profileDesc>
       </fileDesc>
    </teiHeader>
          <text xml:id="s1_lettre-1">
-         <!-- 
-            <front>
-               <docTitle>
-                  <titlePart>Lettre du 26 novembre 1916</titlePart>
-               </docTitle>
-               <docDate when="1916-11-26">26 novembre 1916</docDate>
-            </front>
-            -->
             <body>
                <div type="letter">
                   <opener rend="right">En route <date when="1916-11-26">26/11/1916</date></opener>
@@ -86,27 +92,10 @@
                   </closer>
                </div>
             </body>
-            <back>
+            <!--<back>
                <div type="notes">
                   <note></note>
                </div>
-            </back>
+            </back>-->
          </text>
-      
-     <!-- <back>
-         <div type="indexNominum">
-            <head>
-               <listPerson>
-                  <person>
-                     <persName>
-                        <surname></surname>
-                        <forename></forename>
-                     </persName>
-                     <birth><date></date><placeName></placeName></birth>
-                     <death><date></date><placeName></placeName></death>
-                  </person>
-               </listPerson>
-            </head>
-         </div>
-      </back> -->
 </TEI>
