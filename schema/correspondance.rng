@@ -114,6 +114,9 @@
             <oneOrMore>
                 <ref name="resp"/>
                 <ref name="name"/>
+                <ref name="name"/>
+                <ref name="name"/>
+                <ref name="name"/>
             </oneOrMore>
         </element>
     </define>
@@ -137,7 +140,18 @@
     <define name="publisher">
         <element name="publisher">
             <oneOrMore>
-                <text/>
+                <ref name="name"/>
+                <ref name="address"/>
+            </oneOrMore>
+        </element>
+    </define>
+    
+    <define name="address">
+        <element name="address">
+            <oneOrMore>
+                <ref name="street"/>
+                <ref name="postCode"/>
+                <ref name="settlement"/>
             </oneOrMore>
         </element>
     </define>
@@ -169,6 +183,22 @@
             <ref name="settlement"/>
             <ref name="repository"/>
             <ref name="idno"/>
+        </element>
+    </define>
+    
+    <define name="street">
+        <element name="street">
+            <oneOrMore>
+                <text/>
+            </oneOrMore>
+        </element>
+    </define>
+    
+    <define name="postCode">
+        <element name="postCode">
+            <oneOrMore>
+                <text/>
+            </oneOrMore>
         </element>
     </define>
 
@@ -243,9 +273,6 @@
     </define>
 
     <define name="div">
-
-
-
         <element name="div">
             <optional>
                 <attribute name="type">
@@ -434,9 +461,8 @@
             <optional>
                 <attribute name="rend">
                     <choice>
-                        <value>letter</value>
-                        <value>note</value>
-                        <value>indexNominum</value>
+                        <value>sup</value>
+                        <value>inf</value>
                     </choice>
                 </attribute>
             </optional>
