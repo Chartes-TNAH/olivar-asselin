@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="./correspondance.rng" type="application/xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI>
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -92,10 +92,5 @@
                   </closer>
                </div>
             </body>
-            <!--<back>
-               <div type="notes">
-                  <note></note>
-               </div>
-            </back>-->
          </text>
 </TEI>
