@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="./correspondance.rng" type="application/xml"?>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edition numérique de la correspondance d'Olivar Asselin</title>
+                <respStmt>
+                    <resp>Encodage du texte</resp>
+                    <name>Marie-Gaëlle Gourio</name>
+                    <name>Amandine Heathcote</name>
+                    <name>Fanny Mézard</name>
+                    <name>Alexandre Gaudin</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Ecole nationale des chartes</name>
+                    <address>
+                        <street>65 rue de Richelieu</street>
+                        <postCode>75002</postCode>
+                        <settlement>Paris</settlement>
+                    </address>
+                </publisher>
+                <date>2018</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>  
+                    <msIdentifier>
+                        <settlement>Archives de la ville de Montréal</settlement>
+                        <repository>Montréal</repository>
+                        <idno>CA M001 P104-1-1-D1</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName>Olivar Asselin</persName>
+                        <date when="1917-03"/>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName>À M. Pierre Asselin, canonnier.</persName>
+                    </correspAction>
+                </correspDesc>
+            </profileDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener rend="">
+                    <date when="1917-03">mars 1917</date>
+                </opener>
+                <space dim="vertical" quantity="1" unit="lines"></space>
+                <salute>Mon cher Pierre,</salute>
+                <p>Quand on part d’Angleterre pour le front, on se charge comme un mulet de toute sorte de machines qui ne vous serviront de rien. 
+                    Moi, à mon arrivée, <del>ici</del> j’avais l’air de ceci :</p> 
+                <figure url="https://fr.wikisource.org/wiki/Correspondance_-_Lettre_de_mars_1917_(Asselin)">
+                    <desc>dessin représentant Olivar Asselin chargé de toutes ses paquetages</desc>
+                </figure>
+               <p> Tout de suite je me suis mis à jeter 
+                   <pb/> du lest. J’ai laissé toute ma coucherie en arrière, aux soins du capitaine d’habillement, qui en est
+                responsable ; je <del>me suis arrangé pour</del> n’ai apporté dans les tranchées que deux couvertures de laine. 
+                Avec mon trench-coat, c’est assez, car on n’a pas le droit de se déshabiller. <del>et</del>Ensuite, au lieu de 
+                toutes mes sangles et courroies, j’ai fait poser à mes affaires des petits crochets à ressort, dits mousquetons, 
+                et avec cela je les accroche à ma ceinture, comme ceci :</p>
+                <figure url="https://fr.wikisource.org/wiki/Correspondance_-_Lettre_de_mars_1917_(Asselin)">
+                    <desc>dessin de la ceinture améliorée d'Olivar Asselin</desc>
+                </figure>
+               <p> C’est mal dessiné, mais tu peux voir com-
+                   <pb/>bien je me suis allégé. Ça <del>gigote</del> <add rend="sup">me bat</add>bien encore un peu sur 
+                   <add rend="sup">les flancs et sur</add> le ventre, mais pas la moitié autant qu’auparavant. Je 
+                   <del>ne</del> garde <del>m’apporte dans les</del> tous mes <del>habits</del> <add rend="sup">vêtements</add> dans le 
+                   <hi rend="underline">pack</hi>, qui est le sac qu’on porte ordinairement sur ses épaules, et je laisse ce 
+                   meuble en arrière comme mon lit. Je n’apporte dans les tranchées que deux paires de chaussettes, <del>et</del> 
+                   une paire de chaussures et quelques mouchoirs de rechange. Pour attraper des bibites, on en a toujours assez sur soi. 
+                   La première nuit, je me suis pris dans le cou une bibite grosse comme toi, mais <del>bien</del> moins chaude. 
+                   Je l’ai écrasée<del>de</del>entre mes<del>o</del>ongles, dans l’obscurité. Ça a fait : Crac ! Je riais comme 
+                   une petite baleine. Ça lui apprendra à me faire peur ! Je crois bien que c’était la mère pouse, car, ensuite, 
+                <pb/>j’ai eu la paix. Il y a ici trente-trois espèces de boue. La plus commune, dans les tranchées, ressemble à des pommes de terre 
+                pilées. À notre retour vers l’arrière, après <del>cinq</del> quatre milles de marche, j’avais les pieds comme ceci :</p>
+                <figure url="https://fr.wikisource.org/wiki/Correspondance_-_Lettre_de_mars_1917_(Asselin)">
+                    <desc>dessin de pieds gonflés</desc>
+                </figure>
+               <p> Je termine ma lettre, <unclear reason="illegible">forcé de me pencher</unclear> car je viens d’écrire longuement à Jean, et, dans la position où je suis, 
+                   j’ai les fesses, les reins et le cou très 
+                <pb/>fatigués. Voici en effet comment je suis :</p>
+                <figure url="https://fr.wikisource.org/wiki/Correspondance_-_Lettre_de_mars_1917_(Asselin)">
+                    <desc>dessin représentant Olivar Asselin assis sur la couchette du bas du lit superposé</desc>
+                </figure>
+                <p>Je me coucherai, en pensant à mes petits garçons, et <del>car</del> heureux d’avoir, par mes images, fait rire 
+                    un peu le gros nez de mon vilain petit Pierre.</p>
+                <signed>
+                    <persname corresp="#olasselin"><hi rend="underline">Papa</hi></persname>
+                </signed>
+            </div>
+        </body>
+    </text>
+</TEI>
