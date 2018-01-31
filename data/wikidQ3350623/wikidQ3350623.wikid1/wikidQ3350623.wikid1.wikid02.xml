@@ -3,7 +3,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="./correspondance.rng" type="application/xml"?>
-<TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -43,7 +43,7 @@
                         <date when="1917-03"/>
                     </correspAction>
                     <correspAction type="received">
-                        <persName>À M. Pierre Asselin, canonnier.</persName>
+                        <persName>Pierre Asselin</persName>
                     </correspAction>
                 </correspDesc>
             </profileDesc>
@@ -52,9 +52,7 @@
     <text>
         <body>
             <div type="letter">
-                <opener rend="">
-                    <date when="1917-03">mars 1917</date>
-                </opener>
+                <opener rend="left">À M. Pierre Asselin, canonnier.</opener>
                 <space dim="vertical" quantity="1" unit="lines"></space>
                 <salute>Mon cher Pierre,</salute>
                 <p>Quand on part d’Angleterre pour le front, on se charge comme un mulet de toute sorte de machines qui ne vous serviront de rien. 
@@ -86,7 +84,7 @@
                 <figure url="https://fr.wikisource.org/wiki/Correspondance_-_Lettre_de_mars_1917_(Asselin)">
                     <desc>dessin de pieds gonflés</desc>
                 </figure>
-               <p> Je termine ma lettre, <unclear reason="illegible">forcé de me pencher</unclear> car je viens d’écrire longuement à Jean, et, dans la position où je suis, 
+               <p> Je termine ma lettre, <unclear reason="illegible">forcé de me pencher</unclear>car je viens d’écrire longuement à Jean, et, dans la position où je suis, 
                    j’ai les fesses, les reins et le cou très 
                 <pb/>fatigués. Voici en effet comment je suis :</p>
                 <figure url="https://fr.wikisource.org/wiki/Correspondance_-_Lettre_de_mars_1917_(Asselin)">
@@ -95,7 +93,7 @@
                 <p>Je me coucherai, en pensant à mes petits garçons, et <del>car</del> heureux d’avoir, par mes images, fait rire 
                     un peu le gros nez de mon vilain petit Pierre.</p>
                 <signed>
-                    <persname corresp="#olasselin"><hi rend="underline">Papa</hi></persname>
+                    <persName corresp="#olasselin"><hi rend="underline">Papa</hi></persName>
                 </signed>
             </div>
         </body>
