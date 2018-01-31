@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../data/correspondance.rng" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Edition numérique de la correspondance d'Olivar Asselin</title>
+            <respStmt>
+               <resp>Encodage du texte</resp>
+               <name>Marie-Gaëlle Gourio</name>
+               <name>Amandine Heathcote</name>
+               <name>Fanny Mézard</name>
+               <name>Alexandre Gaudin</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Ecole nationale des chartes</name>
+               <address>
+                  <street>65 rue de Richelieu</street>
+                  <postCode>75002</postCode>
+                  <settlement>Paris</settlement>
+               </address>
+            </publisher>
+            <date>2018</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Archives de la ville de Montréal</settlement>
+                  <repository>Montréal</repository>
+                  <idno>CA M001 P104-1-1-D1</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+         <profileDesc>
+            <correspDesc>
+               <correspAction type="sent">
+                  <persName>Olivar Asselin</persName>
+                  <placeName>Au front, parmi les poux</placeName>
+                  <date when="1916-11-26"/>
+               </correspAction>
+               <correspAction type="received">
+                  <p>Mon cher ami</p>
+               </correspAction>
+            </correspDesc>
+         </profileDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener rend="right">Au front, parmi les poux,<date when="1916-11-26">3 avril
+                  91918</date></opener>
+            <space dim="vertical" quantity="1" unit="lines"/>
+            <p>Mon cher ami, </p>
+            <space dim="vertical" quantity="1" unit="lines"/>
+            <p> Attaché au 22e pour trois mois, il faut que je me hâte de vous écrire, car le temps
+               passe si vite ici que je cours risque de me retrouver à Shoreham avant d’avoir eu
+               seulement le temps d’y <del/> penser. Dans trois jours il y aura déjà <del/> un mois
+               de trente et un jours que je quittai ce côteau inhospitalier, où le vent soufflait
+               toujours de la mer, comme à Québec. J’ai déjà fait deux jours tours de tranchées (la
+               première fois quatre jours et la deuxième six), déjà pris quelques bibites (je ne les
+               vois pas encore, mais je les <del/> sens), déjà rempli presque tous les devoirs des
+               d’un officier combattant du front. Il ne me manque plus que la charge mais et, si
+               j’en juge par les <del>titres</del>
+               <add>manchettes</add> si discrètes du <hi rend="underline">Star</hi>, de <hi
+                  rend="underline">La Patrie</hi> ( « <hi rend="underline">The Coming Offensive</hi>
+               », « <hi rend="underline">The great Spring offensive</hi> », « <hi rend="underline"
+                  >The big push</hi> » — « <hi rend="underline">Notre offensive</hi> », etc.), cela
+               <del/> même non plus ne saurait tarder.</p>
+
+            <p>Je fais chaque jour de <del>mon</del> nouvelles et intéressantes expériences. Pendant
+               quinze jours j’ai mangé des beans et du bacon tous les matins, sans en <del/> manquer
+               un seul (de matin). Depuis mon arrivée je cherche, dans tous les villages où nous
+               cantonnons, une maison qui ne soit pas un débit, une cantine <del/><add>ou</add>
+               estaminet ; <del/> un puits de ferme qui ne reçoive, en même temps que les eaux du
+               ciel, le jus de la crotte de poule et le pipi des enfants ; <del/> une cour qui ne
+               serve également aux gens et aux bébés pour y faire vaquer et, de temps à autre, s’y
+               soulager. Hier j’ai conduit <del>au bain</del> soixante hommes au bain à quatre
+               milles de distance. Nous, les officiers, nous pouvons, moyennant deux francs, nous
+               baigner à six dans un estaminet du voisinage, la moitié du corps à la fois dans un
+               fond de tonne qu’une main féminine a rempli d’eau tiède. L’eau sale, vidée dans la
+               cour, regagne le puits à toute <del>jambe</del> jambe, pour servir de nouveau
+               quelques heures après. Je n’ai jamais vu d’eau aussi durable ; il a beau en coller à
+               notre peau sous <pb/> forme de lèpre, il en reste toujours <del/> un peu pour ceux
+               qui suivent. Mais elle est aussi de plus en plus grasse. Pendant les deux jours qui
+               suivent le bain, on ne mange presque pas. Le spectacle d’une demi-douzaine de mâles
+               de vingt-cinq à quarante ans assis chacun dans sa cuve, les jambes par-dessus bord,
+               est assez réjouissant ; je regrette que l’interdiction de la photographie ne me
+               permette pas de le prendre sur le vif pour en faire la réclame d’un nouveau savon.
+               Cette scène vaudrait cher à un industriel entreprenant. Mais il faudrait aussi le
+               <del/> décor : au mur des portraits de famille, dans un coin le bar, derrière lequel
+               <del/> une douzaine de bouteilles de faux champagne ; sur un côté de la pièce, une
+               banquette pour les clients ; naturellement, pas de tapis <add>sur le carreau
+                  limoneux</add>. Je me suis rencontré là avec un officier canadien-anglais qui,
+               <del/> comme moi, saisissait <del/> l’humour de la situation. Nous avons failli
+               crever de rire dans la cuve, ce qui, assurément, n’eût pas nettoyer l’eau.
+               Heureusement, tout s’est borné à un <hi rend="underline">débeanage</hi> plus bruyant
+               que dangereux. Nous en avons encore pour 24 heures de cette existence avant de
+               rentrer dans les tranchées, où au moins <del>il n’y</del> les latrines sont,
+                  <del>bien aménagées</del> entre les bombardements, bien aménagées.</p>
+
+            <p>La vie <del>L’existence</del> des tranchées ne manque pas de charme. Dans les <hi
+                  rend="underline">dug-outs</hi>, vous <del>goûtez</del> jouissez d’une sécurité
+               doucement relative, en ce sens qu’un <del>77 mm</del> 5 pouces 9 vous rabattra
+               certainement le toit <del/> et les poutres sur la tête, mais qu’un 77 mm, <del/>
+               vulgairement appelé <hi rend="underline">whizbangg</hi>, ne fera pas plus qu’agrandir
+               de dix pour un le trou de la cheminée. Dans les tranchées vous <del>pouvez</del> vous
+               endurcissez l’oreille graduellement contre la surdité ; le bruit le plus intéressant
+               à observer est celui des obus de 6 à 8 pouces, <del/> que, les yeux fermés, on
+               confondrait avec le passage d’un train-express à cinquante pieds de distance, et qui
+                  <add>ne</add> reste <del>autant</del>
+               <add>pas moins</add> longtemps dans l’oreille. Il y a aussi les combats d’aéroplanes,
+               où nos amis d’Outre-Manche (en regardant d’ici) <del/> ont le dessous plus souvent
+               qu’à leur tour. Pour nous protéger contre le shrapnel des canons <pb/> anti-aériens,
+                  <del>nous avons nous</del> notre casque en acier — sorte de cuvette à larges bords
+               qui tiendrait admirablement sur la tête si nous marchions sur la tête, mais qui,
+               quand on regarde en l’air, prend à peu près cette position</p>
+
+            <figure>
+               <graphic
+                  url="https://fr.wikisource.org/wiki/Page%3AAsselin_-_1917-04-03_-_06M_CLG72B4D11_03-04-1917.djvu/3#/media/File:Casque_Asselin.png"
+               />
+            </figure>
+
+            <p>Après une heure de ce genre d’observation, le casque <hi rend="underline"
+                  >déborde</hi> de shrapnel. </p>
+
+            <p>Le soir on censure les lettres. En général, les lettres aux parents et aux amis du
+               Canada ne disent rien, à<hi rend="underline"> cause de la censure</hi>. Les lettres aux marraines sont hautes
+               en bravoure et de belle allure, avec tout juste <del>assez</del> la teinte de tristesse <add>qu’il
+               faut</add> pour faire venir la provision de tabac ou de chaussettes. Les lettres aux
+               petites amies des anciens secteurs sont tendres et volontiers libidineuses. <del>Presque
+               pour toutes</del> Dans presque toutes, le Canayen reste fidèle à son habitude de mêler un
+               peu de religion à ses exubérances. Il y en a un qui écrivait l’autre jour à sa femme,
+               « Cher bel ange », « cher beau bec », « beau bec de mon cœur », « bel ange de mon âme
+               », il avait repassé à peu près toute la litanie. Il continuait, s’échauffant : « Tu
+               dis que ton morceau est toujours à la même place. Garde-le bien, ton morceau, je le
+               <del/> ferai travailler, chère belle petite à moi tout seul. Oui, cher beau bec,
+               cher bel ange, amour de mon cœur, prions ensemble la divine Providence qu’elle nous
+               remette bientôt ensemble, cher beau cul adoré. » Mais ce n’est pas toujours aussi
+               amusant : ce garçon-là, c’est un artiste.</p>
+
+            <p>Nos officiers ont toute la semaine, ⁁sans trop s’en douter, mêlé les choses de la
+               même façon. À la de très rares exceptions près, ils ont sont allés voir leurs petites
+               maîtresses avant de faire leurs Pâques et <del>en prévision</del> sans <del/> doute en
+               prévision d’autres événements. Ils sont tous bien résolus à recommencer <del/> sitôt
+               le danger passé.</p>
+
+            <p>Je ne crois pas que vous connaissiez un seul de mes officiers, à l’exception
+               peut-être du major Dubuc et de Vanier. Celui-ci est maintenant tout entier au travail
+               de bureau. L’autre est de même trop occupé pour sortir. Il n’y a que le colonel qui,
+               <pb/> malgré ses accablantes occupations, trouve <del>toujours</del> moyen de faire chaque jour
+               le tour des tranchées. Celui-là est un homme comme il s’en fait peu. Il m’a promis
+               aujourd’hui que je serais de la première affaire où il commanderait en personne ; et
+               j’ai raison de croire qu’elle se produira bientôt. Nous aurons peut-être avec nous, à
+               cette occasion, un certain nombre d’officiers et bon nombre d’hommes du 163e. J’ai
+               hâte de voir comment ils marchent au feu. Ils éprouvent sans doute la même curiosité
+               à mon endroit.</p>
+
+            <p>Pendant que j’écrivais, j’ai renversé mon encrier (car je n’ai pas encore trouvé
+               <del/> ma plume à réservoir) <del/> et j’ai dû, pour <del>pouvoir</del> continuer ma lettre,
+               <del/> fabriquer de mes mains, avec des tablettes, ce pâle liquide digne de servir à
+               la rédaction de la <hi rend="underline">Revue canadienne</hi>. Comme ce n’est pas avec de l’<hi rend="underline">eau de vaisselle</hi>
+               qu’on peut <del/> marquer sa pensée à un homme d’esprit ; que du reste je dors
+               debout de la fatigue de la journée (il est 11 heures), je vous embrasse et <del/>
+               prends congé. Dites à mes créanciers que je ferai fortune après la guerre à vendre
+               des <hi rend="underline">lots</hi> aux Américains <del/> dans la charmante petite ville xxxxxxx d’os qui nous
+               sert de secteur depuis quelque temps, et où nous retournons demain. S’ils ne veulent
+               pas entendre raison, je les enfermerai, <del/> avec l’aide de mon sergent de peloton
+               <del/> (un ancien policeman), dans les latrines de la place Jacques-Cartier, et
+               <del/> je les y enterrerai vivants en bouchant les issues <del/> avec des bombes.
+               Nous leur adjoindrons, pour le fun, Eddie Lepage, Médéric, le chanoine Lepailleur,
+               Napoléon Giroux, Bourassa. <del>Ils</del> <add>Tous ensemble ils</add> s’amuseront <hi rend="underline">martyr</hi>, comme on dit au
+               22e au profond étonnement de ceux de Paris qui viennent étudier sur place ces <del/>
+               héroïques <hi rend="underline">verrats</hi> d’enfants de la Nouvelle-France. </p>
+
+            <p>Je vous la <hi rend="underline">resserre</hi>. Saluez pour moi Madame Biron et votre aimable petite
+               famille.</p>
+            <p>Cordialement.</p>
+
+            <closer>
+               <signed><persName corresp="#olasselin"><hi rend="underline"
+                  >Asselin</hi></persName></signed>
+            </closer>
+            <postscript>
+               <label>P.S.</label>
+               <p>– Veuillez saluer <add>aussi</add> pour moi DeSerres, si cela peut lui faire plaisir, ainsi
+                  que Victor Morin.</p>
+               <p><hi rend="underline">A.</hi></p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>
