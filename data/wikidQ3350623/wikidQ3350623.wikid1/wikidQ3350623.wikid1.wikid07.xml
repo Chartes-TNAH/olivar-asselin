@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../data/correspondance.rng" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Edition numérique de la correspondance d'Olivar Asselin</title>
+            <respStmt>
+               <resp>Encodage du texte</resp>
+               <name>Marie-Gaëlle Gourio</name>
+               <name>Amandine Heathcote</name>
+               <name>Fanny Mézard</name>
+               <name>Alexandre Gaudin</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>Ecole nationale des chartes</name>
+               <address>
+                  <street>65 rue de Richelieu</street>
+                  <postCode>75002</postCode>
+                  <settlement>Paris</settlement>
+               </address>
+            </publisher>
+            <date>2018</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Archives de la ville de Montréal</settlement>
+                  <repository>Montréal</repository>
+                  <idno>CA M001 P104-1-1-D1</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Olivar Asselin</persName>
+               <placeName>Au front</placeName>
+               <date when="1917-04-10"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName>DeSerres</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letter">
+            <opener rend="right">Au front, <date when="1917-04-10">10/4/17</date></opener>
+            <space dim="vertical" quantity="1" unit="lines"/>
+            <salute>Mon cher DeSerres,</salute>
+            <p> Vous avez probablement appris dès hier la prise des hauteurs de Vimy, près de
+               Neuville-Saint-Vaast. Les Français avaient perdu là cent mille hommes : jusqu’à
+               plusieurs kilomètres alentour, le sol était jonché de cadavres, bien qu’on en eût
+               enterré des milliers, sans les croix. Après un tir d’artillerie d’une dizaine de
+               jours, tel que tous les gens du 22e disent qu’on n’en vit pas à la Somme, et
+               probablement tel qu’il ne s’en vit jamais dans l’histoire, les Canadiens <del/> et
+               quelques bataillons anglais ont emporté la position en moins de six heures, et depuis
+               lors, paraît-il, l’avance continue. Je dis « paraît-il », car je n’ai pas eu le
+               bonheur de prendre part à l’action. Je suis parmi les officiers qu’on réserve pour
+               les coups qui vont suivre. Avec le colonel Tremblay, le major Chaballe et une dizaine
+               d’autres, <del/> je suis revenu à l’arrière à la dernière heure, après quatre jours
+               passées en support dans les ruines de Neuville-Saint-Vaast, en contrebas de la ligne
+               allemande, sous le feu des 5.9. Une heure auparavant, j’avais conduit une corvée de
+               20 hommes entre la ligne d’observation et la ligne de feu, par des tranchées
+               bombardées de ces intéressants légumes. J’ai constaté avec plaisir que j’étais
+               apparemment le plus froid de la bande. Au retour, <del/> un obus est tombé au milieu
+               des hommes pendant qu’ils déposaient dans un chantier une charge d’outils ; comme par
+               miracle, personne n’a été blessé. Mais cinq minutes plus tard, en rentrant au
+               dug-out, j’ai trouvé <del/> le toit en partie démoli et l’escalier rempli de <del/>
+               décombres et de sang ; la sentinelle et un autre homme <del/> venaient d’être
+               blessés. La veille, j’avais piloté une corvée de 50 hommes à travers un feu pareil.
+               Ce sont de ces <pb/> « expériences » qui raffermissent les nerfs. Tout de même,
+               j’aurai manqué une fameuse occasion de <hi rend="underline">ne pas me faire tuer</hi>
+               glorieusement, car il semble que le 22e s’en soit tiré avec des pertes relativement
+                  <del/><add rend="sup">minimes</add>. À part de suivre le barrage de notre
+               artillerie avec une régularité mathématique, — <del/><add rend="sup">de quoi
+                  nous</add> nous étions appliqués à leur faire comprendre la nécessité, — les
+               hommes ont oublié les savantes répétitions qu’on leur avait fait faire par brigades
+               en arrière, sur <del/> un bon terrain marqué au galon d’après les photographies
+               aériennes ;<del/> ils sont arrivés à leurs différents objectifs <del>pêle-mêle</del>
+               dans un pêle-mêle qui dure encore, et d’autant plus explicable que, des tranchées, du
+               fil de fer, des dug-outs, après <del/> notre bombardement, n’y en avait plus. (Il ne
+               restait que de pauvres <del/><add rend="sup">diables</add> effarés, Bavarois et
+               Prussiens, jetant les mains en l’air en criant <hi rend="underline">Camarade</hi>.)
+               Ce glorieux désordre vous explique que, sous les tentes où nous sommes depuis la nuit
+               d’hier (par un temps d’hiver, soit dit en passant,<del>)</del> à preuve qu’il a neigé
+               encore ce matin), ils les nouvelles nous arrivent lentement. <del/> En mettant
+               ensemble toutes les versions, il se trouve que <del/> nous avons eu une dizaine
+               d’officiers et quelque deux cents <del/> hommes légèrement blessés <del/>(la plupart
+               légèrement), sur seize officiers et un peu plus que six cents hommes. Presque pas de
+               morts. <del/>
+               <del/>Le 25e, le 24e, le 26e, le 10e, n’auraient pas été aussi heureux. Le programme
+               assignait au 22e le nettoyage ou <hi rend="underline">mopping</hi> sur le front de la
+               5e brigade, mais une fois partis, va-t-en voir ! <del/> tout le monde a suivi le
+               barrage et <del/> le nettoyage s’est fait tout seul. Il y a, du côté allemand, des
+               milliers de morts, <del/> la plupart, aux dires de nos gens, foudroyés dans les
+               dug-outs avant d’avoir pu sortir, ou écrabouillés avant l’attaque par le feu infernal
+               de notre et artillerie. </p>
+            <p> Il était temps que de marcher, car, après <del/> quatre jours d’attente sous le feu
+               allemand, les hommes s’énervaient, refusaient même de quitter les <hi
+                  rend="underline">dug-outs</hi>. Quand les Allemands ne tiraient pas (je parle
+               toujours de l’artillerie), le 22e sortait de toutes parts pour les voir sauter,
+               hommes, dug-outs, canons et le reste, <del/>
+               <del/> sur la crête d’en face ; car, je vous le répète, le spectacle en valait la
+               peine.<del/> Quand les Allemands et nous <add>tirions</add><del/> ensemble, nos
+               hommes restaient encore le nez au vent, car la curiosité était plus forte que la
+               peur. Mais quand les Allemands tiraient tous seuls, ce n’était plus la même histoire.
+               Heureusement, – c’est du moins ce qu’on m’a dit et ce que j’ai cru constaté <del/> en
+               faisant, moi aussi, le badaud et au cours des petites excursions susdites, – les gros
+               obus, quand ils ne nous tombent pas sur la tête, qu’ils n’éclatent pas ni trop près
+               ni trop loin de vous, et enfin, qu’ils n’éclatent pas du tout, ne sont pas les plus
+               dangereux. J’oubliais <del/> que nous avons fait des milliers de prisonniers. Vimy,
+               c’était, au nord-ouest, le point d’appui de la ligne Hindenburg. Il a sauté <hi
+                  rend="underline">en maudit</hi>, le point ! </p>
+            <p> Pendant que je vous écris, trois officiers de la réserve, Dupuis, Leprohon, Duhaime,
+               – puis un autre, Fauteux, – ont reçu l’ordre de <del/> partir pour la ligne de feu.
+               Mon tour ne saurait tarder. </p>
+            <p> Pour l’information de ceux <del>que</del>du 10e <add rend="sup">de réserve</add> qui
+               les connaissent, les officiers du 22e <hi rend="underline">rapportés</hi> blessés
+               sont le major Archambault (un homme de dix-neuf mois de tranchées), les lieutenants
+               Nantel, Lindsay, Des Troismaisons, Morin, de Saint-Victor, Bourque (celui-ci enterré
+               en montant aux tranchées avec nous, quelques jours auparavant) et un couple d’autres
+               dont je ne me rappelle plus les noms. </p>
+            <p> La merveille de cette opération, mon cher DeSerres, – c’est la <del/> concentration
+               de centaines et de centaines de <pb/> canons anglais au nez des Allemands, sur le
+               terrain le plus désavantageux possible. Dites-le bien aux camarades, en justice pour
+               l’armée anglaise et aussi pour les encourager. Mais ce qu’on vante dans l’artillerie,
+               c’est <add rend="sup">surtout</add>, avec l’habileté des officiers, <del/>
+               <del/> l’excellence du matériel. Dans l’infanterie, c’est l’héroïsme <add rend="sup"
+                  >des troupes</add>. Je comprends maintenant mieux que jamais <add>que, du côté des
+                  Alliés,</add> les grands héros de cette guerre de héros, ce furent les combattants
+               de la première heure – je veux dire de la première année, – et que parmi les plus
+               grands il n’y en eut pas de plus grands que ceux qui tinrent la ligne d’Ypres sous
+               les obus et la mitraille allemandes, dans la boue, sans tranchées ni abris. </p>
+            <p> Une effroyable tempête de neige, comme les pires de février au Canada, sévit depuis
+               dix minutes, avec un vent à soulever les tentes. Je me demande ce que font nos gars
+               dans les <hi rend="underline">abris</hi> (!) que leur ont légués les Allemands. </p>
+            <p> Je ne sais si les Allemands auront le culot de présenter <del/>l’affaire de Vimy
+               comme un chapitre de leur « retraite stratégique ». Il faudra interviewer là-dessus
+               les Boches dont nos parcs à prisonniers regorgent. </p>
+            <p> Je me demande si, au cours de ma brève relation – visiblement incomplète et qui vous
+               arrivera probablement comme de la moutarde après le dîner ; <add rend="sup">-</add>
+               je n’ai pas de quelque façon enfreint les ordres de la Censure. <del/> Si cela était,
+               mettons que je n’ai rien dit. </p>
+            <p> Il me vient à la dernière minute que j’ai oublié de vous parler des <hi
+                  rend="underline">tanks</hi>. Elles étaient là dans toute leur gloire, <del/><add
+                  rend="sup">six</add> par brigade. Une seule a fait panne ; toutes les autres
+               <del/> ont marché au but avec l’agilité – très grande, vous le savez – des rhinocéros
+               hippopotames, <del/><add rend="inf">chacune</add> laissant derrière elle, dans la
+               boue et les <del/>vestiges des barbelés, un beau <del>trottoir</del>
+               <pb/> trottoir. L’aviation <add rend="sup">a bien marché</add> malgré le nombre de
+               machines que nous avions perdues sur ce secteur les jours précédents. </p>
+            <p> Le nombre des choses que j’oublie est colossal ; par exemple, le colonel Léonard, du
+               10e, gravement blessé, et le major De Lancey, commandant <del/>du 25e par intérim,
+               tué. </p>
+            <p> Mes amitiés au colo, à qui vous direz que si je ne lui écris pas, c’est parce qu’il
+               n’a pas le temps de me lire, encore bien moins de me répondre. Mes amitiés cordiales
+               à lui et respectueuses à sa <hi rend="underline">dame</hi>, comme dit la <hi
+                  rend="underline">Presse</hi>. </p>
+            <p> À propos de la <hi rend="underline">Presse</hi>, apprenez une bonne histoire.
+               Dernièrement, un nommé Duchatelet, du 22e, – venu <add rend="sup">du 69e</add>,
+               naturellement, <del/>
+               <add rend="inf">-</add>
+               <del/> était tué <del/> en cherchant <del/> à s’évader d’un corps de garde où il
+               attendait son procès pour désertion. Voyez, dans la <del/> coupure <del>de
+                  journal</del> ci-incluse, <del>La Patrie</del>, quel héros on en a fait à La <hi
+                  rend="underline">Patrie</hi>. Et pendant que les vaisseaux manquent pour les
+               exportations du Canada en Angleterre, on nous envoie des cargaisons de <hi
+                  rend="underline">Presses</hi> et de <hi rend="underline">Patries</hi>. </p>
+            <p> Le canon tonne sans interruption depuis hier. On dit que <del/> toute notre
+               artillerie, à l’exception des plus grosses pièces, s’est portée en avant presque
+               aussi vite que l’infanterie, et que les contre-attaques ne sont pas à craindre.
+               <del/> Les cochons d’enfants de chienne, nous les aurons ! </p>
+            <closer>
+               <salute>Je vous resalue et retermine. Écrivez-moi.</salute>
+               <signed><hi rend="underline"><persName corresp="#oasselin">Asselin</persName>,
+                     major.</hi></signed>
+            </closer>
+            <postscript>
+               <label>P.S.</label>
+               <p>– Si vous jugez cette lettre de nature à intéresser ma femme, envoyez-la lui au
+                  1261 de la rue St. Hubert. Je crains de n’avoir pas le temps de lui écrire avant
+                  la rentrée, et, <del/> même s’il en est autrement, elle aimera <del/> sans doute à
+                  connaître les faits que je vous marque.</p>
+               <p>Il pleut et neige constamment depuis mon arrivée.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>
