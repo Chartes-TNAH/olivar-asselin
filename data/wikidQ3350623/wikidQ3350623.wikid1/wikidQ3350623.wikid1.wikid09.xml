@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../data/correspondance.rng" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edition numérique de la correspondance d'Olivar Asselin</title>
+                <respStmt>
+                    <resp>Encodage du texte</resp>
+                    <name>Marie-Gaëlle Gourio</name>
+                    <name>Amandine Heathcote</name>
+                    <name>Fanny Mézard</name>
+                    <name>Alexandre Gaudin</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Ecole nationale des chartes</name>
+                    <address>
+                        <street>65 rue de Richelieu</street>
+                        <postCode>75002</postCode>
+                        <settlement>Paris</settlement>
+                    </address>
+                </publisher>
+                <date>2018</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Archives de la ville de Montréal</settlement>
+                        <repository>Montréal</repository>
+                        <idno>CA M001 P104-1-1-D1</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Olivar Asselin</persName>
+                    <date when="1917-05-27"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Alice Asselin</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener rend="right"><hi rend="underline"><date when="1917-05-27"
+                        >27/5/17</date></hi></opener>
+                <space dim="vertical" quantity="1" unit="lines"/>
+                <salute>Ma chère Alice,</salute>
+                <p>Il y a bien une dizaine de jours que je t’ai écrit, et sept ou huit jours que ma
+                    dernière lettre est partie. Depuis quelques jours je n’ai guère eu le cœur à
+                    écrire. Pris de la fièvre <hi rend="underline">des tranchées</hi> après une des
+                    tournées les plus fatigantes que nous ayons encore eues – neuf jours, dont cinq,
+                    sans abri, une partie du temps sous la pluie, et sans pouvoir bouger depuis
+                    4h.30 du matin jusqu’à 9h.30 du soir – je suis depuis un peu souffrant. Je n’ai
+                    pas de posture dans mon lit, je veux dire sur ma couche ; j’ai <del/><add
+                        rend="sup">tous</add> les membres endoloris, surtout les jambes, que le seul
+                    poids des couvertures fatigue. Je suis toujours de mauvaise <pb/> humeur. Si je
+                    ne t’écris pas <del>déjà</del>d’ici à quelques jours, ne t’en inquiète pas, ma
+                    chère femme : <del>c’est</del><add rend="sup">ce sera</add> uniquement que je
+                    n’ai rien de nouveau à te dire, et que j’ai besoin de me reposer les nerfs. </p>
+                <p> Est-ce à Fournier ou aux Huguenin, que j’avais écrit la lettre dont il a paru
+                    des passages dans <hi rend="underline">la Patrie</hi> ? Celui-là m’a rendu un
+                    bien mauvais service. Ne voilà-t-il pas, en effet, que le P. Doyon, que je
+                    croyais pourtant intelligent, et qui n’avait qu’à me lire attentivement pour
+                    <del/> avoir une autre impression, écrit au colonel Tremblay que je l’ai
+                    vilipendé et qu’il va m’en demander raison !!! Est-il possible d’être plus bête
+                    ? Malheureusement, il y </p>
+                <p> a près du colonel un servile personnage qui emploie tout son talent – et il en a
+                    – à le confirmer dans des erreurs <add rend="inf">(qu’il partage)</add> comme
+                    celle du P. Doyon, au lieu de s’appliquer à rectifier les choses. Le colonel se
+                    fait d’une pénible bagatelle une montagne, et mon <del/><add>grand faquin</add>
+                    de surenchérir. Biron, qui est du <del>Club de</del> Reform Club, saura, <del/>
+                    à la description physique, de quoi je veux parler. Je doute cependant qu’il ait
+                    eu l’occasion de voir le personnage sous le jour où je l’ai connu ici. </p>
+                <p> C’est décidé : je partirai le 8 juin. J’avais à peu près résolu de rester
+                    jusqu’au 1er septembre, mais l’état de choses actuel au 22e – jusqu’à 10 pr. c.
+                    des hommes valides absents sans permission, c’est-à-dire déserteurs, <del/> –
+                    m’a fait changer <del/> de résolution. Tu ne peux pas t’imaginer quel
+                    découragement <pb/> s’empare de l’idéaliste, au front, devant l’indifférence
+                    absolue des uns, l’aveuglement des autres, les calculs et les intrigues de
+                    ceux-ci, la naïveté de ceux-là. <del>J’ai été</del> J’aurai été trois mois
+                    commandant de peloton : tout ce qu’il y a de nullités avant moi se liguerait
+                    pour m’empêcher d’aller plus loin. J’en ai assez, je m’en vais. Je t’assure
+                    qu’un homme <add>autre</add> qui en a jusque-là, c’est Plante. Mais lui, le
+                    pauvre garçon, il est lié. À l’heure actuelle, <add>dans ses grandes
+                        lignes</add>, le corps des officiers du 22e se compose pour un tiers de
+                    ratés et de bons à rien ; pour un tiers d’hommes qui firent, à leur heure, de
+                    grandes choses, mais qui sont usés, cassés, finis ; et pour un autre tiers de
+                    bons sujets comme Plante, Guay, Lamothe, Payette, Gatien, Lafontaine, De
+                    Varennes, que les autres empêcheront tant qu’ils peuvent d’avancer. </p>
+                <p> À propos de Lafontaine, sais-tu que ses parents lui avaient trouvé – à Londres,
+                    je crois, – une place d’état-major, et <pb/> qu’il l’a refusée pour venir ici.
+                    Il est arrivé la semaine dernière avec De N., Payette et Gatien. Nous attendons
+                    ces jours-ci Blais, Barry, St. Germain et <del/> Doucet. Saint-Germain fait
+                    maintenant un excellent officier, paraît-il. Ne boit plus. A maigri. </p>
+                <p> J’ai reçu de Mme de V. un <hi rend="underline">cornet</hi> de sucre d’érable et
+                    une paire de chaussettes. </p>
+                <p> Il se peut que je <del>passe par Paris et retourne</del> retourne à Londres par
+                    Paris, histoire de voir si nous pourrions vivre là après la guerre. </p>
+
+                <closer><salute>Je t’embrasse tendrement, ma chère femme, et demeure ton mari
+                        fidèle,</salute>
+                    <hi rend="underline"><persName corresp="#oasselin"
+                    >Olivar</persName></hi></closer>
+                <postscript>
+                    <label>P.S.</label>
+                    <p>– J’ai écrit depuis longtemps à tous ceux que tu me nommes. J’écrirai à
+                        Pivert. <persName corresp="#oasselin" rend="underline">A.</persName></p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>
