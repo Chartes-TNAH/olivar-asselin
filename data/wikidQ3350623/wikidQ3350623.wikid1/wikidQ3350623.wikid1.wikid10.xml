@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="./correspondance.rng" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edition numérique de la correspondance d'Olivar Asselin</title>
+                <respStmt>
+                    <resp>Encodage du texte</resp>
+                    <name>Marie-Gaëlle Gourio</name>
+                    <name>Amandine Heathcote</name>
+                    <name>Fanny Mézard</name>
+                    <name>Alexandre Gaudin</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Ecole nationale des chartes</name>
+                    <address>
+                        <street>65 rue de Richelieu</street>
+                        <postCode>75002</postCode>
+                        <settlement>Paris</settlement>
+                    </address>
+                </publisher>
+                <date>2018</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Archives de la ville de Montréal</settlement>
+                        <repository>Montréal</repository>
+                        <idno>CA M001 P104-1-1-D1</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Olivar Asselin</persName>
+                    <date when="1917-06-02"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Jean Asselin</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener rend="right">Hôpital Général No 14, Boulogne,<date when="1917-06-02">
+                        2/6/17</date>M. Jean Asselin, écolier, Montréal.</opener>
+                <space dim="vertical" quantity="1" unit="lines"/>
+                <salute>Mon cher Jean,</salute>
+                <p>Je suis encore, comme tu le vois, à l’hôpital No 14, à Boulogne. Je ne suis plus
+                    malade, mais les médecins, gens prudents, m’ont jusqu’ici gardé au lit. Je me
+                    lèverai demain pour la première fois ; on me permettra de sortir. Si je le puis,
+                    j’en profiterai pour aller sur la plage, qui est à deux pas : cela me fera du
+                    bien. Hier on a parlé de m’envoyer en Angleterre ; j’ai<pb/>fait observer que
+                    j’étais rétabli, et l’on <del>m’</del>a accordé un sursis. À la vérité,
+                    retourner en Angleterre maintenant<del>ou</del><add rend="sup">ou
+                        retourner</add>le 9 juin – qui est la <del>date</del>fin de mon stage au 22e
+                    – c’est un peu la même chose. Mais je veux repasser par le bataillon (je veux
+                    dire le 22e) pour ramasser mes bagages, qui traînent un peu partout, et pour
+                    retrouver ta carabine, que j’avais confiée au quartier-maître à l’adresse du
+                    commissaire canadien en France, M. Roy, et qui est encore là. L’objection, c’est
+                    qu’avec l’activité qui règne sur tout le front, <add rend="inf">depuis quelque
+                        temps</add>, les chemins<pb/>de fer sont toujours congestionnés, et qu’il
+                    faut en conséquence restreindre ma circulation le plus possible. Présentement,
+                    je me trouve à soixante quinze milles environ de ma casquette et de mes guêtres,
+                    et à quatre-vingt dix de ma dernière chemise ! Tu ne saurais croire combien la
+                    France est belle à cette saison de l’année. Notre pays<del/>à côté de cela est
+                    un désert encore enlaidi par des sauvages. Il y a de la verdure partout, même
+                    sur les troncs d’arbres que l’artillerie semblait avoir foudroyés et brûlés pour
+                    toujours. Dans le personnel ni parmi les malades de l’hô<pb/>pital où je suis,
+                    il n’y a pas une seule personne de langue française. Nous sommes<del/> entourés
+                    de tous les soins possibles, mais quelquefois je ne puis m’empêcher de me sentir
+                    parmi des étrangers. Un major anglais avec qui je partageais ma chambre est
+                    parti aujourd’hui pour l’Angleterre. Je reste seul. Je donnerais beaucoup pour
+                    vous <add rend="sup">avoir</add><del>avoir tout à coup</del>auprès de moi ou
+                    pour me trouver tout à coup <del>parmi</del><add rend="sup">au milieu de
+                        vous</add>. Ce soir en particulier, je m’ennuie de vous.</p>
+                <p>N’était le chagrin d’être loin de vous dans mon état – passager, il est vrai, –
+                    de dépression physique, je me réjouirais presque<pb/>de mon passage<del>à
+                        l’hôpital</del> par les hôpitaux. C’était la première fois depuis mon
+                    arrivée au front que je dormais dans des beaux draps blancs, sous des
+                    couvertures propres, et loin des<del>pous</del>poux. Quand même je n’aurais pas
+                    été malade, j’aurais été tenté de rester au lit. Pyjamas propres, chaussettes
+                    propres, mouchoir propre : te figures-tu tout ce que cela veut dire de
+                    bien-être, quand on couche depuis des mois dans ses sous-vêtements<del/>
+                    <add rend="sup">infestés</add>de<hi rend="underline">bibites</hi>, et qu’on est
+                    pendant des mois resté jusqu’à dix jours sans<del/>se déchausser ? C’était la
+                    première fois aussi que je mangeais de bon cœur. Le régime alimentaire de
+                        l’armée<add rend="sup">britannique</add>n’est pas mauvais en soi ; je veux
+                    dire que c’est<pb/>à peu près le seul qui soit possible dans les circonstances.
+                    Mais il<del/>a deux graves défauts qui sont, premièrement que les Anglais ne
+                    savent pas faire cuire le pain, et les Anglais du peuple moins encore que tous
+                    les autres, ce qui veut dire que, pour un civilisé, le pain de l’armée,
+                        <add>vrai mastic,</add> n’est pas mangeable ; et deuxièmement, que les
+                    viandes sont invariablement<del/>rôties, et rôties au saindoux, au suif, ou bien
+                    encore à la margarine – ce qui est simplement ignoble. Depuis quelque mois, à
+                    ces défauts il s’en ajoute un troisième, qui est l’absence presque complète de
+                    légumes, notamment de pommes de terre. Pendant près de trois mois nous avons eu
+                    des pommes de terre<pb/>une dizaine de fois, <del>mais</del><add rend="sup">
+                        et</add>d’une<del>qualité</del><add rend="sup">espèce</add> que, dans cette
+                    partie de la France, on donne généralement aux porcs ou au bétail, et qui,
+                    accommodées au saindoux, au suif, à la margarine, feraient lever le cœur à un
+                    Zoulou. En fait de lait, rien que du concentré. Tu me connais : tu sais que,
+                    sans être un grand mangeur, je puis apprécier un bon repas.<del/>Imagine-toi
+                    combien de fois j’ai regretté la cuisine de ta maman, durant ces trois mois sans
+                    pain, sans viande et sans pommes de terre car de tout cela, quand il y en avait,
+                    je ne mangeais que du bout des dents. Il y a beaucoup de soldats et même des
+                    officiers, au 22e, qui s’accommodent assez bien<pb/>de ce régime ; j’enviais
+                    toujours la mauvaise éducation, ou plutôt l’absolue sauvagerie, de leur estomac.
+                    Ici même le pain n’est pas de première qualité ; <del/>bon pour des Anglais tout
+                    au plus. Mais on mange du bon poisson frais, des desserts passables, des pommes
+                    de terre destinées <add>de tout temps</add> à des êtres humains. Et l’air qui
+                    entre par les fenêtres est si calme ! Il y a bien deux jours<del/>et demi que je
+                    n’ai entendu le grondement du canon.</p>
+                <p>Vous passerez vos vacances à Trois-Pistoles et <del>à St</del> au Chien-Blanc.
+                    Profites-en, mon cher Jean, pour observer la nature, <del>élargir</del>
+                    accroître tes connaissances, enrichir ton esprit. Ne cesses<pb/>pas d’être
+                    aimable pour ta maman. Sois<del/>aimable <add rend="sup">aussi</add> pour ton
+                    bon oncle Raoul, dont le grand cœur vous permet de si belles vacances. À la
+                    place de ta maman, j’arrêterais en passant chez l’oncle Oscar. Il a le cœur sur
+                    la main, et il vous <del/>ferait à tous une réception royale. Ses garçons, qui
+                    sont maintenant tous grands, sont bien impatients de vous connaître. Qui sait si
+                    plus tard vous ne serez pas heureux de jouir de leur amitié ? Ils sont bien
+                    élevés, <add rend="sup">surtout</add> en ce sens qu’ils ne sont pas égoïstes et
+                    qu’ils aiment déjà à rendre service.</p>
+                <closer>
+                    <salute>Embrasse ta maman et tes petits frères pour moi, mon cher Jean, et crois
+                        au souvenir affectueux que je garde de toi.</salute>
+                    <signed>Ton papa qui t’aime,<persName corresp="#oasselin"
+                        >Olivar</persName></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
