@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="./correspondance.rng" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edition numérique de la correspondance d'Olivar Asselin</title>
+                <respStmt>
+                    <resp>Encodage du texte</resp>
+                    <name>Marie-Gaëlle Gourio</name>
+                    <name>Amandine Heathcote</name>
+                    <name>Fanny Mézard</name>
+                    <name>Alexandre Gaudin</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Ecole nationale des chartes</name>
+                    <address>
+                        <street>65 rue de Richelieu</street>
+                        <postCode>75002</postCode>
+                        <settlement>Paris</settlement>
+                    </address>
+                </publisher>
+                <date>2018</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Archives de la ville de Montréal</settlement>
+                        <repository>Montréal</repository>
+                        <idno>CA M001 P104-1-1-D1</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Olivar Asselin</persName>
+                    <date when="1918-09"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Alice Asselin</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener style="left"><date when="1918-09-07">Samedi 7 septembre au <add rend="inf">matin</add></date></opener>
+                <p><add>Tu le vois,</add> Ma chère Alice, je suis de retour à
+                        Bramshott. Car je ne reviens pas de
+                        Buxton, mais de Matlock-Bath,
+                    qui est une autre ville d’eaux du même pays et où se trouve un hôpital de
+                    convalescence pour les officiers canadiens. Officiellement j’avais été malade ;
+                    officiellement je devais faire une convalescence. J’aurais bien pu faire durer
+                    <del>longtemps</del> la plaisanterie longtemps, car, contrairement à une opinion trop
+                    répandue, il n’est probablement pas une armée au monde où les blessés aient plus
+                    de temps pour se rétablir que dans l’armée canadienne ; il en est qui passe des
+                    mois à l’hôpital ou en congé avec une égratignure ; les médecins sont parfois
+                    d’une extrême complaisance <del/> (témoin, Plante, qui serait bien en peine
+                    aujourd’hui de montrer l’endroit de sa <add rend="sup">prétendue</add> blessure). Mais, parti de
+                   Buxton le 31 août, dès le lendemain matin je me faisais présenter au Conseil
+                    médical et celui-ci me jugeait, sur la foi de mes propres déclarations,<pb/> propre
+                    au service actif ; je n’eus plus ensuite qu’à attendre <del/> la décision de
+                    Londres, qui arriva le 4. Dans l’intervalle j’avais visité à pied une partie des
+                    environs et assisté <del/> deux jours de suite au grand Congrès travailliste de
+                   Derby, ville située à 16 milles de Matlock-Bath. Il y avait <add rend="sup">à ce moment</add>
+                    plusieurs Canadiens-Français à l’hôpital, entre autres Calder, Coulin,
+                    Saint-Victor (de Québec), le jeune Duckett (de Montréal). <del/> Blessé le 8 août
+                    d’une balle de qui, l’atteignant au sein droit, lui avait glissé sous les côtes,
+                    Calder était depuis plusieurs jours parfaitement rétabli ; il est venu avec
+                    notre nous sommes allés à Derby ensemble ; <add>très instruit, plein de verve, –
+                    <del/> d’une verve qui ne doit fatiguer qu’à la longue,</add> c’est un <add rend="sup">agréable</add>
+                    compagnon. charmant. En même temps que je revenais à Bramshott il partait pour
+                    un congé de trois semaines en Écosse, d’où son ancêtre paternel partit <add rend="sup">vint au
+                    Canada</add> en 1759. Dans <del>notre</del> <add>le même</add>
+                        compartiment de train que nous voyageait,
+                    avec sa femme, un vieux monsieur qui avait été attaché à l’ambassade anglaise à
+                    Pékin, et dont l’ambassadeur français d’alors, Pichon, aujourd’hui ministre des
+                    Affaires étrangères de France, avait dû, durant pendant l’insurrection des
+                    Boxeurs, manger le cheval. La vieille dame, <del/> Américaine du moins <pb/>née à
+                    Baltimore (de la <add rend="sup">célèbre</add> famille Carroll), avait beaucoup voyagé, <del/> parlait
+                    le français ; Calder, par sa facon de, réussit à la tenir éveillée tout le long
+                    du voyage, qui dura près de quatre heures. Ils s’appellent Hipeley et habitent
+                    les environs de Bramshott ; si je restais ici quelque temps encore, j’aurais
+                    probablement l’occasion de les revoir. Pour en revenir à Matlock, je suis sorti
+                    deux ou trois fois avec Coulin ; il arrivait d’un congé de deux mois passé chez
+                    lui à Neufchatel (en Suisse) ; c’est un garçon peu loquace, mais sympathique. Le
+                    cas de St-Victor est vraiment extraordinaire. Le 8 ou 9 d’août cet officier
+                    avait la figure traversée de part en part par une balle qui entra à travers au
+                    travers de la mâchoire inférieure. Je l’ai vu le 2 septembre ; on ne voyait plus
+                    <add rend="sup">on ne pouvait plus dire</add> par où la balle était sortie, et presque plus par où
+                    elle était entrée ; depuis plusieurs jours il mangeait sans ressentir la moindre
+                    incommodité ; on n’aurait pas deviné qu’il avait été blessé. N’est-ce pas
+                    merveilleux ? Chose curieuse, les officiers de Matlock m’ont <del>paru</del> en général
+                    paru<pb/> plus intéressants que ceux de Buxton. <del>À</del> Buxton est sur la route du Canada ;
+                    c’est de là qu’on part pour retourner au pays : de là qu’un certain nombre sont
+                    tentés de jouer la comédie, de tirer au flanc. Matlock est au contraire <del/>
+                    la dernière station de retour <del/>de retour vers le service actif ; en
+                    règle générale, les tire-au-flanc ne s’y rendent pas. Une autre différence est
+                    qu’à Buxton les services secondaires sont faits par des hommes et pas par des
+                    <hi rend="underline">civiles</hi>, <add>et</add> à Matlock ils le sont par les aides-infirmières volontaires du
+                    <hi rend="underline">Voluntary Aid department</hi>. Ce corps est anglais ; l’uniforme en est <del/><del/> et
+                    <del/> et <del/> <add rend="sup">couleur tabac havane,</add> non sans ressemblance
+                    avec celui des Sœurs Grises. Les V. A. D.s (prononcer <hi rend="underline">Vi - ai - dîze</hi>), par
+                    rapport aux infirmières, sont comme les soldats par rapport aux officiers. Ce
+                    sont elles qui font tout le travail manuel, même le plus fatigant et le plus
+                    répugnant. C’est-à-dire aussi qu’elles sont officiellement d’un autre monde,
+                    d’un monde inférieur, et que même lors <del/><pb/> du service, ces deux mondes ne se
+                    voient point. (Les infirmières seules ont droit au titre de <hi rend="underline">sister</hi>.) <del>Et ce</del> Or,
+                    pendant que les infirmières de la guerre étaient dans le civil de simples
+                    infirmières, <del>beaucoup</del> les V. A. D.s sont pour la plupart des dames du monde qui
+                    se sont enrôlées par patriotisme, malgré la modicité de la solde et la nature
+                    extrêmement pénible du service. Les infirmières et les officiers se fréquentent
+                    ; les V. A. D.s, quand elles veulent de la compagnie, n’ont que celle des
+                    soldats. C’est une singularité qui m’a vivement choqué. Mais du haut en bas la
+                    tenue du personnel féminin est bien meilleure qu’on ne serait porté à le croire,
+                    <del/><add>vu</add> la promiscuité <del>qui règne partout</del> générale : le sentiment du devoir, la
+                        réserve, sont <del>tels qu’on les</del> aussi prononcés <del/> qu’à l’Hôtel-Dieu ou à
+                    l’hôpital Notre-Dame, par exemple. Quant à moi, je n’ai connu de relâchement que
+                    dans la pétaudière de Saint-Cloud, et encore était-ce <pb/> par ouï-dire. Les
+                    infirmières aiment <del>à danser</del> la danse, le théâtre (J’ai <del/> moi-même, la
+                    veille de mon départ de Buxton, conduit à une pièce de Barrie, <hi rend="underline">dear Brutus</hi>, la
+                    matrone et la home sister, deux vieilles filles charmantes) ; elles entendent
+                    aussi à rire ; mais on ne les voit jamais rien faire de déplacé. C’est comme le
+                    Y. M. C. A. que le <hi rend="underline">devoir</hi>, après les <add rend="sup">quelques</add> voyous de la <hi rend="underline">Great War Veterans’
+                        Association</hi>, a <del/> discrètement essayé de salir, mais dont les services du front
+                    et de l’arrière sont au-dessus de tout éloge. </p>
+                <p>Il s’était passé beaucoup de choses <add>au 10e</add> en mon absence <del>du 10e</del>.
+                    Vers le 1er septembre le 22e perdait dans une attaque tous ses officiers, à
+                    l’exception, <add>paraît-il,</add> de quatre ou cinq qui étaient restés en réserve ; le
+                    chirurgien-major, un jeune capitaine et héroïque capitaine du nom de Marin, dont
+                    le nom devrait rester immortel, ramena lui-même de la ligne de feu <del/> ce qu’il
+                    restait de l’effectif du bataillon : une trentaine d’hommes. Le 3, DeSerres me
+                    télégraphiait qu’il était appelé au front avec <pb/>DesRosiers. <del/> <add rend="sup">Le 5 au soir,</add>
+                    j’arrivai au 10e juste comme DeSerres <del/> venait d’en partir. Je passai la
+                    soirée chez DesRosiers, qui me dit qu’il partait dans deux ou trois jours pour
+                    aller remplacer Dubuc, tué ou mortellement blessé, <add>Tremblay lui-même étant
+                    provisoirement au commandement de la brigade.</add> (Mais pour Madame D. il ne
+                    s’agissait que d’un voyage de quelques semaines, car elle est grosse, et il ne
+                    faut pas l’alarmer.) <del>Le colonel</del> <add>Il</add> partira ce soir ou demain matin. Nous ne
+                    connaissons pas encore tous les détails de la bataille, mais j’ai vu moi-même
+                    dans les mains de Saint-Victor, à Matlock, une lettre de Tremblay où celui-ci
+                    disait que les pertes en <del/> avaient été terribles et qu’il avait le cœur bien
+                    gros. On dit le major Dubuc <del>mort</del> <add>tué</add>, Vanier très gravement blessé. Le fils
+                    unique de Rodolphe Lemieux est parmi les morts. Le major Archambault a un bras
+                    fracassé au coude. Le major Roy, un de mes bons amis, a une balle au ventre
+                    (mais vivra, semble-t-il). Le bataillon <del/> <add>10e</add> passe à Filiatrault, major
+                    depuis la mobilisation formation du 22e ; <del>je pourrais</del> <add rend="inf">j’aurais</add><pb/> probablement pu
+                    <del/> <add rend="sup">l’avoir</add> avec la recommandation de DesRosiers, mais je veux surtout
+                    retourner au front, et d’ailleurs, DesR. et DeS. <del/> semblent <add>n’</add>avoir pensé
+                    qu’à eux. Je suis surpris du manque de franchise que je crois avoir remarqué en
+                    ces derniers temps chez ces deux <hi rend="underline">amis</hi>. Au reçu du télégramme de DeSerres, je
+                    télégraphiai de Matlock au colonel : « Veuillez me proposer pour le 24e avant
+                    votre départ pour le 22e. » <add>Car il faut te dire que le 24e est dans la même
+                    situation <del/> que le 22e)</add>. À mon retour je constatai qu’il n’avait rien fait
+                    Je lui ai dit hier : « Vous pouvez régler cette affaire avant votre départ ; il
+                    ne tient qu’à vous que je retourne au front avec mon grade, et dans des
+                    conditions avantageuses. Si vous partez sans avoir vu à cela, je resterai au
+                    10e, mais en subalterne. » Il répondit que l’affaire était en voie de règlement
+                    <del/> avec le quartier-général de Bramshott, et mais qu’en tout cas je
+                    pourrais toujours faire valoir mes droits au sous-commandement du 10e. Or, à ce
+                    moment, et – c’est le major Filiatrault lui-même qui l’avait déclaré à un
+                    <del/> autre prétendant, le capitaine Languedoc, – il avait désigné pour ce
+                    poste le capitaine Roy. En outre,<pb/> je serais parfaitement compétent pour le
+                    premier poste, <del/> où les connaissances générales suffisent ( à preuve,
+                    DesRosiers lui-même, qui n’a jamais passé par l’école depuis son capitainat ses
+                    quelques mois de service au front ), mais peut au second il faut travailler
+                    douze heures par jour, et posséder des connaissances techniques que DesRosiers,
+                    avec sa méfiance, et DeSerres, avec son habitude de vouloir tout faire lui-même,
+                    ne m’ont jamais donné l’occasion d’acquérir. D’ailleurs, il serait si simple de
+                    me recommander pour le sous-commandement <del/> <add>au</add> cas où le 24e n’aurait pas
+                    besoin de moi. Remarque bien qu’au 10e j’ai toujours fait mon service
+                    irréprochablement, enfin au front j’ai, <del/> au témoignage de tous, fait fort
+                    convenablement rempli mon devoir. À mon tour, cher Alice, je goûte de la
+                    trahison. Ce n’est pas bon. Heureusement que j’ai<pb/> appris à dire : « Que votre
+                    volonté soit faite. » J’aurais des heures de découragement. Marion, capitaine au
+                    10e, blessé deux fois au 14e, a renoncé au capitainat pour suivre DeSerres.
+                    C’est un typographe, sans <del/> moyens personnels ; il a une famille. </p>
+                
+                
+                <p> <hi rend="sup">2h.30 de l’après-midi</hi> Le colonel m’avait dit de le voir ce matin. Il n’est pas
+                    venu au bureau ; mais après <del/> déjeuner il est a passé <del/> au mess
+                    faire ses adieux aux officiers. Je lui Il m’a dit en me tendant la main : « J’ai
+                    téléphoné <del/> au quartier-général ; on m’a dit <add>assuré</add> que notre affaire
+                    s’arrangerait bientôt. » Il a ajouté : « Nous nous reverrons <add>donc</add> en France. »
+                    Il n’a pas fait allusion au fait qu’il devait me mander au bureau ce matin pour
+                    me tenir au courant de ses démarches. « Trahison » est peut-être trop dur ; mais
+                    je crois qu’« égoïsme » ne l’est pas. Si j’ai le bonheur de retourner en France,
+                    je ne prodiguerai les marques d’amitié ni à DesRosiers ni à De<pb/>Serres, et je ne
+                    m’en porterai pas plus mal. Après Le colonel <del/> parti, j’ai dit à Filiatrault
+                    que je comptais sur son concours, et qu’à défaut de <del/> <add>pouvoir passer</add> au
+                    24e je ferais valoir mes droits au sous-commandement du 10e. Il a paru <add>me</add>
+                    comprendre. </p>
+                <p> <del/> Mgr Gauthier, de Montréal, est arrivé hier avec son secrétaire, un
+                    sympathique jeune <del/> abbé du nom d’Archambault. Il est en mission officielle. Il
+                    me témoigne de l’attention, ce qui me fait plaisir et qui étonne joliment
+                    quelques-uns de mes <del/> camarades. La plupart de ceux-ci ne sont pas en état
+                    de remarquer une évolution spirituelle (et, dans mon cas, d’autant moins que mon
+                    régime de vie <add rend="sup">extérieur</add> n’a pas <del>extérieurement</del> changé) : mais dans le clergé,
+                    les nouvelles de ce genre vont vite. Un qui est bien intrigué, c’est notre
+                    aumônier, de ce que je me sois présenté à la communion le 16 août sans <del> avoir été
+                        à </del>m’être confessé<pb/> à aucun des prêtres qu’il connaît <add>à personne qu’il connaisse.</add>
+                    (J’étais allé à un abbé Perrault, ou Perreau, de Notre-Dame-de-France, à
+                    Londres.) Il voudrait bien savoir, et cependant il n’ose de me demander. Je le
+                    laisserai chercher.</p>
+                <p>J’ai eu <del/> par Raymond Garneau des nouvelles de Georges. <del/> <add>En France</add>
+                    maintenant, <del/> on a des mitrailleuses et des canons anti-aériens à
+                    l’arrière comme en première ligne, pour se défendre contre les avions. Une
+                    machine allemande étant venue survoler le train du 27e (où se <del/> tient le
+                    payeur), voici <add>que</add> mon Georges <del/> <add>entreprend de</add> la mitrailler, comme il
+                    eût fait s’il eût <del/> été lui <add>aussi</add> en l’air. Une bombe a éclaté près de
+                    lui qui lui a crevé un tympan et endommagé l’autre. Le sang lui sortait par les
+                    <del/> narines et par la bouche. Il va mieux ; Raymond l’attend demain
+                    dimanche. On croit qu’il restera sourd d’une oreille. Ce spectacle d’un «
+                    paie-maître » maniant la mitrailleuse<pb/> ne s’était pas vu depuis longtemps ; mais
+                    avec Georges il faut s’attendre à tout. Quel brave cœur, et quel <hi rend="underline">brave</hi> tout
+                    court ! Il était Parti pour la guerre avec une <hi rend="underline">job</hi> de tout repos, il aura failli
+                    deux ou trois fois y laisser la vie. Et chaque fois c’est lui qui a cherché il
+                    a, <del/>délibérément, cherché le danger. </p>
+                <p><del>Je t’ai dit,</del> Un autre brave entre mille, mais que tu ne connais pas,
+                    c’est un vieux capitaine Bown, du 24e, que j’ai rencontré à Matlock-Bath. Il a
+                    50 ans, et les cheveux tout blancs. Il a <del/> deux ans et demi de front, et,
+                    là-dessus, dix mois de tranchées. Il<del/> a la Croix. Avant la guerre il était
+                    employé chez Henderson le fourreur. <del/> À l’hôpital il était entouré d’officiers
+                    plus jeunes que lui et s’ennuyait à mourir. Je le pris en amitié, sortis avec
+                    lui, causai en toute <pb/>occasion avec lui. Quand je partis, il était ému, et je ne
+                    l’étais pas moins. Il sera à <add>bientôt à</add> Bramshott, <del/>, car et il y
+                    restera probablement, car on l’a, à sa grande joie, jugé désormais impropre au
+                    service actif. Il fera ici partie du 23e de réserve. </p>
+                <p>Avez-vous eu l’occasion de rencontrer, ou tout au moins de lire <add>depuis leur
+                    retour,</add> les journalistes de la <hi rend="underline">Presse</hi>, du <hi rend="underline">Canada</hi> et de la <hi rend="underline">Patrie</hi> ? Depuis leur
+                    retour au Canada En voilà trois qui pourront se vanter d’en avoir vu, des
+                    choses, au front et à l’arrière ! Ils ont passé les uns dix et <del/> les autres
+                    vingt minutes au 10e. Quant au front, l’un d’eux, Robillard, a refusé de s’y
+                    aventurer de nouveau après avoir, vu à Verdun, vu éclater un obus et s’<del/> avoir
+                    déchiré son pantalon dans un réseau de fil barbelé où il s’était précipité tête
+                    baissée. Ils ont <del>passé</del> <add>été</add> presque tout le temps entre les pattes du
+                    Beaverbrook, qui les a gavés.<pb/> Rinfret <del/> <add>et Mayrand m’ont </add>admis qu’ils ne
+                    se faisaient <add>s’illusionnaient</add> pas d’illusions sur la valeur des constatations
+                    qu’on leur faisait faire. Robillard, qui a très vive la reconnaissance de
+                    l’estomac, ne tarit pas d’éloges, paraît-il, sur le compte de notre ancien Max
+                    Aitken.</p>
+                <p>En parlant de ce dernier, j’ai eu dernièrement plusieurs occasions de constater
+                    ce qu’on pense de lui dans la presse qui n’est pas la chose de <add>Lord</add> Northcliffe
+                    ; on ne se gêne nullement pour dire que ce qu’il est en train de <hi rend="underline">pourrir</hi> <add>tout à
+                    fait</add> la politique anglaise. et Il est heureux que la guerre au moins tourne
+                    bien, car l’alliance des Lords et de <add>du démocrate</add> Lloydd-George, <add>conclue</add> avec
+                    le concours de Beaverbrook, aura ravalé la politique anglaise à un niveau dont
+                    on n’a pas <add>d’</add>idée chez nous : Northcliffe et Beaverbrook sont deux bandits, et
+                    ce sont eux qui mènent. Il y aura de sérieux règlements de comptes après la
+                    guerre. Le <hi rend="underline">Chronicle</hi> a révélé dernièrement que dans une affaire d’enduit de
+                    cellulose (pour <pb/>enduire les ailes d’aéroplanes), Sam Hughes avait fait, sans
+                    débourser un sou, trois quarts de million de dollars. Beaverbrook est
+                    apparemment au fond du sac, mais son nom n’est pas encore sorti. Le fils de
+                    Hughes, Garnet de son prénom, <del/>major-général s’il vous plaît, ci-devant
+                    commandant des troupes canadiennes à Witley, vient d’entrer au service de cette
+                    société fabrique de cellulose au traitement <hi rend="underline">connu</hi> de $10,000 ou $12,000 par
+                    année (je ne me rappelle plus exactement).</p>
+                <p>Je continue mes envois de cartes. À Lemieux j’écrirai un mot de sympathie. Je
+                    dois aussi, et depuis longtemps, une lettre à Ferdinand Paradis et tout au moins
+                    un mot à Perrault. Je m’acquitterai avant de partir mon départ.</p>
+                <p>Je n’ai pas besoin de te recommander la discrétion sur tout ce que je te marque
+                    touchant DesR. et DeSerres ; souffrons en silence, ma chère femme, car moi seul
+                    je sais que je ne mérite pas cet affront. Tu voudras bien<pb/> aussi garder pour toi
+                    les renseignements d’ordre militaire que je suis obligé de te donner pour
+                    l’intelligence du reste.</p>
+                <p>J’écris <del/> à Pierre une lettre qui le fera rire – du moins je l’espère.
+                    Embrasse-le bien fort pour moi, ainsi que Paul et Jean. Je suppose que tu
+                    l’habitueras cet hiver à coucher dans son lit, et seul. Il grandit. Il aura
+                    d’ailleurs, pour le garder du froid, mes <add>chaudes</add> couvertures de laine.</p>
+                <p>En attendant que je puisse encore m’entretenir longtemps avec toi, je t’envoie
+                    toutes les affections de ton mari qui t’aime,</p>
+                <closer>
+                    <signed><hi rend="underline">Olivar</hi></signed>
+                </closer>
+                <postscript>
+                    <p><label>P.S.</label> Téléphone à Jos. Ainey, aux <del/>bureaux du gouvt
+                        provl, pour savoir s’il a reçu un petit souvenir que je lui ai envoyé de du
+                        Congrès de Derby. Le <del/> Je n’ai pu retrouver le nommé Proulx, à qui je
+                        voulais confier ta soie. J’enverrai le paquet par Normandin à son prochain
+                        voyage ; si je partais avant son retour, je chargerai un de nos aumôniers
+                        d’arranger l’affaire.</p>
+                    <p>J’aurai cette fois tout ce qu’il faut. Autrefois, le dépouillement des <del/>
+                        morts – de nos morts – par notre propre armée était une pratique tolérée,
+                        hélas ! par les chefs ; le capitaine Mignault, aujourd’hui payeur au 10e,
+                        m’a raconté que le cadavre de DeVarennes <del/> avait été trouvé nu jusqu’à
+                        la ceinture : on avait volé les <add>jusqu’aux</add> bottes et la <add>à la</add> culotte, que
+                        sans doute d’autres officiers achetèrent sans s’occuper de leur provenance.
+                        J’ai vu moi-même, de mes yeux vu, le commerce qui se fit entre des <add>entre</add>
+                        soldats et officiers, après Vimy, d’effets pris tels qu’imperméables,
+                        lunettes, etc., pris sur des cadavres d’officiers anglais <add>ou canadiens</add>. Il
+                        paraît que l’autorité est plus sévère maintenant ; mais pour <del/> m’assurer
+                        que les quelques objets de valeur que j’emporte avec moi ne serviront pas à
+                        payer une saoulade à quelque boche canadien, je les ai j’ai fait graver sur
+                        chacun : <hi rend="underline">Major Olivar Asselin, Montréal, Canada</hi>. Il y a <del/> des
+                        jumelles qui valent $75 à $100, un revolver qui vaut $20, une boussole qui
+                        vaut de $10 à $12, des bottes que j’ai payées $35. Si par <del/>
+                        extraordinaire <del/>. En cas de mort, ces objets le revolver ira à Jean,
+                        parce que, étant l’aîné, c’est à lui qu’incombe la défense de la famille ;
+                        les jumelles à Paul, parce qu’il me paraît aimer l’observation ; la boussole
+                        à Pierre, parce que tu dis qu’il tient de moi. Es-tu contente ?
+                        Embrasse-moi, là, et sans rancune, <del/>. Si <hi rend="underline">par extraordinaire</hi> ces
+                        objets ne t’étaient pas retournés, tu les retrouveras après probablement
+                        après la guerre au moyen d’une petite annonce dans un journal anglais et un
+                        journal français de Montréal, avec offre de récompense. J’ai en horreur les
+                        détrousseurs de cadavres. Je crois avoir en ce moment sous la main un
+                        sous-officier qui a volé sa montre à ce pauvre Bastien, sur son cadavre.
+                        S’il n’en tient qu’à moi, il le paiera cher !</p>
+                    <signed><persName corresp="#olasselin">Ton mari,<lb/>
+                            <hi rend="underline">Ol</hi>.</persName></signed>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>
