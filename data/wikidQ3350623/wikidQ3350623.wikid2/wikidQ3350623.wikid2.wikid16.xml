@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="./correspondance.rng" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edition numérique de la correspondance d'Olivar Asselin</title>
+                <respStmt>
+                    <resp>Encodage du texte</resp>
+                    <name>Marie-Gaëlle Gourio</name>
+                    <name>Amandine Heathcote</name>
+                    <name>Fanny Mézard</name>
+                    <name>Alexandre Gaudin</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Ecole nationale des chartes</name>
+                    <address>
+                        <street>65 rue de Richelieu</street>
+                        <postCode>75002</postCode>
+                        <settlement>Paris</settlement>
+                    </address>
+                </publisher>
+                <date>2018</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Archives de la ville de Montréal</settlement>
+                        <repository>Montréal</repository>
+                        <idno>CA M001 P104-1-1-D1</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Olivar Asselin</persName>
+                    <date when="1918-11-19"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Alice Asselin</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener>,</opener>
+                
+                <p></p>
+                
+                <closer> <signed><hi rend="underline">Olivar
+                    Asselin</hi></signed>.</closer>
+            </div>
+        </body>
+    </text>
+</TEI>
