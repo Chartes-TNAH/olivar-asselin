@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="./correspondance.rng" type="application/xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Edition numérique de la correspondance d'Olivar Asselin</title>
+                <respStmt>
+                    <resp>Encodage du texte</resp>
+                    <name>Marie-Gaëlle Gourio</name>
+                    <name>Amandine Heathcote</name>
+                    <name>Fanny Mézard</name>
+                    <name>Alexandre Gaudin</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name>Ecole nationale des chartes</name>
+                    <address>
+                        <street>65 rue de Richelieu</street>
+                        <postCode>75002</postCode>
+                        <settlement>Paris</settlement>
+                    </address>
+                </publisher>
+                <date>2018</date>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Archives de la ville de Montréal</settlement>
+                        <repository>Montréal</repository>
+                        <idno>CA M001 P104-1-1-D1</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Olivar Asselin</persName>
+                    <date when="1918-11-5"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Alice Asselin</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener>En France, 5 novembre 1918,</opener>
+
+                <p>Mon courrier commence à m’arriver au 87e ; j’aurai donc de vos nouvelles
+                    prochainement. J’espère que de votre côté vous recevez régulièrement les lettres
+                    que je vous adresse tous les deux ou trois jours : la Censure n’aurait, en
+                    somme, aucune raison de les retenir. Depuis mon arrivée nous ne sommes jamais
+                    resté plus de deux jours en place. Nous suivons à petite distance les
+                        <del>grands</del> troupes engagées. La ville où nous logeons présentement
+                    n’a été, par bonheur, que peu endommagée par le <del>feu</del> bombardement ; le
+                    plus grand mal est le pillage systématique <del>dont elle a été</del> auquel les
+                    Boches s’y sont livrés. Comme la chose s’était vue ailleurs, les civils se sont
+                    tenus dans leurs caves durant l’attaque, pour en ressortir à l’entrée des
+                    Anglais ; ils n’ont pas quitté la ville. Mais tandis qu’ailleurs toutes les
+                    maisons avaient été, <del>éventrées ou démolies</del> quelques du durant les
+                    quelques heures, éventrées ou démolies, ici il y en a encore neuf sur dix qui
+                    pourront se réparer. Le Boche résiste, mais il recule ; la confiance des civils
+                    est si grande que, sitôt l’ennemi rendu à trois ou quatre kilomètres, et même
+                    lorsqu’il serait encore en état de les foudroyer ou de les emprisonner, ils
+                    rentrent dans leurs maisons. C’est l’armée qui nourrit cette population, qui
+                    autrement n’aurait à manger que les légumes laissés <del/> en terre par les
+                    Allemands. Le colonel, trois autres officiers et moi, nous logeons en <del/> ce
+                    moment dans la maison d’un négociant en grains et fourrages ; les Allemands ont
+                    emporté toute la literie, tous les rideaux, jusqu’à la couverture des matelas.
+                    Un ami des maîtres de la maison, <pb/>qui logeait avec eux, est arrivé hier. Il
+                    dit que <del/> n’avoir pas mangé de viande, ni beurre, ni lait, depuis trois ans
+                    : les Boches prenaient tout pour eux. Nous donnons aux civils un peu de notre
+                    viande, et ils nous donnent des légumes. Nous pourrions ainsi manger
+                    convenablement ; mais le cuisinier anglais est si bête, qu’il préfère continuer
+                    de à nous servir de la viande, des pommes de terre et des confitures pour tout
+                    régal : ce régime m’abîme l’intestin.</p>
+                <p>Hier j’ai visité en compagnie de Meighen une partie de la ville. Dans les jardins
+                    d’une vieille église du 13e siècle, <del>les Boches</del> et derrière un
+                    monument à Watteau qui est une des belles œuvres de Carpeaux, les Boches avaient
+                    installé des latrines pour les soldats. <del/> Notre musique a joué sur la place
+                    de l’Hôtel de Ville ; les civils dansaient de joie.</p>
+                <p>À part l’affection très prosaïque due au régime alimentaire, la santé va très
+                    bien. Mon ordonnance est très dévoué ; mes affaires sont toujours sèches.</p>
+                <p>
+                    <del>Le bataillon</del> Notre division sera probablement relevée d’ici à deux
+                    jours. Nous resterons alors en arrière pour deux ou trois semaines. Ensuite nous
+                    retournerons au feu, et cette fois j’aurai le commandement de la compagnie.</p>
+                <p> Tu pourras conserver les affiches <del>allemandes pour</del> que je t’envoie ;
+                    nous les lirons ensemble après la guerre. Je t’enverrai une gourde allemande
+                    pour Jean ; des boutons en nombre suffisant pour en garnir un habillement à
+                    Pierre ; une tasse en aluminium pour Paul. Embrasse-les pour moi. <signed>Ton
+                        mari qui t’aime. — Olivar</signed>
+                </p>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>
