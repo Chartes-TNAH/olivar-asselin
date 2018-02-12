@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0"
-    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-    xmlns:tei="http://www.tei-c.org/ns/1.0"
-    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
+    xmlns:ns="http://www.tei-c.org/ns/1.0">
+
     <start>
         <ref name="TEI"/>
     </start>
@@ -11,6 +11,8 @@
         <element name="TEI">
             <oneOrMore>
                 <ref name="teiHeader"/>
+            </oneOrMore>
+            <oneOrMore>
                 <ref name="text"/>
             </oneOrMore>
         </element>
@@ -20,6 +22,8 @@
         <element name="teiHeader">
             <oneOrMore>
                 <ref name="fileDesc"/>
+                <ref name="profileDesc"/>
+                <ref name="encodingDesc"/>
             </oneOrMore>
         </element>
     </define>
@@ -33,7 +37,6 @@
                 </attribute>
             </optional>
             <oneOrMore>
-
                 <ref name="body"/>
             </oneOrMore>
         </element>
@@ -45,7 +48,6 @@
                 <ref name="titleStmt"/>
                 <ref name="publicationStmt"/>
                 <ref name="sourceDesc"/>
-                <ref name="profileDesc"/>
             </oneOrMore>
         </element>
     </define>
@@ -222,37 +224,6 @@
         </element>
     </define>
 
-
-
-    <define name="docTitle">
-        <element name="docTitle">
-            <oneOrMore>
-                <ref name="titlePart"/>
-            </oneOrMore>
-        </element>
-    </define>
-
-    <define name="docDate">
-        <element name="docDate">
-            <optional>
-                <attribute name="when">
-                    <data type="date"/>
-                </attribute>
-            </optional>
-            <oneOrMore>
-                <text/>
-            </oneOrMore>
-        </element>
-    </define>
-
-    <define name="titlePart">
-        <element name="titlePart">
-            <oneOrMore>
-                <text/>
-            </oneOrMore>
-        </element>
-    </define>
-
     <define name="correspAction">
         <element name="correspAction">
             <optional>
@@ -324,7 +295,13 @@
                 <optional>
                     <ref name="space"/>
                 </optional>
+                <optional>
+                    <ref name="salute"/>
+                </optional>
                 <!-- pas forcément utile -->
+                <optional>
+                    <ref name="postscript"/>
+                </optional>
             </oneOrMore>
         </element>
     </define>
@@ -338,6 +315,12 @@
                 </optional>
             </oneOrMore>
             <zeroOrMore>
+                <optional>
+                    <ref name="unclear"/>
+                </optional>
+                <optional>
+                    <ref name="damage"/>
+                </optional>
                 <optional>
                     <ref name="add"/>
                 </optional>
@@ -376,6 +359,54 @@
 
         </element>
     </define>
+    
+    <define name="postscript">
+        <element name="postscript">
+            <zeroOrMore>
+                <ref name="label"/>
+            </zeroOrMore>
+            <zeroOrMore>
+                <ref name="p"/>
+            </zeroOrMore>
+        </element>
+    </define>
+
+    <define name="label">
+        <element name="label">
+            <zeroOrMore>
+                <text/>
+            </zeroOrMore>
+        </element>
+    </define>
+
+    <define name="damage">
+        <element name="damage">
+            <zeroOrMore>
+                <attribute name="type">
+                    <text/>
+                </attribute>
+            </zeroOrMore>
+            <zeroOrMore>
+                <text/>
+            </zeroOrMore>
+        </element>
+    </define>
+
+    <define name="unclear">
+        <element name="unclear">
+            <zeroOrMore>
+                <attribute name="reason">
+                    <text/>
+                </attribute>
+            </zeroOrMore>
+            <zeroOrMore>
+                <text/>
+            </zeroOrMore>
+            <zeroOrMore>
+                <empty/>
+            </zeroOrMore>
+        </element>
+    </define>
 
     <define name="opener">
         <element name="opener">
@@ -385,9 +416,6 @@
             <zeroOrMore>
                 <optional>
                     <ref name="date"/>
-                </optional>
-                <optional>
-                    <ref name="salute"/>
                 </optional>
                 <optional>
                     <text/>
@@ -409,6 +437,9 @@
                 </optional>
                 <optional>
                     <ref name="signed"/>
+                </optional>
+                <optional>
+                    <ref name="placeName"/>
                 </optional>
             </zeroOrMore>
             <optional>
@@ -442,6 +473,9 @@
             </optional>
             <zeroOrMore>
                 <text/>
+            </zeroOrMore>
+            <zeroOrMore>
+                <empty/>
             </zeroOrMore>
         </element>
     </define>
@@ -477,6 +511,9 @@
                 </attribute>
             </optional>
             <text/>
+            <zeroOrMore>
+                <empty/>
+            </zeroOrMore>
         </element>
     </define>
 
@@ -499,6 +536,9 @@
             <zeroOrMore>
                 <text/>
             </zeroOrMore>
+            <zeroOrMore>
+                <empty/>
+            </zeroOrMore>
         </element>
     </define>
 
@@ -513,14 +553,37 @@
         <!-- pour mettre les images -->
 
         <element name="figure">
+            <oneOrMore>
+                <ref name="desc"/>
+            </oneOrMore>
+            <oneOrMore>
+                <ref name="graphic"/>
+            </oneOrMore>
+            <zeroOrMore>
+                <ref name="figDesc"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="graphic">
+        <element name="graphic">
             <optional>
                 <attribute name="url">
                     <data type="anyURI"/>
                 </attribute>
             </optional>
-            <oneOrMore>
-                <ref name="desc"/>
-            </oneOrMore>
+            <zeroOrMore>
+                <empty/>
+            </zeroOrMore>
+        </element>
+    </define>
+    
+    <define name="figDesc">
+        <element name="figDesc">
+            <text/>
+            <zeroOrMore>
+                <ref name="hi"/>
+            </zeroOrMore>
         </element>
     </define>
 
@@ -633,6 +696,43 @@
     <define name="placeName">
         <element name="placeName">
             <text/>
+        </element>
+    </define>
+    
+    <define name="encodingDesc">
+        <element name="encodingDesc">
+            <text/>
+            <oneOrMore>
+                <ref name="refsDecl"/>
+            </oneOrMore>
+        </element>
+    </define>
+    
+    <define name="refsDecl">
+        <element name="refsDecl">
+            <zeroOrMore>
+                <ref name="cRefPattern"/>
+            </zeroOrMore>
+            <zeroOrMore>
+                <ref name="p"/>
+            </zeroOrMore>
+        </element>
+    </define>
+    
+    <define name="cRefPattern">
+        <element name="cRefPattern">
+            <zeroOrMore>
+                <text/>
+            </zeroOrMore>
+            <optional>
+                <attribute name="n"><text/></attribute>
+            </optional>
+            <optional>
+                <attribute name="matchPattern"><text/></attribute>
+            </optional>
+            <optional>
+                <attribute name="remplacementPattern"><text/></attribute>
+            </optional>
         </element>
     </define>
 </grammar>
