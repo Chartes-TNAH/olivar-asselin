@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../data/correspondance.rng" type="application/xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../../correspondance.rng" type="application/xml"? schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns:ns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -53,51 +53,42 @@
     <text>
         <body>
             <div type="letter">
-                <opener rend="center"><hi rend="underline">Histoire du <add>bon</add> chien
-                        Marion</hi>écrite<del>s</del> en lettres cubiques par le major Olivar
+                <opener rend="center"><hi rend="underline">Histoire du <add rend="sup">bon</add>
+                        chien Marion</hi>écrite<del>s</del> en lettres cubiques par le major Olivar
                     Asselin, officier en disponibilité, pour son fils Pierre, âgé de 8 ans le 14
                     janvier 1918, élève-canonnier dans la belle marine française.</opener>
                 <space dim="vertical" quantity="1" unit="lines"/>
-
                 <salute>Mon cher Pierre,</salute>
                 <p>Il y a au 10e de réserve un chien si beau, si bon, si fin, que je me dis toujours
                     en le regardant : « si Pierre avait un chien comme ça ! » </p>
-
                 <p>Mais il faudrait que tu recommences son éducation, car c’est un chien de
                     militaires : il <del>ne</del> n’aime pas du tout les civils. Peut-être aussi
                     qu’en mettant ta casquette Allemande et en empruntant le fusil <del>ap</del> à
                     Paul tu pourrais te faire aimer de lui. Ce n’est qu’un chien, après tout ; et
                     comme il n’a jamais vu de soldats <del>ale</del> Allemands, il y aurait
                     peut-être moyen de le tromper sur l’uniforme. </p>
-
                 <p>Il s’appelle <hi rend="underline">Marion</hi>. Je ne sais pas de quelle race il
-                    est, car j tu sais que nous n’avons jamais eu de chiens, et je ne les ai
-                        <del>jamais</del>
-                    <add>pas</add> étudiés. Je crois seulement que c’est un <hi rend="underline"
-                        >Barbet</hi>, car il a de la barbe jusque dans les yeux. Peut-être aussi que
-                    c’est un Ratier. Pourquoi suis-je sous l’impression que<del> c’es</del> ce
-                    pourrait être un <hi rend="underline">Ratier</hi> ? Je n’en sais rien : je ne
-                    lui ai jamais vu prendre de rats. Mais il me semble qu’avec son<del> u n</del>
-                    un museau comme le sien il pourrait en attraper. Quand je vois le gros nez épaté
-                    de mon Pierrot, je n’ai pas besoin de l’entendre (Pierrot, pas le nez) pour
-                    savoir que c’est un <pb/> farceur, et un gaulois. Eh bien, pour Marion, c’est la
-                    même chose ; s’il ne prend pas de rats, il devrait en prendre. </p>
-
+                    est, car <del>j</del> tu sais que nous n’avons jamais eu de chiens, et je ne les
+                    ai <del>jamais</del><add rend="sup">pas</add> étudiés. Je crois seulement que
+                    c’est un <hi rend="underline"> Barbet</hi>, car il a de la barbe jusque dans les
+                    yeux. Peut-être aussi que c’est un <hi rend="underline">Ratier</hi>. Pourquoi
+                    suis-je sous l’impression que<del> c’es</del> ce pourrait être un Ratier ? Je
+                    n’en sais rien : je ne lui ai jamais vu prendre de rats. Mais il me semble
+                    qu’avec <del> son un</del> un museau comme le sien il pourrait en attraper.
+                    Quand je vois le gros nez épaté de mon Pierrot, je n’ai pas besoin de l’entendre
+                    (Pierrot, pas le nez) pour savoir que c’est un <pb/> farceur, et un gaulois. Eh
+                    bien, pour Marion, c’est la même chose ; s’il ne prend pas de rats, il devrait
+                    en prendre. </p>
                 <p>Il a le poil ni long ni court, mais frisé, et couleur noisette, comme tu verras
                     par l’échantillon que <del>j’ai cole</del> je colle en marge. On l’a tondu des
                     épaules au bout de la queue, j’essaie de dessiner ici son portrait : </p>
-
                 <figure>
-                    <graphic
-                        url="https://fr.wikisource.org/wiki/Correspondance_-_Lettre_du_10_janvier_1918_(Asselin)#/media/File:Chien_ras%C3%A9.png"
-                    />
+                    <graphic url="https://fr.wikisource.org/wiki/Correspondance_-_Lettre_du_10_janvier_1918_(Asselin)#/media/File:Chien_ras%C3%A9.png"/>
                 </figure>
-
                 <p>Je ne puis pas dessiner son œil, qui est trop doux. Je m’aperçois aussi que je
                     lui ai mis une crinière, que je lui ai fait un corps trop long, qu’il a une
                     queue et des pattes de lion. Mais à part cela il est très bien, comme dans la
                     chanson à <del/> ton oncle Marchand.</p>
-
                 <p>Il est au <del/> 10e depuis une dizaine de mois. Un officier l’apporta dans sa
                     poche, alors qu’il avait un mois environ. Il a grandi dans le bataillon. Le
                     jour, il fait l’exercice et la manœuvre, sans y jamais manquer. Quand les
@@ -106,72 +97,68 @@
                     compagnies, chacune avec son capitaine en tête, comme tu as vu aux Bermudes. Le
                     bon chien Marion trotte et gambade toujours devant le sergent-major, comme ceci
                     : </p>
-
                 <figure>
-                    <graphic
-                        url="https://fr.wikisource.org/wiki/Correspondance_-_Lettre_du_10_janvier_1918_(Asselin)#/media/File:Chien_et_son_ma%C3%AEtre.png"
-                    />
+                    <graphic url="https://fr.wikisource.org/wiki/Correspondance_-_Lettre_du_10_janvier_1918_(Asselin)#/media/File:Chien_et_son_ma%C3%AEtre.png"/>
                 </figure>
-
                 <p>Aux carrefours, qui est la croisée des chemins, il s’assit sur son derrière face
-                    au sergent-major, <del/><pb/> agite <del>sa col</del><add>la</add> queue et
-                        <del>ses</del>
-                    <add>les</add> oreilles, interroge de l’œil sur la route à prendre. De temps en
-                    temps, il s’arrête pour voir défiler la colonne, ou bien il court sur le flanc
-                    pour voir si tout est en bon ordre. Mais <del>i</del> il revient aussitôt prendre sa place.
-                    À l’exercice de section ou d’escouade, il va d’une section ou d’une escouade à
-                    l’autre avec l’officier qu’il juge être au commandement. <del>Quand</del> <add>s’</add> il voit que
-                    tout va bien, il court joyeusement en secouant la queue. Quand au contraire il
-                    s’aperçoit que l’officier est de mauvaise humeur, il jappe, éternue, comme pour
-                    dire : « Tas de feignants, est-ce que vous ne pourriez pas mieux vous conduire ?
-                    » Dans les charges à la baïonnète, c’est lui qui court en tête, aboyant,
-                    hurlant, sautant le <del>fils</del> fil barbelé, les tranchées, et se retournant de temps à
+                    au sergent-major, <del/><pb/> agite <del>sa col</del><add rend="sup">la</add>
+                    queue et <del>ses</del>
+                    <add rend="sup">les</add> oreilles, interroge de l’œil sur la route à prendre.
+                    De temps en temps, il s’arrête pour voir défiler la colonne, ou bien il court
+                    sur le flanc pour voir si tout est en bon ordre. Mais <del>i</del> il revient
+                    aussitôt prendre sa place. À l’exercice de section ou d’escouade, il va d’une
+                    section ou d’une escouade à l’autre avec l’officier qu’il juge être au
+                    commandement. <del>Quand</del>
+                    <add rend="sup">s’</add> il voit que tout va bien, il court joyeusement en
+                    secouant la queue. Quand au contraire il s’aperçoit que l’officier est de
+                    mauvaise humeur, il jappe, éternue, comme pour dire : « Tas de feignants, est-ce
+                    que vous ne pourriez pas mieux vous conduire ? » Dans les charges à la
+                    baïonnète, c’est lui qui court en tête, aboyant, hurlant, sautant le
+                        <del>fils</del> fil barbelé, les tranchées, et se retournant de temps à
                     autre pour appeler les soldats. Il encourage les soldats qui tombent, attend
                     qu’ils se relèvent puis repart en avant.</p>
-
                 <figure>
-                    <graphic
-                        url="https://upload.wikimedia.org/wikipedia/commons/6/69/Asselin_-_1918-01-10_-_06M_CLG72B1D29_10-01-1918_%28page_3_crop%29.jpg"
-                    />
+                    <graphic url="https://upload.wikimedia.org/wikipedia/commons/6/69/Asselin_-_1918-01-10_-_06M_CLG72B1D29_10-01-1918_%28page_3_crop%29.jpg"/>
                 </figure>
-
-                <p>Naturellement, tous les soldats le connaissent et l’aiment. <del>Le</del> Aux heures des
-                    repas, il va, comme Pierre, faire ses visites ; il arrive aux cuisines, au
-                    réfectoire. Comme Pierre, il est trop poli pour demander, mais, assis sur son
-                    petit derrière, il vous regarde par en-dessous, avec l’air de dire : « Moi, je
-                    mangerais bien de ces bonnes choses-la. » et on le <pb/> bourre de soupe, de viande,
-                    de desserts. Pour manger, il va chez les hommes : <del>pour se disparl</del> on dirait
-                    qu’il les sent moins égoïstes, plus près des bêtes ; mais il passe ses soirées
-                    et ses dimanches chez les officiers, car c’est un chien de gentlemen. Comme il
-                    n’a pas <del/> appris de catéchisme ni aucune espèce de bible, il aime
-                    également les catholiques, les juifs, les protestants ; et tout le monde le lui
-                    rend. On a remarqué qu’il montrait même dans la plupart des choses beaucoup plus
-                    d’esprit que ses maîtres. Il y a aussi au mess un gros chat noir, qui ne veut
-                    pas le voir (car les chats ne sont jamais aussi bons que les chiens) : lui,
-                    Marion, au lieu de chercher chicane à ce vilain chat, il l’évite ; quand le
-                    major DeSerres ou un autre, pour s’amuser, le <hi rend="underline">souque</hi> contre lui, il fait
-                    semblant de rugir, de le mordre, mais il ne lui touche jamais.</p>
-
+                <p>Naturellement, tous les soldats le connaissent et l’aiment. <del>Le</del> Aux
+                    heures des repas, il va, comme Pierre, faire ses visites ; il arrive aux
+                    cuisines, au réfectoire. Comme Pierre, il est trop poli pour demander, mais,
+                    assis sur son petit derrière, il vous regarde par en-dessous, avec l’air de dire
+                    : « Moi, je mangerais bien de ces bonnes choses-la. » et on le <pb/> bourre de
+                    soupe, de viande, de desserts. Pour manger, il va chez les hommes : <del>pour se
+                        disparl</del> on dirait qu’il les sent moins égoïstes, plus près des bêtes ;
+                    mais il passe ses soirées et ses dimanches chez les officiers, car c’est un
+                    chien de gentlemen. Comme il n’a pas <del/> appris de catéchisme ni aucune
+                    espèce de bible, il aime également les catholiques, les juifs, les protestants ;
+                    et tout le monde le lui rend. On a remarqué qu’il montrait même dans la plupart
+                    des choses beaucoup plus d’esprit que ses maîtres. Il y a aussi au mess un gros
+                    chat noir, qui ne veut pas le voir (car les chats ne sont jamais aussi bons que
+                    les chiens) : lui, Marion, au lieu de chercher chicane à ce vilain chat, il
+                    l’évite ; quand le major DeSerres ou un autre, pour s’amuser, le <hi
+                        rend="underline">souque</hi> contre lui, il fait semblant de rugir, de le
+                    mordre, mais il ne lui touche jamais.</p>
                 <p>Il est très propre. De temps en temps on le conduit sous les douches, pour le
                     laver. Pendant qu’on le savonne et que l’eau lui tombe sur le dos, il reste
                     immobile sur son derrière, happant avec sa langue l’eau qui coule au des lèvre.
-                    Le soir, il vient demander l’hospitalité <add>pour la nuit</add> aux officiers, tantôt
-                    dans une chambre, tantôt dans l’autre, en battant de la queue contre la porte,
-                    avec une espèce de gémissement. si S’il ressent durant la nuit un petit besoin,
-                    il frappe avec sa queue la chaudière aux vidanges, jusqu’à ce qu’on lui ouvre la
-                    porte. L’autre jour, un soldat qui avait retiré sur sa solde quinze shillings,
-                    c’est-à-dire $3.75, acheta, au prix de cinq shillings, un flacon de parfum,
-                    parfuma Marion des pieds à la tête, et l’emmena se promener en ville avec lui.
-                    Tu peux t’imaginer si le bon Marion était content !<del> celà te montre ce chien il
-                    est </del> <pb/>Il y a encore beaucoup de choses que fait le bon chien Marion, mais je
+                    Le soir, il vient demander l’hospitalité <add rend="sup">pour la nuit</add> aux
+                    officiers, tantôt dans une chambre, tantôt dans l’autre, en battant de la queue
+                    contre la porte, avec une espèce de gémissement. <del>si</del> S’il ressent
+                    durant la nuit un petit besoin, il frappe avec sa queue la chaudière aux
+                    vidanges, jusqu’à ce qu’on lui ouvre la porte. L’autre jour, un soldat qui avait
+                    retiré sur sa solde quinze shillings, c’est-à-dire $3.75, acheta, au prix de
+                    cinq shillings, un flacon de parfum, parfuma Marion des pieds à la tête, et
+                    l’emmena se promener en ville avec lui. Tu peux t’imaginer si le bon Marion
+                    était content !<del> celà te montre ce chien il est </del>
+                    <pb/>Il y a encore beaucoup de choses que fait le bon chien Marion, mais je
                     laisse à mon cher petit Pierre le plaisir de les deviner. J’en ai dit assez pour
-                    faire comprendre à un petit garçon <add>intelligent</add> combien il <del>été</del> est aimé, et tout
-                    ce qu’il a gagné à être bon. Depuis quelques jours il est malade <del>s</del>, et trois
-                    fois par jour, en entrant au mess, tous les officiers demandent : « Comment va
-                    Marion ? » et lui apportent, avec des friandises, des caressent. Crois-tu, mon
-                    cher Pierre, qu’on s’intéresserait autant à un chien méchant, ou malpropre ?
-                    <del/> Comme le bon chien Marion, sois toujours obligeant, aimable, et tout le
-                    monde t’aimera. Ainsi soit-il. </p>
+                    faire comprendre à un petit garçon <add rend="sup">intelligent</add> combien il
+                        <del>été</del> est aimé, et tout ce qu’il a gagné à être bon. Depuis
+                    quelques jours il est malade<del>s</del>, et trois fois par jour, en entrant au
+                    mess, tous les officiers demandent : « Comment va Marion ? » et lui apportent,
+                    avec des friandises, des caressent. Crois-tu, mon cher Pierre, qu’on
+                    s’intéresserait autant à un chien méchant, ou malpropre ? <del/> Comme le bon
+                    chien Marion, sois toujours obligeant, aimable, et tout le monde t’aimera. Ainsi
+                    soit-il. </p>
                 <closer>
                     <salute>Je t’embrasse, et je t’envoie une <del/> chaude léchade du bon chien
                         Marion. </salute>
@@ -184,18 +171,15 @@
                         d’étudier le dessin. Ton oncle Jules et ta tante Éliza te donneront des
                         leçons – c’est tout</p>
                 </postscript>
-
                 <figure>
-                    <graphic
-                        url="https://upload.wikimedia.org/wikipedia/commons/1/12/Chien_assis.png"/>
-                    <figDesc>Fin de l’histoire du bon chien <hi rend="underline">Marion</hi></figDesc>
+                    <graphic url="https://upload.wikimedia.org/wikipedia/commons/1/12/Chien_assis.png"/>
+                    <figDesc>Fin de l’histoire du bon chien <hi rend="underline"
+                        >Marion</hi></figDesc>
                 </figure>
-
                 <closer><placeName>Witley-Camp, en Angleterre,</placeName><date when="1918-01-10">10
-                    janvier</date></closer>
+                        janvier</date></closer>
                 <figure>
-                    <graphic
-                        url="https://fr.wikisource.org/wiki/Correspondance_-_Lettre_du_10_janvier_1918_(Asselin)#/media/File:Chien_fait_la_belle.png"/>
+                    <graphic url="https://fr.wikisource.org/wiki/Correspondance_-_Lettre_du_10_janvier_1918_(Asselin)#/media/File:Chien_fait_la_belle.png"/>
                     <figDesc>Portrait fidèle du bon chien Marion recevant sa ration de friandises.
                         On les lui met sur le bout du nez, il les fait sauter en l’air et il les
                         attrape au vol. Mais pour remuer, il attend le commandement. Ce portrait a

@@ -23,8 +23,10 @@
             <oneOrMore>
                 <ref name="fileDesc"/>
                 <ref name="profileDesc"/>
-                <ref name="encodingDesc"/>
             </oneOrMore>
+            <zeroOrMore>
+                <ref name="encodingDesc"/>
+            </zeroOrMore>
         </element>
     </define>
 
@@ -284,6 +286,12 @@
                     <ref name="p"/>
                 </optional>
                 <optional>
+                    <ref name="pb"/>
+                </optional>
+                <optional>
+                    <ref name="figure"/>
+                </optional>
+                <optional>
                     <ref name="opener"/>
                 </optional>
                 <optional>
@@ -298,7 +306,6 @@
                 <optional>
                     <ref name="salute"/>
                 </optional>
-                <!-- pas forcément utile -->
                 <optional>
                     <ref name="postscript"/>
                 </optional>
@@ -418,6 +425,15 @@
                     <ref name="date"/>
                 </optional>
                 <optional>
+                    <ref name="add"/>
+                </optional>
+                <optional>
+                    <ref name="del"/>
+                </optional>
+                <optional>
+                    <ref name="hi"/>
+                </optional>
+                <optional>
                     <text/>
                 </optional>
             </zeroOrMore>
@@ -488,13 +504,18 @@
                     <choice>
                         <value>supp</value>
                         <value>underline</value>
-                        <!-- j'ai supprimé la valeur 'right', sinon elles étaient cumulable et ça ne marchait plus pour le choice ! -->
                         <value>overwrite</value>
                     </choice>
                 </attribute>
             </optional>
             <zeroOrMore>
                 <text/>
+                <optional>
+                    <ref name="add"/>
+                </optional>
+                <optional>
+                    <ref name="persName"/>
+                </optional>
             </zeroOrMore>
         </element>
     </define>
@@ -550,18 +571,16 @@
     </define>
 
     <define name="figure">
-        <!-- pour mettre les images -->
-
         <element name="figure">
-            <oneOrMore>
+            <zeroOrMore>
                 <ref name="desc"/>
-            </oneOrMore>
+            </zeroOrMore>
             <oneOrMore>
                 <ref name="graphic"/>
             </oneOrMore>
             <zeroOrMore>
                 <ref name="figDesc"/>
-            </oneOrMore>
+            </zeroOrMore>
         </element>
     </define>
 
@@ -589,14 +608,32 @@
 
     <define name="salute">
         <element name="salute">
-            <text/>
+            <zeroOrMore>
+                <optional>
+                    <text/> 
+                </optional>
+                <optional>
+                    <ref name="hi"/>
+                </optional>
+                <optional>
+                    <ref name="del"/>
+                </optional>
+            </zeroOrMore>
         </element>
     </define>
 
     <define name="signed">
         <element name="signed">
             <zeroOrMore>
-                <ref name="persName"/>
+                <optional>
+                    <text/>
+                </optional>
+                <optional>
+                    <ref name="persName"/>
+                </optional>
+                <optional>
+                    <ref name="hi"/>
+                </optional>
             </zeroOrMore>
         </element>
     </define>
@@ -716,13 +753,16 @@
             <zeroOrMore>
                 <ref name="p"/>
             </zeroOrMore>
+            <optional>
+                <attribute name="n"><text/></attribute>
+            </optional>
         </element>
     </define>
     
     <define name="cRefPattern">
         <element name="cRefPattern">
             <zeroOrMore>
-                <text/>
+                <ref name="p"/>
             </zeroOrMore>
             <optional>
                 <attribute name="n"><text/></attribute>

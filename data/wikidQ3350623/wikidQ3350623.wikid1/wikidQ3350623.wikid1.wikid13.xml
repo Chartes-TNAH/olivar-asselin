@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../data/correspondance.rng" type="application/xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../../correspondance.rng" type="application/xml"? schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns:ns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -62,19 +62,20 @@
                accompagne ensuite les soldats à la parade de gymnastique ; fait le tour des pelotons
                en aboyant, pour hâter l’alignement ; vient se camper sur le front et aboie encore ;
                et quand tous sont immobiles et que le <hi rend="underline">sergent-major</hi> va
-               <del/> commander EYES FRONT, vient se placer à son côté comme pour surveiller
-               l’exécution du commandement. Durant l’exercice, il se promène, surveille, voit à
-               tout, fait l’important. De 7h.30 à 8h.30 <del>il</del> il reçoit ses amis chiens du
-               voisinage et visite avec eux tantôt la cuisine, tantôt quelques chambrées. À la
-               grande parade (9h. du matin) il est présent avec ses amis chiens, qu’il aligne tant
-               bien que mal sur le front des troupes pendant que la musique joue. <del/> À cette
-               cérémonie, toujours solennelle, il n’aboie pas ou presque pas : <del>I</del> Il est
-               là en simple troupier, et non en aide <pb/>
-               <add>aide</add>- sergent-major.lap la parade finie, il passe son avant-midi à visiter
-               les bureaux, les huttes, le jardin. Le midi, il mange généralement chez les
-               officiers. L’après-midi il va se promener et le <del/> soir, invariablement (parce
-                  <del>que</del>
-               <add>qu’à ce repas</add> les restes sont bons), il dîne <del>aul</del> au mess.</p>
+               <del/> commander <hi rend="underline">EYES FRONT</hi>, vient se placer à son côté
+               comme pour surveiller l’exécution du commandement. Durant l’exercice, il se promène,
+               surveille, voit à tout, fait l’important. De 7h.30 à 8h.30 <del>il</del> il reçoit
+               ses amis chiens du voisinage et visite avec eux tantôt la cuisine, tantôt quelques
+               chambrées. À la grande parade (9h. du matin) il est présent avec ses amis chiens,
+               qu’il aligne tant bien que mal sur le front des troupes pendant que la musique joue.
+               <del/> À cette cérémonie, toujours solennelle, il n’aboie pas ou presque pas :
+                  <del>I</del> Il est là en simple troupier, et non en aide <pb/>
+               <add rend="sup">aide</add>- sergent-major.<del>lap</del> La parade finie, il passe
+               son avant-midi à visiter les bureaux, les huttes, le jardin. Le midi, il mange
+               généralement chez les officiers. L’après-midi il va se promener et le <del/> soir,
+               invariablement (parce <del>que</del>
+               <add rend="sup">qu’à ce repas</add> les restes sont bons), il dîne <del>aul</del> au
+               mess.</p>
             <p>Nous avons acquis dernièrement deux autres chiens. L’un, âgé de six (6) mois, est un
                pur danois. Il est déjà haut comme toi (je te vois encore comme je te quittai sur le
                quai des Bermudes, <del>frottant</del> essuyant tes larmes avec le dos de tes petites
@@ -90,14 +91,16 @@
                mordre, ce qu’elle <pb/> fait gentiment, en vraie petite, toute petite chienne. Tout
                cela c’est quand ils sortent ensemble. Alors, on les attache l’un à l’autre, pour
                n’avoir pas la peine de les surveiller. On est toujours sûr que le grand chien ne
-               mènera pas trop loin sa petite amie, et que, <del>sur un</del> <add>au premier signe de</add> fatigue de
-               celle-ci, il la ramènera tout de suite à sa niche, qui est à la cuisine du mess.
-               Quelquefois le grand chien va trop vite, et alors il faut voir la petite chienne
-               courir de toutes ses forces pour le suivre sans <del>rouler</del>
-               <add>culbuter </add>dans la poussière. D’autres fois c’est elle qui veut aller vite
-               et lui lentement et alors c’est comme une petite chaloupe à rames s’essayant au à
-               remorquer un transatlantique. Elle s’appellera <hi rend="underline">Mimi Pinson</hi>.
-               Il s’appelle <hi rend="underline">Rocky</hi>.</p>
+               mènera pas trop loin sa petite amie, et que, <del>sur un</del>
+               <add rend="sup">au premier signe de</add> fatigue de celle-ci, il la ramènera tout de
+               suite à sa niche, qui est à la cuisine du mess. Quelquefois le grand chien va trop
+               vite, et alors il faut voir la petite chienne courir de toutes ses forces pour le
+               suivre sans <del>rouler</del>
+               <add rend="sup">culbuter </add>dans la poussière. D’autres fois c’est elle qui veut
+               aller vite et lui lentement et alors c’est comme une petite chaloupe à rames
+               s’essayant <del>au</del> à remorquer un transatlantique. Elle s’appellera <hi
+                  rend="underline">Mimi Pinson</hi>. Il s’appelle <hi rend="underline"
+               >Rocky</hi>.</p>
             <figure>
                <graphic
                   url="https://fr.wikisource.org/wiki/Correspondance_-_Lettre_du_4_juin_1918_(Asselin)#/media/File:Croquis._Mimi_et_Rocky.png"
@@ -105,30 +108,26 @@
             </figure>
             <pb/>
             <p>mais ce qu’il y a de plus amusant, c’est que comme un grand fou, il est jaloux
-               d’elle. Si vous la caressez trop, il se dresse entre vous et elle, vous pose ses
+               d’elle. Si vous la caressez trop, il se dresse entre vous et elle, <del>vous</del> pose ses
                pattes sur vos <del/> épaules et vous regarde dans les yeux en ayant l’air de dire :
-               « <hi rend="underline">c’est</hi> assez, n’est-ce pas ? À mon tour, maintenant. » Et,
+               « <del>c’est</del> assez, n’est-ce pas ? À mon tour, maintenant. » Et,
                pendant cette scène Mimi le mord aux jarrets. </p>
-
             <figure>
                <graphic
                   url="https://fr.wikisource.org/wiki/Correspondance_-_Lettre_du_4_juin_1918_(Asselin)#/media/File:Chien_debout.png"
                />
             </figure>
-
             <p>Mon cher Pierre, c’est tout ce que je puis t’écrire aujourd’hui. Je suis fatigué.
                Étudie bien les bêtes : elles sont parfois plus intéressantes que les hommes.</p>
-
             <p>Mais, bien entendu, elles ne seront <del>ja</del> jamais le centième aussi
                intéressantes que des bons petits garçons comme celui pour qui <del>j’écris</del>
                j’écris ces <del>petite</del> fidèles histoires de chiens. C’est pourquoi je
                n’embrasse pas le chien et j’embrasse tendrement mon Pierrot. </p>
-
-
             <closer>
                <signed><persName corresp="#olasselin">Papa qui aime Pierrot.</persName>
                </signed><placeName>Bramshott,</placeName>
-               <date when="1918-06-04">Mardi 4 juin 1918</date></closer>
+               <date when="1918-06-04">Mardi 4 juin 1918</date>
+            </closer>
          </div>
       </body>
    </text>
