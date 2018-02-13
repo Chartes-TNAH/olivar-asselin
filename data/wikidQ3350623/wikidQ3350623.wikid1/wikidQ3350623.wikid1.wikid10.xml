@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml">
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="./correspondance.rng" type="application/xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../../correspondance.rng" type="application/xml"?  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:ns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -41,6 +41,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName>Olivar Asselin</persName>
+                    <placeName>Hopital Général N°14, Boulogne</placeName>
                     <date when="1917-06-02"/>
                 </correspAction>
                 <correspAction type="received">
@@ -48,6 +49,11 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <encodingDesc>
+            <refsDecl>
+                <cRefPattern></cRefPattern>
+            </refsDecl>
+        </encodingDesc>
     </teiHeader>
     <text>
         <body>
@@ -72,7 +78,9 @@
                         temps</add>, les chemins<pb/>de fer sont toujours congestionnés, et qu’il
                     faut en conséquence restreindre ma circulation le plus possible. Présentement,
                     je me trouve à soixante quinze milles environ de ma casquette et de mes guêtres,
-                    et à quatre-vingt dix de ma dernière chemise ! Tu ne saurais croire combien la
+                    et à quatre-vingt dix de ma dernière chemise ! </p>
+                    <p>
+                    Tu ne saurais croire combien la
                     France est belle à cette saison de l’année. Notre pays<del/>à côté de cela est
                     un désert encore enlaidi par des sauvages. Il y a de la verdure partout, même
                     sur les troncs d’arbres que l’artillerie semblait avoir foudroyés et brûlés pour
@@ -92,7 +100,7 @@
                     été malade, j’aurais été tenté de rester au lit. Pyjamas propres, chaussettes
                     propres, mouchoir propre : te figures-tu tout ce que cela veut dire de
                     bien-être, quand on couche depuis des mois dans ses sous-vêtements<del/>
-                    <add rend="sup">infestés</add>de<hi rend="underline">bibites</hi>, et qu’on est
+                    <add rend="sup">infestés</add>de<hi rend="underline">bebetes</hi>, et qu’on est
                     pendant des mois resté jusqu’à dix jours sans<del/>se déchausser ? C’était la
                     première fois aussi que je mangeais de bon cœur. Le régime alimentaire de
                         l’armée<add rend="sup">britannique</add>n’est pas mauvais en soi ; je veux

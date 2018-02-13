@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml">
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="./correspondance.rng" type="application/xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../../correspondance.rng" type="application/xml"? schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:ns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -48,6 +48,9 @@
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        <encodingDesc>
+            <refsDecl><cRefPattern></cRefPattern></refsDecl>
+        </encodingDesc>
     </teiHeader>
     <text>
         <body>
@@ -80,8 +83,9 @@
                     de vous dire quelques-unes de mes impressions d’arrivée.</p>
                 <p>De l’Angleterre au front, à part les porte-faix, on ne voit pas de civils. Au
                     front, il n’y a pas de civils. Je ne connais donc le sentiment des civils de
-                    France que par les gazettes que vous lisez comme moi.</p>
+                    France que par les gazettes que vous lisez comme moi.
                 <pb/>
+                </p>
                 <p>J’ai déjà fait avec le 22e (auquel je suis attaché pour trois mois à fin
                     d’instruction) j’ai déjà fait deux trous de tranchées, qui ont duré l’un quatre
                     jours et l’autre six. Durant ces dix jours, j’ai vu peu d’Anglais, presque pas
