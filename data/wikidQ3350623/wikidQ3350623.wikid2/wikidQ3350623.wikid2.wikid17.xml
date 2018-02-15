@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="./correspondance.rng" type="application/xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../../correspondance.rng" type="application/xml"? schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns:ns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -52,60 +52,64 @@
     <text>
         <body>
             <div type="letter">
-                <opener rend="left">Pâturages, près Mons, en Belgique, <date when="1918-11-19">19
-                            nov<hi rend="sup">bre</hi> 1918</date>.</opener>
-                <salute rend="right">Ma chère Alice,</salute>
-
-                <p>Nous reprenons la route <add>marche</add> demain au matin à 6h.30. Les Allemands
-                    encombrent les routes, nous n’irons pas vite : à peine dix milles par jour. Ma
-                    santé a jusqu’ici été très bonne, mais un peu de froid aux pieds, pris dans une
-                    maison chauffée à certaines heures seulement, m’a <del/> dérangé l’intestin ces
-                    jours-ci, ce qui m’a quelque peu abattu. <add>En outre </add><del>On</del>
-                    <add>on</add><del/> m’avait oublié dans la distribution des billets de logement,
-                    et, couché par <del/><add> terre,</add> j’ai manqué de sommeil. Enfin, j’ai dû
+                <opener rend="right">Pâturages, près Mons, en Belgique, <date when="1918-11-19"> 19
+                        novembre 1918</date></opener>
+                <space dim="vertical" quantity="1" unit="lines"/>
+                <salute>Ma chère Alice,</salute>
+                <p>Nous reprenons la <del>route</del>
+                    <add rend="sup">marche</add> demain au matin à 6h.30. Les Allemands encombrent
+                    les routes, nous n’irons pas vite : à peine dix milles par jour. Ma santé a
+                    jusqu’ici été très bonne, mais un peu de froid aux pieds, pris dans une maison
+                    chauffée à certaines heures seulement, m’a <del/> dérangé l’intestin ces
+                    jours-ci, ce qui m’a quelque peu abattu. <add>En outre</add><del>On</del>
+                    <add rend="sup">on</add><del/> m’avait oublié dans la distribution des billets
+                    de logement, et, couché par <del/>terre, j’ai manqué de sommeil. Enfin, j’ai dû
                     faire, par la faute de tu devines qui, une véritable besogne de commis. Ne
                     crains pas que je fasse quoi que ce soit qui puisse porter préjudice à nos
                     intérêts, mais je me demande quelle mauvaise fortune <del>a vu</del> a fait que
-                    je <pb/>sois placé sous ce gros négligent, qui se prodigue <add>au besoin</add>
-                    en éclats de voix, mais <del/> de qui je ne puis jamais obtenir un acte
-                    d’autorité effectif. Je me suis rarement fait plus de mauvais sang.</p>
+                    je <pb/>sois placé sous ce gros négligent, qui se prodigue <add rend="sup">au
+                        besoin</add> en éclats de voix, mais <del/> de qui je ne puis jamais obtenir
+                    un acte d’autorité effectif. Je me suis rarement fait plus de mauvais sang.</p>
                 <p>Petit à petit nos impressions de la Belgique libérée se précisent et se
-                    complètent. <del>Les Le peuple Certains font </del>Dans le peuple, certains
+                    complètent. <del>Les Le peuple Certains font</del>Dans le peuple, certains
                     éléments ont moins souffert qu’on ne le croit à l’étranger : ce sont les gens —
-                        <add>buvetiers, restaurateurs, etc.,</add> qui vivaient <add>à la fois
-                    </add>du soldat allemand et du ravitaillement américain, espagnol, hollandais,
-                    scandinave ; la hausse des prix, ceux-là, ne les affectait guère. Certains
-                    autres ont plus souffert qu’on ne serait tenté de le croire en voyant la mine
-                    générale des habitants : ce sont ceux <del>dont</del> qui, par fierté ou
-                    autrement, ne <pb/> pouvaient s’accommoder de la domination étrangère. La paire
-                    de bas qui se vendait 95 centimes avant la guerre se vend aujourd’hui 15 francs.
-                    La farine s’est vendue dernièrement jusqu’à 15 francs (près de $300) le kilo
-                    (deux livres). Mais il y avait avec l’autorité militaire des accommodements, et
-                    bon nombre qui ont pu supporter les nouvelles conditions économiques
-                        <del>grâce</del> en achetant, littéralement, les officiers et sous-officiers
-                    préposés au contrôle des approvisionnements <add>et</add> des réquisitions. Il y
-                    a même une classe très nombreuse qui, s’étant habituée à compter sur
-                    l’assistance des neutres, semble, au dire des patrons, ne pas vouloir reprendre
-                    le travail, ou vouloir établir ici le bolchevisme comme il existait en
-                        Russie.<del> Cette contrée Cette</del>
-                    <add>Cette région</add><del/><pb/>
-                    <del/>de la Belgique est libérée depuis plus de dix jours, <add>les mines sont
-                        restées ouvertes,</add> mais il n’y a encore virtuellement personne qui
-                    travaille. Pour <del>des gens</del> un peuple qui a tant à faire, <del>c’</del>
-                    ce n’est pas se presser. Je ne sais où l’on a pris le grain pour fabriquer la
-                    bière, mais dans tous les cafés (fort nombreux) il y a de la bière, et les gens
-                    pour la boire, même en dehors des troupes, ne manquent pas. <del>Dans un magasin
-                        de</del><add>Par contre, dans un grand bazar </add>qui avant la guerre
-                    devait avoir fort belle clientèle, on me racontait hier soir ceci : Les
-                    Allemands avaient réquisitionné <del>toutes les cotonnades,</del> toute la
-                    laine, tout le coton, toute la toile ; parce que ce bazar <add>manqua à</add>
-                    n’avait pas déclaréer quelques faux-cols, pour <add>en toile</add> hommes, le
-                    magasin fut vidé, et vingt mille francs de marchandises confisqués ; et le
-                    plus<pb/> outrageant, c’est que l’ordre de déclaration n’avait pas même été
-                        <del>affiché</del> publié !<del> Les actes de </del><add>faits</add> de ce
-                    genre ne se comptent pas ; inutile de dire les ruines particulières qu’ils ont
-                    causées, sans parler de la perturbation générale créée par <del>la réqui</del>
-                    le caractère spoliateur des réquisitions.</p>
+                        <add rend="sup">buvetiers, restaurateurs, etc.,</add> qui vivaient <add
+                        rend="sup">à la fois </add>du soldat allemand et du ravitaillement
+                    américain, espagnol, hollandais, scandinave ; la hausse des prix, ceux-là, ne
+                    les affectait guère. Certains autres ont plus souffert qu’on ne serait tenté de
+                    le croire en voyant la mine générale des habitants : ce sont ceux
+                        <del>dont</del> qui, par fierté ou autrement, ne <pb/> pouvaient
+                    s’accommoder de la domination étrangère. La paire de bas qui se vendait 95
+                    centimes avant la guerre se vend aujourd’hui 15 francs. La farine s’est vendue
+                    dernièrement jusqu’à 15 francs (près de $300) le kilo (deux livres). Mais il y
+                    avait avec l’autorité militaire des accommodements, et bon nombre <del>qui</del>
+                    ont pu supporter les nouvelles conditions économiques <del>grâce</del> en
+                    achetant, littéralement, les officiers et sous-officiers préposés au contrôle
+                    des approvisionnements <add rend="sup">et</add> des réquisitions. Il y a même
+                    une classe très nombreuse qui, s’étant habituée à compter sur l’assistance des
+                    neutres, semble, au dire des patrons, ne pas vouloir reprendre le travail, ou
+                    vouloir établir ici le bolchevisme comme il existait en Russie.<del> Cette
+                        contrée Cette</del>
+                    <add rend="inf">Cette région</add><del/><pb/>
+                    <del/>de la Belgique est libérée depuis plus de dix jours, <add rend="sup">les
+                        mines sont restées ouvertes,</add> mais il n’y a encore virtuellement
+                    personne qui travaille. Pour <del>des gens</del> un peuple qui a tant à faire,
+                        <del>c’</del> ce n’est pas se presser. Je ne sais où l’on a pris le grain
+                    pour fabriquer la bière, mais dans tous les cafés (fort nombreux) il y a de la
+                    bière, et les gens pour la boire, même en dehors des troupes, ne manquent pas.
+                        <del>Dans un magasin de</del><add rend="inf">Par contre, dans un grand
+                        bazar</add> qui avant la guerre devait avoir fort belle clientèle, on me
+                    racontait hier soir ceci : Les Allemands avaient réquisitionné <del>toutes les
+                        cotonnades,</del> toute la laine, tout le coton, toute la toile ; parce que
+                    ce bazar <del>n’avait pas</del>
+                    <add rend="inf">manqua à</add> déclaréer quelques faux-cols, pour
+                        <del>hommes</del><add rend="sup">en toile</add>, le magasin fut vidé, et
+                    vingt mille francs de marchandises confisqués ; et le plus<pb/> outrageant,
+                    c’est que l’ordre de déclaration n’avait pas même été <del>affiché</del> publié
+                    ! Les <del>actes de </del>
+                    <add>faits</add> de ce genre ne se comptent pas ; inutile de dire les ruines
+                    particulières qu’ils ont causées, sans parler de la perturbation générale créée
+                    par <del>la réqui</del> le caractère spoliateur des réquisitions.</p>
                 <p>Un des traits les plus curieux de la situation, c’est la haine que les gens du
                     pays – les Wallons – ont pour les Flamands. J’avais lu que la guerre avait uni
                     dans un même sentiment patriotique <del>Wall</del> les deux branches de la
@@ -118,17 +122,17 @@
                     conduits autrement envers leurs propres compatriotes. De la Wallonie, où l’on
                     manquait de <del/> pommes de terre, <del>on allait</del> les pauvres, et parfois
                     même les <hi rend="underline">riches</hi> allaient en chercher en Flandre, à
-                    trente, quarante et cinquante kilomètres, <add>et</add> la plupart du temps à
-                    pied, car, dans les charbonnages, <del>très peu de gens ont des</del> le peu de
-                    chevaux qu’on avait servait alors aux Allemands. Le bon Flamand commençait par
-                    vendre ses pommes de terre 4 ou 5 francs le kilo (deux livres !), puis il <del/>
-                    s’arrangeait pour que, l’instant d’après, elles lui revinssent par le gendarme
-                    boche, de mèche avec lui. L’acheteur en était quitte pour revenir chez lui la
-                    bourse et les <pb/>mains vides. Ces faits sont attestés par tout le monde, à
-                    Pâturages et aux environs.</p>
+                    trente, quarante et cinquante kilomètres, <add rend="sup">et</add> la plupart du
+                    temps à pied, car, dans les charbonnages, <del>très peu de gens ont des</del> le
+                    peu de chevaux qu’on avait servait alors aux Allemands. Le bon Flamand
+                    commençait par vendre ses pommes de terre 4 ou 5 francs le kilo (deux livres !),
+                    puis il <del/> s’arrangeait pour que, l’instant d’après, elles lui revinssent
+                    par le gendarme boche, de mèche avec lui. L’acheteur en était quitte pour
+                    revenir chez lui la bourse et les <pb/>mains vides. Ces faits sont attestés par
+                    tout le monde, à Pâturages et aux environs.</p>
                 <p>La popularité de nos soldats <del>n’a fait</del> parmi les civils n’a fait que
                     croître depuis notre arrivée. Ils logent dans les familles, mais ils mangent à
-                    la <hi rend="underline">Field kitchen</hi>, <del/> généralement installée dans
+                    la <hi rend="underline">Field kitchen</hi>, <del/>généralement installée dans
                         <del>une cour au fond de</del> une cour. Or, ce soir, dans <del>tout</del>
                     presque toutes les maisons, <del>les soldats ayant</del> avec la viande <del/>
                     le pain et les pommes de terre fournies par le soldat et les <del>menus</del>
@@ -139,38 +143,38 @@
                     dans tous les <pb/>coins. Ils ont été payés hier : pour faire les généreux, ils
                     supplémentent de leur propre poche l’indemnité de logement. Les <hi
                         rend="underline">maudits</hi> ! Je voudrais bien qu’ils fussent aussi <del/>
-                    attentifs <add>à se raccommoder,</add> à se laver, à se décrotter. Je n’ai
-                    jamais vu, durant mes trois ans de service, <del>des</del> de pareilles moules
-                    pour tout ce qui touche à la tenue et à la propreté ; ils passeront trois jours
-                    dans une famille sans songer à faire coudre une déchirure, à se faire poser un
-                    bouton ; quant à faire <del/> eux-mêmes ces petits <del>travaux,</del> ouvrages,
-                    va-t-en voir ! ils ne semblent même pas comprendre <del>que ce soit possible
-                    </del>qu’on le leur demande. <add>Ils</add>
+                    attentifs <add rend="sup">à se raccommoder,</add> à se laver, à se décrotter. Je
+                    n’ai jamais vu, durant mes trois ans de service, <del>des</del> de pareilles
+                    moules pour tout ce qui touche à la tenue et à la propreté ; ils passeront trois
+                    jours dans une famille sans songer à faire coudre une déchirure, à se faire
+                    poser un bouton ; quant à faire <del/> eux-mêmes ces petits <del>travaux,</del>
+                    ouvrages, va-t-en voir ! ils ne semblent même pas comprendre <del>que ce soit
+                        possible </del>qu’on le leur demande. <add rend="sup">Ils</add>
                     <del>Mon Dieu ! mon Dieu ! Que cette race est, par certains côtés, abrutie ! Ils
-                        ne nettoient pas laissent gardent</del> laissent rouiller leurs fusils «
-                    parce qu’ils n’ont pas d’étoffe pour les nettoyer » ;<pb/> et dans chaque maison
-                    il y a des nippes qui traînent un peu partout. Ils ne font rien pour assouplir
-                    leurs chaussures neuves, <del>parce que</del> « parce qu’ils n’ont pas de
-                    <del/>graisse ni de cirage » ; et la moitié d’entre eux, à chaque repas,
-                    répandent sur leurs habits assez de graisse pour en <del/> imbiber
-                        <del>tout</del> un harnais <del>de</del> de cheval. <del>Et ainsi de
-                        suite</del> Ils gardent leurs poux d’un bain à l’autre, et il leur
-                    suffirait, pour s’en débarrasser, de repasser <del>leurs</del> au fer chaud, le
-                    soir avant de se coucher, l’envers de leurs vêtements. Barré lui-même,
-                        <del>s’en</del> n’en revient pas de cette imbécillité — que, dans la plupart
-                    des cas, une punition bien appliquée ne manquerait pas de guérir ; — mais ils
-                    l’ont déjà jugé, car <del/> ses <del/>ronchonnages-marmonnages ne les font pas
-                        <add>agir.</add>
-                    <del/><del> La différence </del>Leur supériorité sur le volontaire, c’est qu’ils
-                    ne désertent pas et, dans la marche, ne tirent pas au flanc. Mais cela tient à
-                    ce qu’ils ont lu et entendu dire des <add>rigueurs de la guerre :</add> le jour
-                    où ils constateraient que la<pb/> discipline de Barré est la même pour la
-                    désertion que pour la crasse, ils marcheraient à leur fantaisie.</p>
+                        ne nettoient pas laissent gardent</del>
+                    <add rend="sup">laissent rouiller</add> leurs fusils « parce qu’ils n’ont pas
+                    d’étoffe pour les nettoyer » ;<pb/> et dans chaque maison il y a des nippes qui
+                    traînent un peu partout. Ils ne font rien pour assouplir leurs chaussures
+                    neuves, <del>parce que</del> « parce qu’ils n’ont pas de <del/>graisse ni de
+                    cirage » ; et la moitié d’entre eux, à chaque repas, répandent sur leurs habits
+                    assez de graisse pour en <del/> imbiber <del>tout</del> un harnais <del>de</del>
+                    de cheval. <del>Et ainsi de suite</del> Ils gardent leurs poux d’un bain à
+                    l’autre, et il leur suffirait, pour s’en débarrasser, de repasser
+                        <del>leurs</del> au fer chaud, le soir avant de se coucher, l’envers de
+                    leurs vêtements. Barré lui-même, <del>s’en</del> n’en revient pas de cette
+                    imbécillité — que, dans la plupart des cas, une punition bien appliquée ne
+                    manquerait pas de guérir ; — mais ils l’ont déjà jugé, car <del/> ses
+                    <del/>ronchonnages-marmonnages ne les font pas <add rend="sup">agir.</add>
+                    <del> La différence </del>Leur supériorité sur le volontaire, c’est qu’ils ne
+                    désertent pas et, dans la marche, ne tirent pas au flanc. Mais cela tient à ce
+                    qu’ils ont lu et entendu dire des rigueurs de la guerre : le jour où ils
+                    constateraient que la<pb/> discipline de Barré est la même pour la désertion que
+                    pour la crasse, ils marcheraient à leur fantaisie.</p>
                 <p>L’allocation supplémentaire de <del>£20000</del> $100 que nous attendions est
                     accordée : je pourrai t’envoyer ces jours-ci $200, qui représentent cette
-                        <del/><add>allocation</add> plus toutes mes économies de ces derniers mois.
-                        <del>J’espère que</del> Je n’attends que mon état de compte de la Banque de
-                    Montréal. Si tu le peux, fais quelque chose pour Marchand.</p>
+                        <del/><add rend="sup">allocation</add> plus toutes mes économies de ces
+                    derniers mois. <del>J’espère que</del> Je n’attends que mon état de compte de la
+                    Banque de Montréal. Si tu le peux, fais quelque chose pour Marchand.</p>
                 <p> Si tu <del>as l’occasion </del>le peux sans trop te déranger, vois Laporte,
                     <del/>dis-lui que je ne rentrerai dans le journalisme qu’à mon corps défendant,
                     et demande-lui s’il ne peut pas m’aider à me <del/> trouver une situation qui me
@@ -195,15 +199,16 @@
                     ce poste, on le réservera à un Sévigny quelconque, en tout cas à un
                     partisan.</p>
                 <p> À propos de Paris : Savais-tu que Roy avait congédié Arthur de Martigny ? Le
-                    colonel <add>De M.</add> m’avait parlé d’une démission volontaire, tout en
-                    manifestant à l’endroit du Roy rien moins que de l’amitié. D’Astous m’écrit que
-                    c’est bel et bien un congé. J’ai rencontré Roy l’autre jour à Valenciennes ; il
-                    avait l’air très embarrassé. D’Astous donne à entendre <del>que Roy</del> qu’il
-                    (Roy) était devenu jaloux de son secrétaire.</p>
+                    colonel <add rend="sup">De M.</add> m’avait parlé d’une démission volontaire,
+                    tout en manifestant à l’endroit du Roy rien moins que de l’amitié. D’Astous
+                    m’écrit que c’est bel et bien un congé. J’ai rencontré Roy l’autre jour à
+                    Valenciennes ; il avait l’air très embarrassé. D’Astous donne à entendre
+                        <del>que Roy</del> qu’il (Roy) était devenu jaloux de son secrétaire.</p>
                 <p> Je termine, car il est déjà tard, et je veux écrire un mot à Pierre pour le
                     faire rire. </p>
-
-                <closer>Ton mari qui t’aime, <hi rend="underline">Olivar</hi>.</closer>
+                <closer>Ton mari qui t’aime, <signed><persName corresp="#olasselin"><hi
+                                rend="underline">Olivar</hi></persName></signed>
+                </closer>
             </div>
         </body>
     </text>
