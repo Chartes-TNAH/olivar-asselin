@@ -1,229 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../data/correspondance.rng" type="application/xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Edition numérique de la correspondance d'Olivar Asselin</title>
-            <respStmt>
-               <resp>Encodage du texte</resp>
-               <name>Marie-Gaëlle Gourio</name>
-               <name>Amandine Heathcote</name>
-               <name>Fanny Mézard</name>
-               <name>Alexandre Gaudin</name>
-            </respStmt>
-         </titleStmt>
-         <publicationStmt>
-            <publisher>
-               <name>Ecole nationale des chartes</name>
-               <address>
-                  <street>65 rue de Richelieu</street>
-                  <postCode>75002</postCode>
-                  <settlement>Paris</settlement>
-               </address>
-            </publisher>
-            <date>2018</date>
-         </publicationStmt>
-         <sourceDesc>
-            <msDesc>  
-               <msIdentifier>
-                  <settlement>Archives de la ville de Montréal</settlement>
-                  <repository>Montréal</repository>
-                  <idno>CA M001 P104-1-1-D1</idno>
-               </msIdentifier>
-            </msDesc>
-         </sourceDesc>
-         <profileDesc>
-            <correspDesc>
-               <correspAction type="sent">
-                  <persName>Olivar Asselin</persName>
-                  <placeName>En France</placeName>
-                  <date when="1917-11-26"/>
-               </correspAction>
-               <correspAction type="received">
-                  <persName>Alice Asselin</persName>
-               </correspAction>
-            </correspDesc>
-         </profileDesc>
-      </fileDesc>
-   </teiHeader>
-   <text>
-   		<body>
-   			<div type="letter">
-   				<opener rend="right">En France <date when="1917-11-26">11 mars 17</date></opener>
-   				<space dim="vertical" quantity="1" unit="lines"/>
-   				<salute>Ma Chère Alice</salute>
-				<p>Je passe aujourd’hui mon premier dimanche 
-					dans les tranchées. Partis de Shoreham mardi, 
-					nous arrivions à destination le surlendemain 
-					— voyage rapide, dans les circonstances, mais 
-					fatigant. Au port anglais, bon gîte et bon lit, 
-					mais ensuite, la guerre. Il y avait, <del>à part</del> 
-					avec moi, le colonel Dansereau et <del>Laferrière</del> 
-					un nommé Laferrière. Nous sommes entrés dans 
-					les tranchées jeudi soir. J’ai appris en arrivant 
-					que mon affaire était réglée selon mes vœux ; 
-					Dansereau et Laferrière retournent <del>la semaine</del> 
-					cette semaine. J’ai trouvé ici un groupe d’officiers 
-					très sympathiques. D’abord le commandant, 
-					mélange extraordinaire de fermeté, de 
-					douceur, de bravoure, portant le nom de ma mère 
-					et respirant dans toute son intelligente 
-					<pb/>physionomie l’air de Charlevoix. Ensuite 
-					son second, un garçon de la rue Sherbrooke 
-					que tu connais. Puis l’adjudant, jeune avocat 
-					montréalais dont le nom a souvent figuré 
-					dans les journaux. Puis le payeur, un garçon 
-					d’Ottawa dont le père est secrétaire de 
-					Roy à Paris. Puis le quartier-maître, frère 
-					d’un ministre d’Ottawa. J’ai pris mes 
-					quartiers avec Dansereau dans <del><unclear>comme</unclear></del> 
-					un réduit souterrain de neuf pieds sur <del/> 
-					six, pourvu de deux lits superposés et d’un 
-					poêle. Le <del>poele</del> poêle a quelquefois 
-					du combustible. Les lits sont deux carreaux 
-					de <del/> treillis en <del/> fil de fer tendus, celui d’en bas sur une fosse, celui d’en haut 
-					<del>entreq</del> entre quatre poteaux. En face est 
-					un petit mess d’officiers où nous écrivons 
-					nos lettres, jouons aux cartes, tuons le temps, 
-					dans les moments de loisirs. Je n’ai encore 
-					<pb/>aucune fonction bien définie ; évidemment, 
-					le commandant veut d’abord voir ce que je 
-					puis faire. Je crois que je pourrais me 
-					rendre utile de plusieurs <del><unclear>façons</unclear></del> manières. 
-					<del><unclear>Je suis entré</unclear></del> J’ai fait hier après-midi avec le commandant le tour des tranchées. <del/> À deux ou trois reprises nous avons été éclaboussés 
-					par des explosions de bombes ou <del><unclear>des</unclear></del> 
-					d’obus. Malgré un temps maussade, les 
-					hommes étaient presque tous de bonne humeur. 
-					L’excellence de plus en plus grande de 
-					l’artillerie anglaise leur a donné une confiance 
-					merveilleuse ; ils sont sûrs d’enfoncer la 
-					ligne ennemie à la première grande 
-					offensive. Quant à moi, <del>tout</del> ce que je 
-					vois autour de moi <add rend="sup">semble</add> dépasser tout ce qu’on m’avait dit des progrès réalisés par l’armée 
-					anglaise dans tous les sens. Le spectacle, 
-					en attendant qu’il devienne plus 
-					dan<pb/>gereux, m’amuse. À deux reprises nous <del/> 
-					avons vu des x<del><unclear>conf</unclear></del> combats d’avions. Ce matin même une vingtaine de nos machines <del/> 
-					évoluaient au-dessus du champ de bataille, 
-					parmi les shrapnels allemands : il y en a eu 
-					trois d’abattus, mais grâce à la tranquille 
-					bravoure des autres la grosse artillerie anglaise 
-					a pu établir sur des positions <add rend="sup">sans doute</add> importantes un tir implacable, qui a duré toute la journée. 
-					Il y aura certainement d’ici à trois semaines 
-					des événements qui comptent dans l’histoire de 
-					l’armée expéditionnaire canadienne.
-				</p>
-				<p> 
-					Demain, notre bataillon retourne en réserve, 
-					pour <damage type="censure"/>. Il passera 
-					ensuite <damage type="censure"/> en support, puis rentrera 
-					dans la tranchée. Je serai alors tout à fait 
-					acclimaté. Dès maintenant, cependant, j’entends 
-					<del/> siffler une balle sans 
-					frémir, et je puis observer en vrai badaud 
-					<pb/>les shrapnels qui éclatent au-dessus de nos têtes 
-					à des milliers de mètres d’altitude. Un de ces 
-					soirs j’irai avec les éclaireurs reconnaître 
-					le terrain du mort. Je ne veux pas faire 
-					de bravades, ni risquer ma vie inutilement ; 
-					mais je veux voir tout de suite jusqu’à 
-					quel point je puis dompter mes nerfs. Je 
-					porte dans un gousset une médaille de Jeanne 
-					d’Arc, sur la <del/> poitrine votre 
-					portrait, toi et les enfants. Je pense souvent 
-					à vous.
-				</p>
+<?xml-model href="../../correspondance.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:ns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Edition numérique de la correspondance d'Olivar Asselin</title>
+				<respStmt>
+					<resp>Encodage du texte</resp>
+					<name>Marie-Gaëlle Gourio</name>
+					<name>Amandine Heathcote</name>
+					<name>Fanny Mézard</name>
+					<name>Alexandre Gaudin</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>
+					<name>Ecole nationale des chartes</name>
+					<address>
+						<street>65 rue de Richelieu</street>
+						<postCode>75002</postCode>
+						<settlement>Paris</settlement>
+					</address>
+				</publisher>
+				<date>2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<settlement>Archives de la ville de Montréal</settlement>
+						<repository>Montréal</repository>
+						<idno>CA M001 P104-1-1-D1</idno>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+
+		</fileDesc>
+		<profileDesc>
+			<correspDesc>
+				<correspAction type="sent">
+					<persName>Olivar Asselin</persName>
+					<placeName>En France</placeName>
+					<date when="1917-03-11"/>
+				</correspAction>
+				<correspAction type="received">
+					<persName>Alice Asselin</persName>
+				</correspAction>
+			</correspDesc>
+		</profileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="letter">
+				<opener rend="right">En France <date when="1917-03-11">11 mars 17</date></opener>
+				<space dim="vertical" quantity="1" unit="lines"/>
+				<salute>Ma Chère Alice</salute>
+				<p>Je passe aujourd’hui mon premier dimanche dans les tranchées. Partis de Shoreham
+					mardi, nous arrivions à destination le surlendemain — voyage rapide, dans les
+					circonstances, mais fatigant. Au port anglais, bon gîte et bon lit, mais
+					ensuite, la guerre. Il y avait, <del>à part</del> avec moi, le colonel Dansereau
+					et <del>Laferrière</del> un nommé Laferrière. Nous sommes entrés dans les
+					tranchées jeudi soir. J’ai appris en arrivant que mon affaire était réglée selon
+					mes vœux ; Dansereau et Laferrière retournent <del>la semaine</del> cette
+					semaine. J’ai trouvé ici un groupe d’officiers très sympathiques. D’abord le
+					commandant, mélange extraordinaire de fermeté, de douceur, de bravoure, portant
+					le nom de ma mère et respirant dans toute son intelligente <pb/>physionomie
+					l’air de Charlevoix. Ensuite son second, un garçon de la rue Sherbrooke que tu
+					connais. Puis l’adjudant, jeune avocat montréalais dont le nom a souvent figuré
+					dans les journaux. Puis le payeur, un garçon d’Ottawa dont le père est
+					secrétaire de Roy à Paris. Puis le quartier-maître, frère d’un ministre
+					d’Ottawa. J’ai pris mes quartiers avec Dansereau dans
+							<del>comme</del> un réduit souterrain de neuf pieds
+					sur <del/> six, pourvu de deux lits superposés et d’un poêle. Le
+						<del>poele</del> poêle a quelquefois du combustible. Les lits sont deux
+					carreaux de <del/> treillis en <del/> fil de fer tendus, celui d’en bas sur une
+					fosse, celui d’en haut <del>entreq</del> entre quatre poteaux. En face est un
+					petit mess d’officiers où nous écrivons nos lettres, jouons aux cartes, tuons le
+					temps, dans les moments de loisirs. Je n’ai encore <pb/>aucune fonction bien
+					définie ; évidemment, le commandant veut d’abord voir ce que je puis faire. Je
+					crois que je pourrais me rendre utile de plusieurs
+							<del>façons</del> manières. <del>Je suis
+							entré</del> J’ai fait hier après-midi avec le commandant le
+					tour des tranchées. <del/> À deux ou trois reprises nous avons été éclaboussés
+					par des explosions de bombes ou <del>des</del> d’obus. Malgré
+					un temps maussade, les hommes étaient presque tous de bonne humeur. L’excellence
+					de plus en plus grande de l’artillerie anglaise leur a donné une confiance
+					merveilleuse ; ils sont sûrs d’enfoncer la ligne ennemie à la première grande
+					offensive. Quant à moi, <del>tout</del> ce que je vois autour de moi <add
+						rend="sup">semble</add> dépasser tout ce qu’on m’avait dit des progrès
+					réalisés par l’armée anglaise dans tous les sens. Le spectacle, en attendant
+					qu’il devienne plus dan<pb/>gereux, m’amuse. À deux reprises nous <del/> avons
+					vu des x<del>conf</del> combats d’avions. Ce matin même une
+					vingtaine de nos machines <del/> évoluaient au-dessus du champ de bataille,
+					parmi les shrapnels allemands : il y en a eu trois d’abattus, mais grâce à la
+					tranquille bravoure des autres la grosse artillerie anglaise a pu établir sur
+					des positions <add rend="sup">sans doute</add> importantes un tir implacable,
+					qui a duré toute la journée. Il y aura certainement d’ici à trois semaines des
+					événements qui comptent dans l’histoire de l’armée expéditionnaire canadienne. </p>
+				<p> Demain, notre bataillon retourne en réserve, pour <damage type="censure"/>. Il
+					passera ensuite <damage type="censure"/> en support, puis rentrera dans la
+					tranchée. Je serai alors tout à fait acclimaté. Dès maintenant, cependant,
+					j’entends <del/> siffler une balle sans frémir, et je puis observer en vrai
+					badaud <pb/>les shrapnels qui éclatent au-dessus de nos têtes à des milliers de
+					mètres d’altitude. Un de ces soirs j’irai avec les éclaireurs reconnaître le
+					terrain du mort. Je ne veux pas faire de bravades, ni risquer ma vie inutilement
+					; mais je veux voir tout de suite jusqu’à quel point je puis dompter mes nerfs.
+					Je porte dans un gousset une médaille de Jeanne d’Arc, sur la <del/> poitrine
+					votre portrait, toi et les enfants. Je pense souvent à vous. </p>
 				<p>
-					<del>J’oublies le jour</del> Ton cousin de La 
-					Naudière est au quartier divisionnaire, comme 
-					<hi rend="underline">Claims Officer</hi>, ou officier préposé au règlement des réclamations. Il n’a pas grand 
-					chose à faire, et ne court aucun 
-					risque. Sur la même ligne est Thomas 
-					Caron, d’Ottawa, en qualité chef de casernement. 
-					<pb/>Mailhiot, parti une journée avant 
-					nous, doit être en ce moment après <hi rend="underline">raser</hi>l’état-major de je ne sais plus quelle 
-					brigade de je ne me rappelle plus quelle division, 
-					non loin d’ici <add rend="sup">à Shoreham</add> ; personne ne pouvait plus le sentir, tant il était <del/> 
-					sous ses airs <del/>  paternes, devenu 
-					vénéneux.
-				</p>
-				<p>
-					J’ai déjà dit dans une lettre antérieure 
-					que LeRoyer, Lelièvre et Pérodeau étaient 
-					passés à l’aviation. Ils <add rend="sup">en</add> étaient très fiers, surtout Pérodeau, très ambitieux. LeRoyer, 
-					dans sa demande de permutation, avait 
-					fait valoir son <hi rend="underline">fautless physique</hi>, un 
-					mot qui a eu, entre nous, beaucoup de 
-					succès. Ils toucheront $7 par jour, paraît-il. 
-					C’est $1 de plus que la solde 
-					d’un major d’infanterie. Ils sont en 
-					ce moment à Reading.
-				</p>
+					<del>J’oublies le jour</del> Ton cousin de La Naudière est au quartier
+					divisionnaire, comme <hi rend="underline">Claims Officer</hi>, ou officier
+					préposé au règlement des réclamations. Il n’a pas grand chose à faire, et ne
+					court aucun risque. Sur la même ligne est Thomas Caron, d’Ottawa, en qualité
+					chef de casernement. <pb/>Mailhiot, parti une journée avant nous, doit être en
+					ce moment après <hi rend="underline">raser</hi>l’état-major de je ne sais plus
+					quelle brigade de je ne me rappelle plus quelle division, non loin d’ici <add
+						rend="sup">à Shoreham</add> ; personne ne pouvait plus le sentir, tant il
+					était <del/> sous ses airs <del/> paternes, devenu vénéneux. </p>
+				<p> J’ai déjà dit dans une lettre antérieure que LeRoyer, Lelièvre et Pérodeau
+					étaient passés à l’aviation. Ils <add rend="sup">en</add> étaient très fiers,
+					surtout Pérodeau, très ambitieux. LeRoyer, dans sa demande de permutation, avait
+					fait valoir son <hi rend="underline">fautless physique</hi>, un mot qui a eu,
+					entre nous, beaucoup de succès. Ils toucheront $7 par jour, paraît-il. C’est $1
+					de plus que la solde d’un major d’infanterie. Ils sont en ce moment à Reading. </p>
 				<p>
 					<damage type="censure"/>
 				</p>
-				<p>
-					Macdonald, Chevalier doivent être 
-					maintenant <del/> 
-					<add>avoir</add> passé leur capitainat. Cela ne veut pas 
-					dire que Macdonald sera nommé capitaine, 
-					car il n’y a pas de vacance en ce moment ; 
-					mais il aura de bonnes chances de 
-					promotion prochaine.
-				</p>
-				<p>
-					Notre ligne de réserve est située à 
-					<damage type="censure"/>d’ici. Je t’écrirai 
-					<del/> de là, et j'en profiterai pour 
-					t’envoyer encore quelques piastres – 
-					probablement soixante-quinze. À la fin 
-					<pb/> du mois je ferai encore quelque chose. 
-					Je verrai s’il n’y a pas moyen d’envoyer 
-					aux enfants, pour les faire rire, ma 
-					photographie en tenue de tranchées. Parlent-ils 
-					quelquefois de moi ? Il <del/>me semble 
-					que tu <del/> ne me parles pas 
-					autant d’eux qu’autrefois. Et Pierre 
-					ne m’écrit plus<del>?</del>. Aurait-il oublié 
-					comment ?
-				</p>
-				<p>
-					Pendant que je t’écris, la voûte du 
-					dug-out ne cesse de vibrer ; mais nous, nous 
-					sommes, du moins pour le moment, bien à 
-					l’abri. Les sentinelles sont moins fortunées. 
-					Tous les jours il y en a quelques-unes 
-					d’attrapées.
-				</p>
-				<p>
-					Madame DesRosiers m’a <del/> de 
-					nouveau chargé de t’envoyer ses amitiés. <del>Si</del> 
-					Tu pourrais lui écrire aux soins de 
-					son mari.
-				</p>
+				<p> Macdonald, Chevalier doivent être maintenant <del/>
+					<add>avoir</add> passé leur capitainat. Cela ne veut pas dire que Macdonald sera
+					nommé capitaine, car il n’y a pas de vacance en ce moment ; mais il aura de
+					bonnes chances de promotion prochaine. </p>
+				<p> Notre ligne de réserve est située à <damage type="censure"/>d’ici. Je t’écrirai
+					<del/> de là, et j'en profiterai pour t’envoyer encore quelques piastres –
+					probablement soixante-quinze. À la fin <pb/> du mois je ferai encore quelque
+					chose. Je verrai s’il n’y a pas moyen d’envoyer aux enfants, pour les faire
+					rire, ma photographie en tenue de tranchées. Parlent-ils quelquefois de moi ? Il
+					<del/>me semble que tu <del/> ne me parles pas autant d’eux qu’autrefois. Et
+					Pierre ne m’écrit plus<del>?</del>. Aurait-il oublié comment ? </p>
+				<p> Pendant que je t’écris, la voûte du dug-out ne cesse de vibrer ; mais nous, nous
+					sommes, du moins pour le moment, bien à l’abri. Les sentinelles sont moins
+					fortunées. Tous les jours il y en a quelques-unes d’attrapées. </p>
+				<p> Madame DesRosiers m’a <del/> de nouveau chargé de t’envoyer ses amitiés.
+						<del>Si</del> Tu pourrais lui écrire aux soins de son mari. </p>
 				<pb/>
-				<p>
-					Il se peut que Plante passe d’ici peu 
-					au _____. Il en fait la demande, et 
-					je l’ai fortement recommandé au colonel.
-				</p>
-				<p>
-					Va voir ma mère pour la rassurer, et salue bien affectueusement ta famille et la <del/> mienne.
-				</p>
+				<p> Il se peut que Plante passe d’ici peu au _____. Il en fait la demande, et je
+					l’ai fortement recommandé au colonel. </p>
+				<p> Va voir ma mère pour la rassurer, et salue bien affectueusement ta famille et la
+					<del/> mienne. </p>
 				<closer>
-					<signed>
-						Ton mari qui t’aime…
-						<persName>Olivar.</persName>
+					<signed> Ton mari qui t’aime… <persName>Olivar.</persName>
 					</signed>
 				</closer>
 				<postscript>
-					<p>
-						P. S. – J’écrirai à la première occasion à Pierre et, à Williams, aux Huguenin, aux Biron, au père DeSerres, à tous ceux qui nous ont rendu ou ont voulu nous rendre service. O.
-					</p>
+					<p> P. S. – J’écrirai à la première occasion à Pierre et, à Williams, aux
+						Huguenin, aux Biron, au père DeSerres, à tous ceux qui nous ont rendu ou ont
+						voulu nous rendre service. O. </p>
 				</postscript>
 				<postscript>
 					<p> Rien aux gazettes.</p>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../data/correspondance.rng" type="application/xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../../correspondance.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:ns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -52,8 +51,8 @@
     <text>
         <body>
             <div type="letter">
-                <opener><hi rend="right"><date when="1917-08-27">27 août 1917.</date></hi>
-                    <hi rend="left">À M. Lemieux (Rodolphe)</hi></opener>
+                <opener><date when="1917-08-27">27 août 1917.</date>
+                    À M. Lemieux (Rodolphe)</opener>
                 <p>Mon cher ami, le 27 juin le procureur du major DeSerres à Montréal, M. Jules
                     Desmarais, n’avait pas encore reçu une somme d’argent que j’avais envoyée à ma
                     femme par son intermédiaire le 8 mai. Ma femme m’écrivait au commencement de
@@ -269,8 +268,8 @@
                     plus, dans l’armée, qu’un <hi rend="underline">gentleman</hi> n’est jamais un
                     lâche. </p>
 
-                <closer><salute>Mes hommages respectueux à M. Laurier, et croyez-moi</salute>
-                    <persName corresp="#oasselin">Votre ami, </persName></closer>
+                <closer><salute>Mes hommages respectueux à M. Laurier, et croyez-moi, Votre ami,</salute>
+                     </closer>
                 <postscript>
                     <label>P.S.</label>
                     <p>Déjeuné le 2 juillet avec l’abbé de Poncheville, chez Roy. N’avais pas aimé

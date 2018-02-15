@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../data/correspondance.rng" type="application/xml"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="../../correspondance.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:ns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -52,8 +51,8 @@
     <text>
         <body>
             <div type="letter">
-                <opener rend="right"><hi rend="underline"><date when="1917-05-27"
-                        >27/5/17</date></hi></opener>
+                <opener rend="right"><date when="1917-05-27"
+                        >27/5/17</date></opener>
                 <space dim="vertical" quantity="1" unit="lines"/>
                 <salute>Ma chère Alice,</salute>
                 <p>Il y a bien une dizaine de jours que je t’ai écrit, et sept ou huit jours que ma
@@ -110,12 +109,12 @@
 
                 <closer><salute>Je t’embrasse tendrement, ma chère femme, et demeure ton mari
                         fidèle,</salute>
-                    <hi rend="underline"><persName corresp="#oasselin"
-                    >Olivar</persName></hi></closer>
+                    <signed><persName corresp="#oasselin"
+                    >Olivar</persName></signed></closer>
                 <postscript>
                     <label>P.S.</label>
                     <p>– J’ai écrit depuis longtemps à tous ceux que tu me nommes. J’écrirai à
-                        Pivert. <persName corresp="#oasselin" rend="underline">A.</persName></p>
+                        Pivert. A.</p>
                 </postscript>
             </div>
         </body>
