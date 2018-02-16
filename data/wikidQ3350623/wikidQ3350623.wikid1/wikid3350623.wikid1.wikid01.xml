@@ -41,11 +41,11 @@
          <refsDecl n="CTS">
             <!-- obligatoire -->
             <cRefPattern n="paragraphe" matchPattern="(\w+).(\w+)"
-               replacementPattern="#xpath(/TEI/text/textgroup/text[@n='$1']/body/div/p[@n='$2'])">
+               replacementPattern="#xpath(/TEI/text/group/text[@n='$1']/body/div/p[@n='$2'])">
                <p>This pointer pattern extracts the paragraphs and the letters</p>
             </cRefPattern>
             <cRefPattern n="lettre" matchPattern="(\w+)"
-               replacementPattern="#xpath(/TEI/text/textgroup/text[@n='$1'])">
+               replacementPattern="#xpath(/TEI/text/group/text[@n='$1'])">
                <p>This pointer pattern extracts the letters</p>
             </cRefPattern>
 
