@@ -384,6 +384,11 @@
 
     <define name="p">
         <element name="p">
+            <optional>
+                <attribute name="n">
+                    <text/>
+                </attribute>
+            </optional>
 
             <oneOrMore>
                 <optional>
