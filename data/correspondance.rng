@@ -22,11 +22,13 @@
         <element name="teiHeader">
             <oneOrMore>
                 <ref name="fileDesc"/>
-                <ref name="profileDesc"/>
             </oneOrMore>
-            <zeroOrMore>
+            <optional>
+                <ref name="profileDesc"/>
+            </optional>
+            <optional>
                 <ref name="encodingDesc"/>
-            </zeroOrMore>
+            </optional>
         </element>
     </define>
 
@@ -38,9 +40,75 @@
                     <text/>
                 </attribute>
             </optional>
-            <oneOrMore>
+            <optional>
+                <attribute name="type">
+                    <text/>
+                </attribute>
+            </optional>
+            <optional>
+                <attribute name="n">
+                    <text/>
+                </attribute>
+            </optional>
+
+            <zeroOrMore>
+                <ref name="front"/>
+            </zeroOrMore>
+            <zeroOrMore>
                 <ref name="body"/>
+            </zeroOrMore>
+            <zeroOrMore>
+                <ref name="group"/>
+            </zeroOrMore>
+        </element>
+    </define>
+
+    <define name="group">
+        <element name="group">
+            <oneOrMore>
+                <ref name="text"/>
             </oneOrMore>
+        </element>
+    </define>
+
+    <define name="front">
+        <element name="front">
+            <optional>
+                <ref name="docTitle"/>
+            </optional>
+            <optional>
+                <ref name="docDate"/>
+            </optional>
+            <optional>
+                <ref name="div"/>
+            </optional>
+        </element>
+    </define>
+
+    <define name="docTitle">
+        <element name="docTitle">
+            <oneOrMore>
+                <ref name="titlePart"/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="titlePart">
+        <element name="titlePart">
+            <oneOrMore>
+                <text/>
+            </oneOrMore>
+        </element>
+    </define>
+
+    <define name="docDate">
+        <element name="docDate">
+            <optional>
+                <ref name="date"/>
+            </optional>
+            <optional>
+                <ref name="placeName"/>
+            </optional>
         </element>
     </define>
 
@@ -274,6 +342,7 @@
             <optional>
                 <attribute name="type">
                     <choice>
+                        <value>receiver</value>
                         <value>letter</value>
                         <value>note</value>
                         <value>indexNominum</value>
@@ -366,7 +435,7 @@
 
         </element>
     </define>
-    
+
     <define name="postscript">
         <element name="postscript">
             <zeroOrMore>
@@ -596,7 +665,7 @@
             </zeroOrMore>
         </element>
     </define>
-    
+
     <define name="figDesc">
         <element name="figDesc">
             <text/>
@@ -610,7 +679,7 @@
         <element name="salute">
             <zeroOrMore>
                 <optional>
-                    <text/> 
+                    <text/>
                 </optional>
                 <optional>
                     <ref name="hi"/>
@@ -735,7 +804,7 @@
             <text/>
         </element>
     </define>
-    
+
     <define name="encodingDesc">
         <element name="encodingDesc">
             <text/>
@@ -744,7 +813,7 @@
             </oneOrMore>
         </element>
     </define>
-    
+
     <define name="refsDecl">
         <element name="refsDecl">
             <zeroOrMore>
@@ -754,24 +823,32 @@
                 <ref name="p"/>
             </zeroOrMore>
             <optional>
-                <attribute name="n"><text/></attribute>
+                <attribute name="n">
+                    <text/>
+                </attribute>
             </optional>
         </element>
     </define>
-    
+
     <define name="cRefPattern">
         <element name="cRefPattern">
             <zeroOrMore>
                 <ref name="p"/>
             </zeroOrMore>
             <optional>
-                <attribute name="n"><text/></attribute>
+                <attribute name="n">
+                    <text/>
+                </attribute>
             </optional>
             <optional>
-                <attribute name="matchPattern"><text/></attribute>
+                <attribute name="matchPattern">
+                    <text/>
+                </attribute>
             </optional>
             <optional>
-                <attribute name="remplacementPattern"><text/></attribute>
+                <attribute name="replacementPattern">
+                    <text/>
+                </attribute>
             </optional>
         </element>
     </define>
