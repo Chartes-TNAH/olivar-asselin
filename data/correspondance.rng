@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <grammar xmlns="http://relaxng.org/ns/structure/1.0"
-    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
-    ns="http://www.tei-c.org/ns/1.0">
+    datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes" ns="http://www.tei-c.org/ns/1.0">
 
     <start>
         <ref name="TEI"/>
@@ -350,7 +349,9 @@
                 </attribute>
             </optional>
             <oneOrMore>
-                <text/>
+                <optional>
+                    <text/>
+                </optional>
                 <optional>
                     <ref name="p"/>
                 </optional>
