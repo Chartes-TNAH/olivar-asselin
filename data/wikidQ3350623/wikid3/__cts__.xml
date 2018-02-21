@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:work urn="urn:cts:wikisource:wikidQ3350623.wikid3"
+    xmlns:cpt="http://purl.org/capitains/ns/1.0#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+    xml:lang="fre"
+    groupUrn="urn:cts:wikisource:wikidQ3350623">
+    <ti:title xml:lang="fre">Pourquoi on aime la France</ti:title>
+    <cpt:structured-metadata>
+        <dc:creator xml:lang="fre">Olivar Asselin</dc:creator>
+        <dc:title xml:lang="fre">Pourquoi on aime la France</dc:title>
+        <dc:subject xml:lang="fre">Extrait de deux discours prononcés l'un au Canada en Janvier 1916, l'autre en France en Juin 1917.</dc:subject>
+        <dc:publisher xml:lang="fre">Wikisource</dc:publisher>
+        <dc:date>1916-01/1917-06</dc:date>
+        <dc:type>text</dc:type>
+        <dc:language>fre</dc:language>
+    </cpt:structured-metadata>
+    <ti:edition 
+        workUrn="urn:cts:wikisource:wikidQ3350623.wikid3" 
+        urn="urn:cts:wikisource:wikidQ3350623.wikid3.wikid01">
+        <ti:label xml:lang="fre">"Pourquoi on aime la France" d'Olivar Asselin édité par Wikisource 
+            et converti en XML par l'ENC    
+        </ti:label>
+        <ti:description xml:lang="fre">
+            Encodage XML-TEI de deux extraits de discours prononcés en Canada et en France par Olivar Asselin entre 
+            en Janvier 1916 et en Juin 1917.
+        </ti:description>
+    </ti:edition>
+</ti:work>
