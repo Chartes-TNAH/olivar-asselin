@@ -77,7 +77,7 @@
     </teiHeader>
     <text>
         <group xml:id="oeuvre_complete">
-            <text xml:id="discours_191601">
+            <text n="1" xml:id="discours_191601">
                 <front>
                     <docTitle>
                         <titlePart>Discours prononcé au Canada en janvier 1916</titlePart>
@@ -97,7 +97,7 @@
                 </front>
                 <body>
                     <div type="speech">
-                        <p>… Après ce que vous venez d’entendre, il y en a peut-être parmi vous,
+                        <p n="1">… Après ce que vous venez d’entendre, il y en a peut-être parmi vous,
                             Mesdames et Messieurs, qui souriront intérieurement de m’entendre
                             plaider pour les institutions britanniques. De tous les nationalistes,
                             nul n’a qualifié plus durement que moi cet égoïsme qui est, avec
@@ -142,7 +142,7 @@
                             institutions allemandes, et ce n’est pas plus mon cas que <pb/> celui de
                             Mgr l’Archevêque de Montréal, il est glorieux dans la guerre actuelle de
                             se battre pour les institutions britanniques.</p>
-                        <p>De la Belgique, que vous dirai-je, que vous n’avez déjà entendu ? Que
+                        <p n="2">De la Belgique, que vous dirai-je, que vous n’avez déjà entendu ? Que
                             vous dirai-je surtout, que vous n’ayez déjà dans le cœur et sur les
                             lèvres ? Il circule bien des sophismes sur les origines et les causes du
                             conflit actuel. Je ne sais pas si je n’ai pas lu dans certains journaux
@@ -161,7 +161,7 @@
                             notion du droit, — nous surtout du Canada français, que les conditions
                             nouvelles de notre existence rendent frères de tous les persécutés, —
                             notre sang, notre vie, ne nous appartiendront plus !</p>
-                        <p>Et maintenant, avec vous tourné vers d’autres sommets, — les plus hauts
+                        <p n="3">Et maintenant, avec vous tourné vers d’autres sommets, — les plus hauts
                             que l’âme humaine ait encore atteints dans l’empire sur soi, dans le
                             renoncement, dans le sacrifice, — des mots plus forts, mais des mots
                             forts et tendres à la fois, se pressent tumultueusement à mes lèvres.
@@ -182,7 +182,7 @@
                             tromperie de capter par ce moyen votre assentiment. Je veux jusqu’au
                             bout, et pour la France comme j’ai fait pour l’Angleterre, m’en
                             rapporter uniquement à votre raison.</p>
-                        <p>Mesdames et Messieurs, vous avez parfois ouï dire, et peut-être avez-vous
+                        <p n="4">Mesdames et Messieurs, vous avez parfois ouï dire, et peut-être avez-vous
                             parfois lu dans les journaux : « La France officiellement ne fera jamais
                             rien pour les Canadiens-Francais, et donc nous ne devons rien à la
                             France ». Ce raisonnement vaudrait contre nous si d’une part nous
@@ -191,7 +191,7 @@
                             gouvernement canadien ; si d’autre part il était vrai que la France ne
                             peut activement aider le Canada français que par les moyens officiels.
                             Mais il se présente immédiatement à vos esprits deux réponses.</p>
-                        <p>C’est d’abord que le monde ne peut pas se passer de la France. D’autres
+                        <p n="5">C’est d’abord que le monde ne peut pas se passer de la France. D’autres
                             nations, comme l’Angleterre, peuvent vanter aussi justement leur
                             attachement à la liberté. D’autres, comme l’Italie, peuvent trouver dans
                             un passé magnifique et dans une renaissance politique sans pareille le
@@ -218,7 +218,7 @@
                             son glaive et laissant déborder de son sein fécond sur le monde « le
                             lait des humaines tendresses », sera plus que jamais nécessaire à
                             l’humanité. </p>
-                        <p>C’est ensuite que nous, les Français d’Amérique, nous ne resterons
+                        <p n="6">C’est ensuite que nous, les Français d’Amérique, nous ne resterons
                             Français que par la France. Voilà, Mesdames et Messieurs, une idée qui
                             n’est pas nouvelle sur mes lèvres. Depuis seize ans que je tiens une
                             plume dans la presse française au Canada, toujours j’ai eu les yeux
@@ -258,14 +258,14 @@
                             elle la vie française s’arrêterait en nous comme une eau qui gèle,
                             bénissons-la quand même, défendons-la quand même ! C’est la lumière,
                             c’est la chaleur, c’est la vie !</p>
-                        <p>Et donc, nous marchons pour les institutions britanniques parce que par
+                        <p n="7">Et donc, nous marchons pour les institutions britanniques parce que par
                             elles-mêmes, et indépendamment des demi-civilisés qui les appliquent
                             aujourd’hui en Ontario, elles valent la peine qu’on se batte pour
                             elles.</p>
-                        <p>Et nous marchons pour la Belgique parce que dans<pb/> cette guerre elle
+                        <p n="8">Et nous marchons pour la Belgique parce que dans<pb/> cette guerre elle
                             incarne le droit violé, la liberté des petits peuples foulée aux
                             pieds.</p>
-                        <p>Et nous marchons pour la France parce que sa défaite, en même temps
+                        <p n="9">Et nous marchons pour la France parce que sa défaite, en même temps
                             qu’elle marquerait une régression du monde vers la barbarie, nous
                             condamnerait, nous ses enfants d’Amérique, à traîner désormais des vies
                             diminuées…</p>
@@ -273,25 +273,25 @@
                 </body>
             </text>
 
-            <text xml:id="discours_191706">
+            <text n="2" xml:id="discours_191706">
                 <front>
                     <docTitle>
                         <titlePart>Discours prononcé au Canada en juin 1917</titlePart>
                     </docTitle>
                     <docDate/>
                     <docAuthor/>
-                    <p>Le <date when="1917-06-25">25 juin 1917</date>, le <orgName>Comité
+                    <p n="10">Le <date when="1917-06-25">25 juin 1917</date>, le <orgName>Comité
                             France-Amérique</orgName> offrait au commandant Asselin, alors en
                         permission à <placeName>Paris</placeName>, un dîner en reconnaissance des
                         services qu’il avait rendus à la cause des Alliés. Les paroles qui suivent
                         sont extraites d’un discours qu’il fit à cette occasion :</p>
                 </front>
                 <body>
-                    <p>…Je vous ai, depuis le commencement, parlé de moi, de mes concitoyens, de mes
+                    <p n="11">…Je vous ai, depuis le commencement, parlé de moi, de mes concitoyens, de mes
                         compatriotes. Je veux maintenant vous parler de vous. Ce sera pour me
                         reposer. Ce me sera d’autant plus agréable qu’il se trouve que vous, c’est,
                         au fond, encore nous.</p>
-                    <p>On lit quelquefois chez nous que cette guerre est surtout la guerre de
+                    <p n="12">On lit quelquefois chez nous que cette guerre est surtout la guerre de
                         l’Allemagne et de l’Angleterre. Cela serait vrai si l’Allemagne n’avait
                         attaqué la France d’abord et cherché, au contraire, à tenir l’Angleterre
                         hors du conflit. Mais, pour que cela fût vrai, il faudrait aussi que la
@@ -314,7 +314,7 @@
                         voulais dire, c’est que le Français comprend tout, même quand, selon la
                         prétention allemande, il ne sait rien, et que l’Allemand ne comprend rien,
                         même quand, selon ses prétentions, il sait à peu près tout.</p>
-                    <p>Sur ce point, ma religion s’est éclairée d’une expérience personnelle. Tous,
+                    <p n="13">Sur ce point, ma religion s’est éclairée d’une expérience personnelle. Tous,
                         vous avez lu le livre de M. André Siegfried sur le Canada. Il est telles
                         conclusions de cet ouvrage qui sont très discutables, mais, après deux mois
                         passés chez nous, M. Siegfried a trouvé moyen de condenser en une lumineuse
@@ -332,7 +332,7 @@
                         auraient tout de suite frappé un esprit français — avaient été omises, je
                         défierais bien qui que ce soit de dégager une impression quelconque de notre
                         situation littéraire. Cela, c’est la méthode allemande.</p>
-                    <p>Dans quelque encyclopédie teutonne, moi qui vous parle, je suis « fiché ». Je
+                    <p n="14">Dans quelque encyclopédie teutonne, moi qui vous parle, je suis « fiché ». Je
                         suis donc, en quelque sorte,<pb/> tenu d’admettre que la fiche a du bon.
                         (Vous comprenez tout de suite que nous restons dans le domaine
                         scientifique.) L’erreur, c’est de croire qu’elle constitue, à elle seule,
@@ -348,7 +348,7 @@
                         c’est ce qui fait qu’en face de l’Allemagne, devenue par sa conception
                         subjective, partant intéressée, des choses, champion de la force brutale,
                         s’est dressée la France, champion éternel du droit.</p>
-                    <p>Vous avez, dans le cours de votre histoire, rendu au monde d’éclatants
+                    <p n="15">Vous avez, dans le cours de votre histoire, rendu au monde d’éclatants
                         services. Hier encore, vous le sauviez de la barbarie en arrêtant sur
                         l’Aisne et devant Verdun les forces de destruction et de rapine du nouvel
                         Attila. Mais ce qui vous vaudra surtout la reconnaissance de l’humanité,
@@ -357,7 +357,7 @@
                         autre, peut engendrer de belle musique et produire des brutes incomparables,
                         le chemin le plus sûr vers la vérité morale est encore le respect d’une
                         certaine discipline intellectuelle.</p>
-                    <p>Grâce surtout à l’habileté et à l’impudence de sa réclame, l’Allemagne a
+                    <p n="16">Grâce surtout à l’habileté et à l’impudence de sa réclame, l’Allemagne a
                         exercé pendant cinquante ans sur la pensée du monde une influence excessive.
                         La France, après la guerre, reprendra la suprématie intellectuelle, et cette
                         fois son hégémonie — nous frissonnons d’orgueil à cette seule pensée —
@@ -371,7 +371,7 @@
                         sans crainte sur le monde ses mains émaciées par la souffrance ; le monde,
                         conquis par son courage, attend d’elle, comme d’une puissance surhumaine,
                         les paroles de vie.</p>
-                    <p>Oui, la France a conquis le monde. Mais elle a surtout conquis — ou plutôt
+                    <p n="17">Oui, la France a conquis le monde. Mais elle a surtout conquis — ou plutôt
                         reconquis — le cœur de ses enfants d’outre-mer. Je vous disais tout à
                         l’heure que les Canadiens-Français, en 1914, étaient séparés de la France
                         depuis déjà cent cinquante ans. À part, peut-être, M. Louis Arnould, qui
@@ -404,7 +404,7 @@
                         fiers de vous, mais vous nous scandalisiez. Et je ne suis pas sûr s’il
                         n’entrait pas aussi dans nos âmes un peu d’envie, un peu de la jalousie du
                         parent pauvre.</p>
-                    <p>Ah ! que vos souffrances, que votre vaillance ont parlé éloquemment à notre
+                    <p n="18">Ah ! que vos souffrances, que votre vaillance ont parlé éloquemment à notre
                         cœur ! Du jour où il éclata aux yeux étonnés du monde que celle que, sur la
                         foi de racontars intéressés, nous avions prise pour une grande cascadeuse,
                         était, à tous les sens du mot, la plus brave des femmes, nous avons rougi de
@@ -423,7 +423,7 @@
                         de vertus. Vos malheurs vous auront au moins forcés à vous montrer sous
                         votre jour véritable. Ne souriez pas : le Métro parisien est à l’heure
                         actuelle un des foyers de rayonnement des plus belles qualités françaises… </p>
-                    <p>Nationalistes pour la plupart, les jeunes Canadiens-Français des classes
+                    <p n="19">Nationalistes pour la plupart, les jeunes Canadiens-Français des classes
                         plaisamment appelées supérieures se sont enrôlés en très petit nombre.
                         Quelques-uns m’avaient précédé, plusieurs m’ont suivi. Mais depuis plusieurs
                         années j’étais pour employer le vocabulaire à la mode — un nationaliste
@@ -436,7 +436,7 @@
                         devenus étrangers l’un à l’autre, et que, la veille encore, séparaient
                         profondément leurs dissentiments religieux, se sont mis tout de suite à
                         fraterniser.</p>
-                    <p>Il est bien parfois arrivé que les tommies canadiens-français abusassent
+                    <p n="20">Il est bien parfois arrivé que les tommies canadiens-français abusassent
                         légèrement du crédit que leur faisaient leurs cousins d’outre-mer. Mais nos
                         gars sont avenants, ils ont la langue bien pendue, le cœur chaud et bon, et
                         sur la main : il n’en faut pas davantage pour gagner le cœur du Français.
@@ -451,7 +451,7 @@
                         maintenant n’ignore que vous êtes en même temps, avec le plus bel attribut
                         de la bonté, le courage, « du ben bon monde ». Ce sera le jugement définitif
                         des peuples sur la France.</p>
-                    <p>Et parce que vous êtes « du ben bon monde », c’est-à-dire des héros, « et du
+                    <p n="21">Et parce que vous êtes « du ben bon monde », c’est-à-dire des héros, « et du
                         monde ben fin », c’est-à-dire des héros gais, spirituels, gardant jusque
                         dans la mort une attitude de « galanterie », comme on disait au bon vieux
                         temps, non seulement je déplore pour mon compte personnel de n’avoir pu
@@ -463,7 +463,7 @@
                         Canadiens-Français feront, à la cause sacrée pour laquelle vos fils
                         moururent à la Marne et à Verdun, tous les sacrifices compatibles avec
                         l’existence même de leur pays.</p>
-                    <p>Depuis la Marne, grâce à vous ils n’ont plus des âmes de vaincus, ils
+                    <p n="22">Depuis la Marne, grâce à vous ils n’ont plus des âmes de vaincus, ils
                         marchent la tête plus haute, allégés d’un poids qui pesait sur eux depuis
                         1759 et qui s’était encore alourdi en 1870. Ce jour-là, vous les avez
                         grandis et ennoblis dans leur propre estime ; je ne suis pas loin de dire :
