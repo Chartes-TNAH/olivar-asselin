@@ -62,11 +62,11 @@
             <refsDecl n="CTS">
                 <!-- obligatoire -->
                 <cRefPattern n="paragraphe" matchPattern="(\w+).(\w+)"
-                    replacementPattern="#xpath(/TEI/text/group/text/body/div/p)">
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:group/tei:text[@xml:id='discours_191601']/tei:body/tei:div/tei:p[@n='$1'])">
                     <p>This pointer pattern extracts the paragraphs of the speeches</p>
                 </cRefPattern>
                 <cRefPattern n="discours" matchPattern="(\w+)"
-                    replacementPattern="#xpath(/TEI/text/group/text)">
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:group/tei:text[@n='$1'])">
                     <p>This pointer pattern extracts the speeches</p>
                 </cRefPattern>
 
@@ -75,7 +75,7 @@
 
 
     </teiHeader>
-    <text>
+    <text xml:lang="fr" xml:base="urn:cts:wikisource:wikidQ3350623.wikid3.wikid01.xml">
         <group xml:id="oeuvre_complete">
             <text n="1" xml:id="discours_191601">
                 <front>

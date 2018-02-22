@@ -42,18 +42,18 @@
          <refsDecl n="CTS">
             <!-- obligatoire -->
             <cRefPattern n="paragraphe" matchPattern="(\w+).(\w+)"
-               replacementPattern="#xpath(/TEI/text/group/text[@n='$1']/body/div/p[@n='$2'])">
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:group/tei:text[@n='$1']/tei:body/tei:div/tei:p[@n='$2'])">
                <p>This pointer pattern extracts the paragraphs and the letters</p>
             </cRefPattern>
             <cRefPattern n="lettre" matchPattern="(\w+)"
-               replacementPattern="#xpath(/TEI/text/group/text[@n='$1'])">
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:group/tei:text[@n='$1'])">
                <p>This pointer pattern extracts the letters</p>
             </cRefPattern>
 
          </refsDecl>
       </encodingDesc>
    </teiHeader>
-   <text>
+   <text xml:lang="fr" xml:base="urn:cts:wikisource:wikidQ3350623.wikid2.wikid01.xml">
       <group>
          <text n="1">
             <front>

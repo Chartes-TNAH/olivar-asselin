@@ -40,6 +40,16 @@
                 </attribute>
             </optional>
             <optional>
+                <attribute name="xml:lang">
+                    <text/>
+                </attribute>
+            </optional>
+            <optional>
+                <attribute name="xml:base">
+                    <text/>
+                </attribute>
+            </optional>
+            <optional>
                 <attribute name="type">
                     <text/>
                 </attribute>
