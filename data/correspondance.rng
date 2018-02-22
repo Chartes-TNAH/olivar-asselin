@@ -358,10 +358,12 @@
                     </choice>
                 </attribute>
             </optional>
+            <zeroOrMore>
+              <optional>
+                  <text/>
+              </optional>
+            </zeroOrMore>
             <oneOrMore>
-                <optional>
-                    <text/>
-                </optional>
                 <optional>
                     <ref name="p"/>
                 </optional>
