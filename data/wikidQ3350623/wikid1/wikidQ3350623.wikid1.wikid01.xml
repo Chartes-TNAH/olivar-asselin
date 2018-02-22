@@ -778,7 +778,7 @@
                <docDate>
                   <date when="1917-04-10"/>
                </docDate>
-               <div type="receiver">M. DeSerres</div>
+               <div type="receiver"><p>M. DeSerres</p></div>
             </front>
             <body>
                <div type="letter">
@@ -990,7 +990,7 @@
                <docDate>
                   <date when="1917-05-27"/>
                </docDate>
-               <div type="receiver">Alice Asselin</div>
+               <div type="receiver"><p>Alice Asselin</p></div>
             </front>
             <body>
                <div type="letter">
