@@ -784,7 +784,7 @@
                <div type="letter">
                   <opener rend="right">Au front, <date when="1917-04-10">10/4/17</date></opener>
                   <space dim="vertical" quantity="1" unit="lines"/>
-                  <salute>Mon cher DeSerres,</salute>
+                  <salute><p>Mon cher DeSerres,</p></salute>
                   <p n="1"> Vous avez probablement appris dès hier la prise des hauteurs de Vimy, près de
                      Neuville-Saint-Vaast. Les Français avaient perdu là cent mille hommes : jusqu’à
                      plusieurs kilomètres alentour, le sol était jonché de cadavres, bien qu’on en eût
@@ -997,7 +997,7 @@
                   <opener rend="right"><date when="1917-05-27"
                      >27/5/17</date></opener>
                   <space dim="vertical" quantity="1" unit="lines"/>
-                  <salute>Ma chère Alice,</salute>
+                  <salute><p>Ma chère Alice,</p></salute>
                   <p n="1">Il y a bien une dizaine de jours que je t’ai écrit, et sept ou huit jours que ma
                      dernière lettre est partie. Depuis quelques jours je n’ai guère eu le cœur à
                      écrire. Pris de la fièvre <hi rend="underline">des tranchées</hi> après une des
