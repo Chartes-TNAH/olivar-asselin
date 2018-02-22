@@ -52,7 +52,7 @@
          </refsDecl>
       </encodingDesc>
    </teiHeader>
-   <text xml:lang="fr" xml:base="urn:cts:wikisource:wikidQ3350623.wikid1.wikid01.xml">
+   <text xml:lang="fr" xml:base="urn:cts:wikisource:wikidQ3350623.wikid1.wikid01">
       <group>
          <text n="1">
             <front>
@@ -65,7 +65,7 @@
                <div type="receiver"><p>Pierre Asselin</p></div>
             </front>
             <body>
-               
+
                <div type="letter">
                   <opener rend="right">En route <date when="1916-11-26">26/11/1916</date></opener>
                   <space dim="vertical" quantity="1" unit="lines"/>
@@ -105,49 +105,49 @@
                   <opener rend="left">À M. Pierre Asselin, canonnier.</opener>
                   <space dim="vertical" quantity="1" unit="lines"></space>
                   <salute>Mon cher Pierre,</salute>
-                  <p n="1">Quand on part d’Angleterre pour le front, on se charge comme un mulet de toute sorte de machines qui ne vous serviront de rien. 
+                  <p n="1">Quand on part d’Angleterre pour le front, on se charge comme un mulet de toute sorte de machines qui ne vous serviront de rien.
                      Moi, à mon arrivée, <del>ici</del> j’avais l’air de ceci :
                      <figure>
                         <desc>dessin représentant Olivar Asselin chargé de toutes ses paquetages</desc>
                         <graphic  url="https://fr.wikisource.org/wiki/Correspondance_-_Lettre_de_mars_1917_(Asselin)"/>
                      </figure></p>
-                  <p n="2"> Tout de suite je me suis mis à jeter 
+                  <p n="2"> Tout de suite je me suis mis à jeter
                      <pb/> du lest. J’ai laissé toute ma coucherie en arrière, aux soins du capitaine d’habillement, qui en est
-                     responsable ; je <del>me suis arrangé pour</del> n’ai apporté dans les tranchées que deux couvertures de laine. 
-                     Avec mon trench-coat, c’est assez, car on n’a pas le droit de se déshabiller. <del>et</del>Ensuite, au lieu de 
-                     toutes mes sangles et courroies, j’ai fait poser à mes affaires des petits crochets à ressort, dits mousquetons, 
+                     responsable ; je <del>me suis arrangé pour</del> n’ai apporté dans les tranchées que deux couvertures de laine.
+                     Avec mon trench-coat, c’est assez, car on n’a pas le droit de se déshabiller. <del>et</del>Ensuite, au lieu de
+                     toutes mes sangles et courroies, j’ai fait poser à mes affaires des petits crochets à ressort, dits mousquetons,
                      et avec cela je les accroche à ma ceinture, comme ceci :
                      <figure>
                         <desc>dessin de la ceinture améliorée d'Olivar Asselin</desc>
                         <graphic url="https://fr.wikisource.org/wiki/Correspondance_-_Lettre_de_mars_1917_(Asselin)"/>
                      </figure>
-                  </p>    
+                  </p>
                   <p n="3"> C’est mal dessiné, mais tu peux voir com-
-                     <pb/>bien je me suis allégé. Ça <del>gigote</del> <add rend="sup">me bat</add>bien encore un peu sur 
-                     <add rend="sup">les flancs et sur</add> le ventre, mais pas la moitié autant qu’auparavant. Je 
-                     <del>ne</del> garde <del>m’apporte dans les</del> tous mes <del>habits</del> <add rend="sup">vêtements</add> dans le 
-                     <hi rend="underline">pack</hi>, qui est le sac qu’on porte ordinairement sur ses épaules, et je laisse ce 
-                     meuble en arrière comme mon lit. Je n’apporte dans les tranchées que deux paires de chaussettes, <del>et</del> 
-                     une paire de chaussures et quelques mouchoirs de rechange. Pour attraper des bibites, on en a toujours assez sur soi. 
-                     La première nuit, je me suis pris dans le cou une bibite grosse comme toi, mais <del>bien</del> moins chaude. 
-                     Je l’ai écrasée<del>de</del>entre mes<del>o</del>ongles, dans l’obscurité. Ça a fait : Crac ! Je riais comme 
-                     une petite baleine. Ça lui apprendra à me faire peur ! Je crois bien que c’était la mère pouse, car, ensuite, 
-                     <pb/>j’ai eu la paix. Il y a ici trente-trois espèces de boue. La plus commune, dans les tranchées, ressemble à des pommes de terre 
+                     <pb/>bien je me suis allégé. Ça <del>gigote</del> <add rend="sup">me bat</add>bien encore un peu sur
+                     <add rend="sup">les flancs et sur</add> le ventre, mais pas la moitié autant qu’auparavant. Je
+                     <del>ne</del> garde <del>m’apporte dans les</del> tous mes <del>habits</del> <add rend="sup">vêtements</add> dans le
+                     <hi rend="underline">pack</hi>, qui est le sac qu’on porte ordinairement sur ses épaules, et je laisse ce
+                     meuble en arrière comme mon lit. Je n’apporte dans les tranchées que deux paires de chaussettes, <del>et</del>
+                     une paire de chaussures et quelques mouchoirs de rechange. Pour attraper des bibites, on en a toujours assez sur soi.
+                     La première nuit, je me suis pris dans le cou une bibite grosse comme toi, mais <del>bien</del> moins chaude.
+                     Je l’ai écrasée<del>de</del>entre mes<del>o</del>ongles, dans l’obscurité. Ça a fait : Crac ! Je riais comme
+                     une petite baleine. Ça lui apprendra à me faire peur ! Je crois bien que c’était la mère pouse, car, ensuite,
+                     <pb/>j’ai eu la paix. Il y a ici trente-trois espèces de boue. La plus commune, dans les tranchées, ressemble à des pommes de terre
                      pilées. À notre retour vers l’arrière, après <del>cinq</del> quatre milles de marche, j’avais les pieds comme ceci :
                      <figure>
                         <desc>Dessin de pieds gonflés</desc>
                         <graphic url="https://fr.wikisource.org/wiki/Correspondance_-_Lettre_de_mars_1917_(Asselin)"/>
                      </figure>
                   </p>
-                  <p n="4"> Je termine ma lettre, <unclear>forcé de me pencher</unclear>car je viens d’écrire longuement à Jean, et, dans la position où je suis, 
-                     j’ai les fesses, les reins et le cou très 
+                  <p n="4"> Je termine ma lettre, <unclear>forcé de me pencher</unclear>car je viens d’écrire longuement à Jean, et, dans la position où je suis,
+                     j’ai les fesses, les reins et le cou très
                      <pb/>fatigués. Voici en effet comment je suis :
                      <figure>
                         <desc>dessin représentant Olivar Asselin assis sur la couchette du bas du lit superposé</desc>
                         <graphic url="https://fr.wikisource.org/wiki/Correspondance_-_Lettre_de_mars_1917_(Asselin)"/>
                      </figure>
                   </p>
-                  <p n="5">Je me coucherai, en pensant à mes petits garçons, et <del>car</del> heureux d’avoir, par mes images, fait rire 
+                  <p n="5">Je me coucherai, en pensant à mes petits garçons, et <del>car</del> heureux d’avoir, par mes images, fait rire
                      un peu le gros nez de mon vilain petit Pierre.</p>
                   <closer><signed>
                      <persName corresp="#olasselin"><hi rend="underline">Papa</hi></persName>
@@ -631,7 +631,7 @@
                </docTitle>
                <docDate>
                   <date when="1917-04-03"/>
-               </docDate>             
+               </docDate>
             </front>
             <body>
                <div type="letter">
@@ -777,7 +777,7 @@
                </docTitle>
                <docDate>
                   <date when="1917-04-10"/>
-               </docDate> 
+               </docDate>
                <div type="receiver">M. DeSerres</div>
             </front>
             <body>
@@ -989,7 +989,7 @@
                </docTitle>
                <docDate>
                   <date when="1917-05-27"/>
-               </docDate> 
+               </docDate>
                <div type="receiver">Alice Asselin</div>
             </front>
             <body>
@@ -1049,7 +1049,7 @@
                      une paire de chaussettes. </p>
                   <p n="7"> Il se peut que je <del>passe par Paris et retourne</del> retourne à Londres par
                      Paris, histoire de voir si nous pourrions vivre là après la guerre. </p>
-                  
+
                   <closer><salute>Je t’embrasse tendrement, ma chère femme, et demeure ton mari
                      fidèle,</salute>
                      <signed><persName corresp="#oasselin"
@@ -1176,7 +1176,7 @@
                <div type="receiver"><p>Rodolphe Lemieux</p></div>
             </front>
             <body>
-               
+
                <div type="letter">
                   <opener><date when="1917-08-27">27 août 1917.</date>
                      À M. Lemieux (Rodolphe)</opener>
@@ -1394,7 +1394,7 @@
                      d’inquiétudes sur la conduite de votre fils. J’ai en effet remarqué une fois de
                      plus, dans l’armée, qu’un <hi rend="underline">gentleman</hi> n’est jamais un
                      lâche. </p>
-                  
+
                   <closer><salute>Mes hommages respectueux à M. Laurier, et croyez-moi, Votre ami,</salute>
                   </closer>
                   <postscript>
