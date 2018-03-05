@@ -42,7 +42,7 @@
             <!-- obligatoire -->
             <cRefPattern n="paragraphe" matchPattern="(\w+).(\w+)"
                replacementPattern="#xpath(/tei:TEI/tei:text/tei:group/tei:text[@n='$1']/tei:body/tei:div/tei:p[@n='$2'])">
-               <p>This pointer pattern extracts the paragraphs and the letters</p>
+               <p>This pointer pattern extracts the paragraphs of the letters</p>
             </cRefPattern>
             <cRefPattern n="lettre" matchPattern="(\w+)"
                replacementPattern="#xpath(/tei:TEI/tei:text/tei:group/tei:text[@n='$1'])">
